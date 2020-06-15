@@ -1,0 +1,250 @@
+---
+title: "An Overview of the Conventional Money Multiplier"
+author: "Julio Huato"
+date: "5/12/2020"
+output:
+  pdf_document: default
+  html_document: default
+bibliography: bib.bib
+---
+
+# Introduction
+
+The main "macroeconomic" issues that afflict people are (1) *unemployment* and (2) *inflation*.
+
+Unemployment is a major problem for working people and their families, who represent the overwhelming majority of society. Inflation affects working people to the extent they are not able to fight and win higher nominal pay as the purchasing power of their wages, salaries, and benefits gets eroded by higher prices.  To the extent working people are net debtors (i.e. they have student debts, credit card balances, or mortgages above their meager assets), inflation leaves them better off.  Inflation affects most drastically the very rich, a small minority who tend to hold large quantities of bonds in their wealth portfolios.  
+
+Macroeconomics, as a separate intellectual discipline, owes its life to John M. Keynes (1883-1946). Keynes' work responded to the economic conditions of high unemployment that prevailed in the early 1930s.[^1] As the influence of unions and socialism in Western countries decreased in the postwar period, the concern for inflation (at the expense of unemployment) among policymakers increased.
+
+In a modern capitalist society, only a small minority of people, the very wealthy, can live off their *property income*: interest, rents, and profits. The source of livelihood for most people is their *labor income*: wages, salaries, and benefits. As a result, employment and pay are of paramount importance for most people. When unemployment is low, workers' pay, and the working and overall living conditions of people improve. When unemployment is high, all social conditions tend to deteriorate rapidly.
+
+Naturally, high unemployment (or, in long-run terms, slow or stagnant economic growth) and/or high inflation make people unhappy, and thus tend to generate political unrest. The job of a State is to ensure political stability. *Economic policy* is one of the most important ways in which the State keeps unemployment and inflation at moderate levels in order to maintain the social order.
+
+In general, the level of income (or output) $Y$ and the unemployment rate $u$ are negatively related. The higher $Y$, the lower $u$, and vice versa. Thus, economic policies that influence $Y$ have an impact on $u$.
+
+# A review of the income-determination model
+
+To see the ways in which the State may influence $Y$, let us review the simple theoretical framework introduced earlier in this course.[^2] The first component of the framework is the *consumption function*:
+
+$$C = \bar{C} + c (Y - T),$$
+
+where $C$ is the level of consumption spending by households, $\bar{C}$ is the autonomous (or exogenous) level of consumption spending (i.e. not dependent on income), $0 < c < 1$ is the marginal propensity to consume (and $[1-c]$ is the marginal propensity to save), $Y$ is the level of household income, and $T$ is net taxes.[^3]
+
+The second component of the framework is the *equilibrium condition*:
+
+$$Y = C + I + G + (X-Q),$$
+
+where $I$ is the level of investment spending by businesses, $G$ is the level of government spending, and $X-Q$ is the value of net exports.
+
+These two conditions imply the following results:
+
+$$Y^* = \left ( \frac{1}{1 - c} \right ) [\bar{C} + I + G + (X-Q)] - \left ( \frac{c}{1 - c} \right ) T,$$ $$C^* = \bar{C} + c (Y^* - T),$$ $$S^* = Y^* - T - C^*.$$
+
+where $Y^*, C^*, S^*$ are, respectively, the *equilibrium* levels of income, consumption spending, and saving.
+
+*Fiscal policy* is economic policy pursued by means of the direct management of $G, T$ and, therefore, of $B_G = G - T$, where $B_G$ is the "public deficit" or the flow of "borrowing" by the government. In accordance with the simple model above, the *income effects* of fiscal policy are summarized by the following formulas:
+
+$$\Delta Y^* = \left ( \frac{1}{1 - c} \right ) \Delta G,$$ $$\Delta Y^* = - \left ( \frac{c}{1 - c} \right ) \Delta T,$$
+
+where $\Delta$ indicates change: an increase if positive, a decrease if negative.
+
+From the assumption that $0 < c < 1$, it follows that the autonomous-spending multiplier $1/(1-c) > 1$. In other words, a one-dollar increase in $G$ leads to more than one-dollar increase in $Y$. Also, $c/(1-c) = 1/(1-c) - 1$, i.e. the absolute value of the tax multiplier is always smaller (by 1) than the autonomous-spending multiplier.
+
+# Beyond the simple income-determination model
+
+The simple framework presupposes that the *price level* stays constant, i.e. no inflation or $\pi = 0$. A more advanced model incorporates the price level and the growth rate of the price level (i.e. the inflation rate). History shows that, if the economy is far from full employment, increases in private spending ($\Delta C$ and/or $\Delta I$) and/or government spending ($\Delta G$) lead to increases in income and employment (so-called "quantity adjustment"). On the other hand, if the the economy is at or near *full employment*, increases in private spending ($\Delta C$ and/or $\Delta I$) and/or government spending ($\Delta G$) lead to increases in the price level (so-called "price-level adjustment"), and hence $\pi > 0$.
+
+Since this framework is intended to illuminate short-term macroeconomic conditions (i.e. the so-called "business cycle"), the repercussions of $B_G$ on the bonds markets are deliberately ignored. Again, fiscal policy focuses narrowly on managing $T_X, T_R, G$, and therefore $B_G$ in the *primary* bond market.[^4]
+
+Note that $B_G$, "borrowing" in the bond markets already contains the embryo of monetary policy. By "borrowing" to finance its deficit, the State -- due to its considerable size and heft, i.e. its taxing power -- is in a position to influence the market *price* of bonds. In earlier periods, the State borrowed in the markets, particularly from private banks that were large enough to purchase the bulk of its bonds. In some countries, the State may have developed privileged relations with specific private banks. It may have granted them a monopoly in the issuance of bank notes ("paper money") in exchange for these private banks' commitment to buy State debt and conduct the official banking business of the State (e.g. hold the national treasury's accounts, execute its payments, etc.).
+
+# Nutshell review of central banking history
+
+This was the case of the Bank of England (formally nationalized in 1946) or the Swiss National Bank (which remains a private bank to date). In other countries, the State itself may have created its central bank from scratch. This was the case of the Sveriges Riksbank (Sweden's central bank, the first one in history, created in 1668 by the Swedish parliament under the name of the Bank of the States of the Realm). One way or another, it only took an extra step for the State to itself enter the banking business and operate as the bank of banks. In this sense, monetary policy appears as an outgrowth of fiscal policy.
+
+Less generous is the definition of monetary policy as "fiscal policy in disguise." Historically, monetary policy emerged as a way for the State to conduct fiscal policy "by other means." Fiscal policy relies on taxation or the outright appropriation of resources by a politically-constituted community to allocate in accordance with politically determined priorities, a method that can be politically problematic when people deem taxes unfair.
+
+With the development of democracy and socialism in the Western world in the 19th century, taxation became problematic to the wealthy.[^5] Thus, instead of taxing them directly, the wealthy favored a State that "borrowed" from them in the bond markets under the promise of future repayment. However, as public debt keeps increasing without apparent end in sight, public debt reveals to be a conceit: a mystified form of taxation.
+
+An ideological ploy States use to defuse popular discontent against the class-bias of monetary policy is to pretend that they are under the thumb of the financial markets, in particular the bond-holders.  Thus, the ideologues of the State claim, monetary policy must favor the rich as a technical necessity because the State is powerless before the power of finance.
+
+Central banks, fully nationalized or semi-private but operating on behalf of the State, have the ability to issue local *base money* or *currency*, in the form of official central-bank notes (paper money and coins) and (electronicallyrecorded) reserves credited to the private banks' accounts held in the central bank. 
+
+Originally, currency was convertible into metal (gold or silver) at an official parity which remained fixed for relatively long periods of time, but that vary from time to time. In particular, as a result of wars and major calamities, central banks felt compelled to lower the official parity, which led to currency inflation. Eventually, in the 20th century, mainly as a result of wars, central banks abandoned official parities and thus effectively turned their currencies into *fiat money*, i.e. currency not convertible into metal at an official parity (but only at the market price of the metal).
+
+In the U.S., in the interwar period, the official parity was of 1.5 grams (23.22 grains) of gold per U.S. dollar. This regime was called the "gold standard." In 1933, in the middle of the Great Depression, Franklin Roosevelt suspended this official parity until 1934, when it restored only for the purpose of foreign exchange at a rate of 35 U.S. dollars per troy ounce of gold. This was the Gold Reserve Act which largely prohibited private holdings of gold in the U.S. Private gold holders had to sell their gold coins and bullion to the Treasury. (Only gold jewelry was allowed, up to a point.) In the 1960s, these prohibitions were lifted. Also in the 1960s, as a result of the Vietnam War, the U.S. experienced a pronounced dollar inflation, which led to fears all around the world that the U.S. would not be able to honor its official parity. These fears were justified. In 1971, Richard Nixon cancelled the official convertibility of the U.S. dollar into gold. People who wanted gold in exchange for their dollars could buy it at the market price. From that point on, the U.S. dollar has been an effective fiat money.
+
+# Monetary policy in essence
+
+To judge by its origin, monetary policy is simply a form of fiscal policy in disguise, a national currency is a State liability that people use because it is legal tender and others use it locally, while using an alternative would be too costly. The central bank can hold, as necessary, large inventories of State debt which it would acquire with its currency. It need not acquire such State debt in the primary market, thus keeping the appearance that the central bank and its monetary policy are separate from the State and its politics.
+
+For more on the essence of central banking actions, see [@huato_fed_2020].
+
+In this light, the wealthy prefer the conceit, because it hides taxation (with it always implicit threat of property confiscation) and confuses economic policy in the eyes of the masses, thus offering ideological cover to the institution of *private ownership*. On top of it, public debt gives the wealthy both an opportunity for profit making and a device to discipline State policies. The apparent dependence of the State on the bond markets places access to funds under the control of the bond markets, which can limit access to such funds and/or charge higher interest rates on public debt to exercise a constant influence on State policies.[^6]
+
+However, to the extent working people can mount political resistance to the control of the State by the wealthy, monetary policy (like fiscal policy) is up for grabs. In brief, monetary policy is an arena in which conflicting interests collide.
+
+To see the way in which the wealthy wield public debt as a disciplinary device with which to whip the State, consider the recent case of Greece. Early in 2015, in the midst of a nasty recession originated in the U.S. worsened by austerity policies imposed by the "Troika" (the European Central Bank, the European Commission, and the International Monetary Fund, the three of them international organizations beholden to the interests of large private banks), the citizens of Greece voted a coalition of radical leftist organizations (Syriza) into power that promised them to staunch the recession. Since Greece uses the euro as their currency, the government of Greece has no independent monetary policy, and any attempt to alleviate its fiscal condition requires it to borrow in the bond markets. After a brief impasse, the banks -- which control the Troika and access to funds in the bond markets -- forced Syriza to betray its program. The Syriza government could have abandoned the euro, but at a very large cost. Instead, they surrendered to the banks.[^7]
+
+As things evolved historically, instead of being managed directly by the government, monetary policy has been assigned to a more or less autonomous *central bank* charged with issuing currency and, thus, managing the *money supply*.[^8] The "money supply" is, thus, another name for the *demand for bonds* by the central bank. In modern times, the central bank's demand for bonds is exercised in the *secondary* bond market.[^9]
+
+By influencing bond prices, its credibility permitting, the State is then capable of pushing the economy closer to full employment by inducing (or "crowding in") private spending. How? By making people richer. Other things equal, the richer people are, the more inclined they may be to spend (especially working people, who are typically short of cash) and, as the simple macroeconomic model above makes it obvious, the more the private sector spends (both households and businesses), the higher $Y$. This seesaw effect of lower interest rates on bond values is what economists call the *wealth effect*.
+
+Central banks may have started as privileged private banks. Privileged because the State would grant them a monopoly to issue bank notes in exchange for them lending to the State and providing other bank services. Eventually, the State took them over. See Eichengreen (1998, [@eichengreen1998]).
+
+# The wealth effect as the monetary-policy mechanism
+
+To understand the wealth effect, note that the market price of bonds is inversely or negatively related to their implied interest rate, yield to maturity, or---more simply---their *yield*. This inverse relation between bond price and yield can be explained by reference to the formula used to "discount" or determine the present value of a single future cash flow. This, because all bonds can be ultimately decomposed into single future cash flows:
+
+$$V_0 = V_t (1 + i)^{-t},$$
+
+where $V_0$ is the value of a bond today, $V_t$ is its value at a future time point $t$, and $i$ is "the" interest rate.
+
+This formula assumes certainty or "perfect foresight." In such abstract case, the interest rate $i$ is one common to all bonds. However, due to uncertainty and risk, bonds are differentiated, and so are their corresponding "yields." In sum, there is not a single interest rate, but a whole "structure" of interest rates. Accordingly, we modify the previous formula to account for bond diversity:
+
+$$V_0 = V_t (1 + k)^{-t},$$
+
+where $k$ is the yield specific to this particular bond, calculated as:
+
+$$k = i_{RF} + \ \textrm{a risk premium appropriate to this particular bond},$$
+
+where $i_{RF}$ is some "baseline," "benchmark," or "reference" interest rate that people in the bond markets may deem "safe" or "risk free" by comparison to all other bonds, deemed "riskier" or more exposed to "systemic risk."
+
+The point to remember here is that the higher $k$ (as a result of a higher $i_{RF}$ or a higher risk premium), the lower the value of bonds or wealth. Note that, given risk (which depends on the productive power of labor and "systemic conditions" or the overall robustness of existing social structures), the present value of bonds and the yield imply each other. Therefore, it is not correct (as a number of textbooks do) to separate the "wealth effect" from the "flow" or "income effect" of monetary policy, as if these effects were separate and distinct. The income effect is the wealth effect but looked at from a different angle.
+
+To summarize, monetary policy is the set of actions undertaken by central banks in the bond markets to influence the state of an economy. More specifically, monetary policy is the manipulation of bond prices and, therefore, bond yields in order to expand or contract spending, and thereby income and employment. This becomes necessary as a result of failures in the structures of the economy. These failures relate to issues of macro-economic (1) efficiency (i.e. full employment) and (2) equity (i.e. fairness in the distribution of wealth ownership).
+
+To grasp the mechanism of money supply, think of money as (chiefly) made up by demand or checking deposits of the private sector: households and businesses. The banks issue these "deposits," which are a particular type of bank liability, i.e. a particular type of bond held by the public. Deposits are denominated in currency units (e.g. dollars). The sum total of the value of these deposits at a given point in time is the "money stock": the amount of money in circulation in the economy at that point in time.
+
+The aggregate bond market (the market in which all types of claims of ownership over wealth are exchanged) can be viewed from two angles using the micro-economic framework of demand and supply: (1) the bond is the "good" being traded (i.e. the bond market) in exchange for money with the price of a bond in dollars on the vertical axis, or (2) money (demand deposits or "loanable funds" is the term used by textbooks) is the "good" traded (i.e. the "loanable funds market") in exchange for bonds with the compound interest factor (or, for one-year maturity bonds, the "gross interest rate") on the vertical axis.
+
+Thus, determining the price of bonds is equivalent to determining the interest rate or yield. Demand for bonds in the bonds market is the supply of loanable funds in the loanable funds market, and the supply of bonds in the former is the demand for loanable funds in the latter. The stock of money at each point in time corresponds to the equilibrium in either of these markets (again, it is the same market viewed from two opposite angles), though it appears explicitly (on the horizontal axis) in the loanable funds market. Thus, the stock of money in the loanable funds market is determined both by the supply of money ("loanable funds"), which is in turn determined by the creation of deposits by banks under the influence of the central bank's monetary policy, and the demand for money ("loanable funds") by the "public."
+
+To make things simple, assume that economic conditions are "normal" and banks do not hold any excess reserves. This permits the central bank to fully control the money supply. In a diagram of the "loanable funds" market, the supply of money will appear as a vertical straight line (perfectly inelastic to changes in the interest rate). The demand for loanable funds (a downward sloping curve) determines the interest rate, but the supply side (under control of the central) bank determines the money stock or equilibrium amount of "loanable funds" or deposits. This is a simple, but effective didactic device.
+
+This presupposes a long historical development, from money as direct claims on metal ownership to fiat money and potentially electronic money. Parallel to this development in monetary forms, the historical development of bonds, financial institutions (banks, etc.), and then the emergence of central banking. And just like banks issue deposits, the central bank issues reserves, sort of like deposits held by the banks as required by law.
+
+# The conventional money multiplier
+
+The money multiplier is a theory of how the money supply (total "loanable funds" or bank "deposits") in the economy, denoted as $M$, is determined by the central bank's monetary base or bank "reserves" $B$, given the banks' reserve ratio $r$. In turn, the banks' reserve ratio is determined by the legal required reserve ratio and by the prevailing and expected economic conditions. A change in the monetary base has the same effect on the money supply as a deposit from outside the banking system, i.e. it is processed through the money-multiplier mechanism inherent to "fractional-reserves banking." Thus, for a given level of reserves $B$, the total level of deposits spawned after the full operation of the money-multiplier mechanism is given by:
+
+$$\begin{aligned} M = \left( \frac{1}{r} \right) B.\end{aligned}$$
+
+Therefore:
+
+$$\begin{aligned} \Delta M = \left( \frac{1}{r} \right) \Delta B, \end{aligned}$$
+
+where $M$ is the stock of money in the economy and $r$ is the banks' reserve ratio.
+
+Open market operations and, more generally, the management of the central bank's balance sheet for the purposes of monetary policy (e.g. quantitative easing) proceeds through this mechanism.
+
+As an example, assume all money is bank deposits, normal conditions in the economy (banks hold no excess reserves and monetary policy works smoothly). The required reserve ratio of 10%. In open market operations, the Fed purchases Treasuries worth \$14 billion. Determine whether the money supply expands or contracts as a result, and by how much. (The amounts are in billions of dollars.)
+
+Note that, when the Fed buys \$14 billion in bonds from banks in the open market, it pays the banks by crediting this amount of money in their reserve accounts. This increase in reserves is therefore a \$14 billion-increase in the monetary base $B$.
+
+$$\Delta M= \left( \frac{1}{r} \right) \Delta B$$ $$\Delta M= \left( \frac{1}{0.1} \right) 14 = 10 \times 14$$ $$\Delta M= 140.$$
+
+The money supply expands by \$140 billion. The expansion in the money supply corresponds to an increase ("rightward shift") in the demand for bonds, which translates into higher bond prices and, therefore, lower yields or interest rates. The lower interest rates are bound to encourage household and business spending, which redounds in economic expansion.
+
+Now, use the data from the previous example, except for the required reserve ratio, which is now higher: 20%. Determine the resulting change money supply.
+
+$$\Delta M= \left( \frac{1}{r} \right) \Delta B$$ $$\Delta M= \left( \frac{1}{0.2} \right) 14 = 5 \times 14$$ $$\Delta M= 70.$$
+
+The money supply expands by \$70 billion. Again, this has an expansionary effect on the economy. Smaller than in the prior example, because the higher required reserve ratio forces banks to "freeze" more of their deposits as reserves, which keeps them from spawning more deposits through the money-multiplier mechanism.
+
+Another example: The required reserve ratio is 8%, banks hold no excess reserves. The Fed sells \$12 billion in Treasuries from banks in the open market. All else is assumed equal. Determine the resulting change in the money supply. State whether this operation would stimulate the economy or slow it down. $$\begin{aligned} \Delta M = \left( \frac{1}{r} \right) \Delta B \nonumber \\ \Delta M = \left( \frac{1}{.1} \right) (-12) = 10 \times (-12) \nonumber \\ \Delta M = -120. \nonumber\end{aligned}$$
+
+The money supply decreases by the amount of \$120 billion. This open market operation translates into a greater supply of bonds, lower bond prices, and consequently a higher interest rate, which discourages private consumption and investment spending and slows down the economy.
+
+Note that the "money multiplier" is a very general mechanism. To the extent all households and businesses contain inner banks, an increase in their "reserve balances" (or checkable deposits) allow them to "lend" more (to buy more bonds or expand their balance sheets, as the issuers of these bonds turn around and "re-deposit" part of the proceeds from these "loans" in a recurrent process), which in turn translates into higher bond prices or lower yields.
+
+# R code
+
+```{r}
+# Julio Huato
+# 5/12/2020
+# The conventional money multiplier
+
+# Primary data
+B <- 100 # Base money (funds held as federal reserves)
+r <- .2 # Required reserve ratio
+dB <-  # Change in B from new monetary policy (open-market ops)
+# If the Fed buys T's in the open markets paying with reserves: dB>0
+# If the Fed sells T's in the open markets charging reserves: dB<0
+  
+# Money multiplier
+m <- 1/r
+m
+
+# Total checkable deposits: M
+M <- m*B
+M  
+
+# Change in total deposits
+dM <- m*dB
+dM
+
+# To remove all objects
+rm(list = ls())
+
+# Level function
+M_supply <- function(B, r) {
+  if(r <= 0 | r >= 1){
+    print(paste(r, " must be positive and less than 1."))
+  }  
+  m = 1/r
+  M = m*B
+  print(paste("The money multiplier is", m))
+  print(paste("The money supply is", M))
+}
+
+# Example: B=100, r=.2
+M_supply(100, .2)
+
+# To remove all objects
+rm(list = ls())
+
+# Change function: fiscal policy (dGbar)
+dM_supply <- function(B, r, dB) {
+  if(r <= 0 | r >= 1){
+    print(paste(r, " must be positive and less than 1."))
+  }  
+  m = 1/r
+  M=m*B
+  dM = m*dB
+  print(paste("The money multiplier is", m))
+  print(paste("The change in the money supply is", dM))
+  print(paste("The old money supply was", M))
+  print(paste("The new money supply is", M+dM))
+}
+
+# Example: Cbar=20, Ibar=40, Gbar=40, Tbar=40, X_Qbar=0, c=.6, dGbar = 2
+dM_supply(100, .2, 4)
+```
+
+
+# References
+
+[^1]: Keynes' goal was to reform capitalism and, thus, preempt a workers' rebellion that could lead to socialism -- a scenario similar to the 1917 insurrection that led the Bolsheviks to power in Russia. Cf. [@keynes1936].
+
+[^2]: This framework is a highly simplified version of [@hicks1937] interpretation of [@keynes1936]).
+
+[^3]: In turn, $T = T_X - T_R$, where $T_X$ is gross taxes and $T_R$ is
+    transfer payments.
+
+[^4]: The primary bond market is the market made between the issuer of a
+    bond (or initial "borrower") and the first buyer of the bond (or
+    initial "lender"). In turn, a bond buyer can offer the bond for sale
+    in the secondary market to other bond buyers. The primary market is
+    akin to the market for brand-new cars while the secondary market is
+    akin to the market for second-hand or used cars.
+
+[^5]: For a vivid summary of this history, see [@hobsbawm1977], chapters 6-8, pp. 122-202.
+
+[^6]: The dependence of the State on the bond markets is only apparent or, rather, the result of the State self-inflicted weakness as a result of its deferential kowtowing to private ownership. In a rich country, a strong democratic State with broad popular support is not beholden to the bond markets as it can rely on its taxing power to restructure wealth distribution to make the social structure more robust and attain sustained full employment.
+
+[^7]: For a detailed look into this conflict, see [@varoufakis2015].
+
+[^8]: To the extent checkable deposits are used as means of purchase, the money supply is not entirely dictated by the central bank by means of direct currency emission. A section below elaborates on this. For the time being, assume the money supply is entirely determined by the central bank.
+
+[^9]: The direct purchase of government bonds by its central bank is something that happens, from time to time, in poorer countries. Rich countries eschew this approach as it veers too close to exposing the fundamental identity between fiscal and monetary policy, which the wealthy rather avoid. When a central bank purchases its government's debt directly in the primary market (rather than in the secondary market), economists refer to the method as public-debt *monetization*. Coloquially, this is described as "printing money." The financial press, dominated by the interests of high finance, with their fears of inflation and outright taxation, tend to present public-debt monetization as the signature of a dictatorship or, in the case of a government with broad popular support demonstrated in elections, as the signature of a "populist leadership."

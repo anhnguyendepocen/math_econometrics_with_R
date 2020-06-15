@@ -1,0 +1,642 @@
+---
+title: "Introduction to Probability theory"
+author: "Julio Huato"
+date: "6/12/2020"
+output:
+  bookdown::html_document2: default
+  bookdown::pdf_document2: default
+bibliography: bib.bib
+---
+
+# Introduction
+
+This document offers a brief introduction to probability theory.  Econometrics is the machinery of statistical inference deployed to extract information out of observational data sets.  Statistical inference takes data and extracts from it information or knowledge.  In order to do so, statistical inference relies heavily on a *mathematical theory* of learning known as *probability theory*.  To learn or to acquire knowledge means to reduce one's relative ignorance or uncertainty about the world.  Thus, probability theory is a set of theoretical elements that help us to organize our understanding of the part of the world we do not yet understand or know. 
+
+Make sure that the elementary principles of probability theory are clear in your mind, because everything we will do in the subsequent sections of the course is based on these principles.
+
+But before we get to probability theory, we will cover briefly the summation operator.  Operators are symbolic commands that tell us what procedure to apply to other symbols or numbers.  Think of an operator as a sentence in common language that tells you what to do next.  Once we understand clearly what the operator means, all we need to do is mechanically apply the command issued by it.
+
+
+# Summation operator
+
+Operators are mathematical symbols that compress or abbreviate further our math language. This is why they can be extremely powerful tools in econometrics.
+
+It bears repetition that, math is, among other things, a *language*. We use language to think. Ideas need to have an outward form to be communicated, be it internally to ourselves in the process of thinking or externally to others in the process of sharing one's ideas.
+
+In principle, the same ideas that we express with math symbols we may express with words, which are also symbols. But, math symbols have the advantage of their brevity and sharpness.  At a point, it becomes impossible to do with regular language what we can most easily accomplish with mathematical language.  
+
+## Operators
+
+These are some familiar examples of operators:
+
+-   Addition: $+$
+-   Subtraction: $-$
+-   Multiplication: $\times$
+-   Division: $\div$
+
+In the context of a mathematical statement, these operators tell us to execute specific operations:
+
+- ($a + b$) add $b$ to $a$;
+- ($a-b$) subtract $b$ from $a$;
+- ($a \times b$) multiply $b$ times the number $a$;
+- ($a \div b$) divide $a$ by $b$ (or $b$ into $a$).
+
+
+## Summation Operator ($\sum$)
+
+The *summation* operator is extremely useful in econometrics.
+
+Let $a$, $b$, $k$, and $n$ be *constant* numbers, and $x$, $y$, and $i$ be variables. The variables $x$ and $y$ can take any real value.  The variable $i$, which will be used to index the location of numbers and variables, can only take integer values.  
+
+The following are some properties of the summation operator.
+
+## Summation ($\sum x_i$)
+
+Often, we have list of numbers, representing the various values of a given variable, that we need to add up.  To represent this operation in general terms, we introduce the following definition:
+
+$$\sum_{i=1}^n x_i \equiv x_1 + x_2 + \dots + x_n.$$
+
+This reads as "Summation of $x$ from its first to its $n$th value."  The symbol $\sum$ is an exagerated version of the capitalized sigma letter of the Greek language.  The letter $i$ is an index variable that tells us the location of the value of $x$ in a list of $n$ values. 
+
+Thus, for example, if we have a list of numbers (the ages of 6 students): ${20,19, 22, 19, 21, 18}$, we let $x$ be the age of a student and use the natural numbers ($1, 2, 3, \ldots$) to index these ages. Thus, $x_i$ means the age of student $i$, where $i=1, 2, \ldots, 6$). Then:
+
+$$\sum_{i=1}^6 =  x_1 + x_2 + \ldots + x_6 =  = x_1 + x_2 + x_3 + x_4 + x_5 + x_6$$
+
+Evaluating our expression using the data:
+
+$$\sum_{i=1}^6 x_i = 20 + 19 + 22 + 19 + 21 + 18 = 119.$$
+
+
+## Summation ($\sum x_i$)
+
+The summation of a list of $n$ values of a variable $x$ can be split into sub-summations or partial summations as follows:
+
+$$\sum_{i=1}^n x_i = \sum_{i=1}^m x_i + \sum_{i=m+1}^n x_i.$$
+
+This is because:
+
+$$\sum_{i=1}^n x_i = x_1 + \dots + x_m + x_{m+1} + \dots + x_n,$$ 
+$$\sum_{i=1}^n x_i = (x_1 + \dots + x_m) + (x_{m+1} + \dots + x_n) = \sum_{i=1}^m x_i + \sum_{i=m+1}^n x_i.$$
+
+
+Using the previous numerical example and letting $m=3$:
+$$\sum_{i=1}^6 x_i = \sum_{i=1}^3 x_i + \sum_{i=4}^6 x_i = (20 + 19 + 22) + (19 + 21 + 18) = 61 + 58 = 119.$$
+
+In conclusion, we can always split the sum of many numbers into sub-sums.
+
+### Summing $n$ times the constant number ($k$)
+
+What if we need to sum a list of constant numbers?  Then, the summation simplifies into a product:
+
+$$\sum_{i=1}^n k = n \ k$$
+
+
+For example, if we need to sum the number 3 four times: 
+$$\sum_{i =1}^4 3 = 3 + 3 + 3 + 3 = 4 \times 3 = 12.$$
+
+## Summing $n$ times the product of a constant $k$ and a variable $x$
+
+Sometimes, we have a list of numbers that are multiples of a constant.  So one can factor out the constant and simplify the summation.
+
+$$\sum_{i=1}^n k \ x_i = k \ x_1 + \dots + k \ x_n = k \ (x_1 + \dots + x_n) = k \sum_{i=1}^n x_i$$
+
+With large lists of numbers, this simplification permits us to save a considerable amount of computation.  Instead of having to multiply $k$ for each value of the $x$ and then add the results, you (or your computer) simply add(s) the values of $x$ and then multiply the result once by $k$.  Significantly less computation!
+
+For example:
+
+HERE.
+
+$$\sum_{i=1}^3 5 x_i =  5 x_1 + 5 x_2 + 5 x_3 = 5 (x_1 + x_2 + x_3) = 5 \sum_{i=1}^3 x_i.$$
+
+## Summing the sum of two variables ($x$ and $y$)
+
+$$\sum_{i=1}^n (x_i + y_i) = \sum_{i=1}^n x_i + \sum_{i=1}^n y_i$$
+
+Example:
+$$\sum_{i=1}^2 (x_i + y_i) = (x_1 + y_1) + (x_2 + y_2) = x_1 + y_1 + x_2 + y_2$$
+$$= x_1 + x_2 + y_1 + y_2 = (x_1 + x_2) + (y_1 + y_2) = \sum_{i=1}^2 x_i + \sum_{i=1}^2 y_i.$$
+
+## Summing the linear rule of a variable ($x$)
+
+The *linear rule* of a variable $x$ is: $a + b x$. E.g.: $4 + 5 x$.
+
+If the $n$ values of the variables are indexed ($i=1, 2, \ldots, n$), then we can express the sum of this linear rule of $x$ over its $n$ values as follows:
+
+$$\sum_{i=1}^n (a + b x_i) = n a + b \sum_{i=1}^n x_i$$
+
+Example:
+$$\sum_{i=1}^3 (4 + 5 x_i) = \sum_{i=1}^3 4 + \sum_{i=1}^3 5 x_i = (3 \times 4) + 5 \sum_{i=1}^3 x_i = 12 + 5 \sum_{i=1}^3 x_i.$$
+
+
+## Double summation
+
+The double summation operator is used to sum up twice for the same variable:
+
+$$\sum^n_{i=1} \sum^m_{j=1} x_{ij} = \sum^n_{i=1} (x_{i1} + x_{i2} + \ldots + x_{im})$$
+$$= (x_{11} + x_{21} + \ldots + x_{n1}) + (x_{12} + x_{22} + \ldots + x_{n2}) + \ldots + (x_{1m} + x_{2m} + \ldots + x_{nm})$$
+
+## Double summation
+
+In econometrics, we often deal with data tables.  The following property of the summation operator simply says that the total sum is the same whether one adds up first the numbers along the rows first and then adds the partial sums or one adds up first the numbers along the columns and then sums up the partial results.  A property of the double summation operator is that the summations are interchangeable:
+
+$$\sum^n_{i=1} \sum^m_{j=1} x_{ij} = \sum^m_{j=1} \sum^n_{i=1} x_{ij}.$$
+
+
+## The product operator
+
+The product operator ($\prod$) is defined as:
+
+$$\prod^n_{i=1} x_i = x_1 \cdot x_2 \cdots x_n.$$
+
+Example: Let $x$ be a list of numbers: ${20,19, 22}$. Then,
+
+$$\prod_{i=1}^3 x_i = 20 \times 19 \times 22 = 8,360.$$
+
+Note that $\prod_{i=1}^n k = k^n$. The $n$-product of a constant is the constant raised to the $n$-th power.
+
+# Uncertainty and probability
+
+This section introduces:
+
+-   *random variables* and their *probability distributions*,
+-   the properties, *moments*, or *expectations* of these probability distributions, mathematical objects such as the *mean* and the *variance*, and
+-   two random variables, their joint probability distributions, and some of their joint properties (such as their *covariance* and *correlation* coefficient).
+
+The changing world (nature, society, and people's minds) is viewed here as an array of random processes or *random experiments*.
+
+In this section, *randomness* means that, no matter how advanced our understanding of the
+world may be, and humans tend to continuously expand their understanding of the world, there is always an element of ignorance or *uncertainty* in such understanding.
+
+Said differently, given specific causes, we do not know fully which effects or states of the world will result from them. Alternatively, we can say that, given specific states of the world, we cannot fully know the specific factors that caused them.
+
+As a result, we are always *uncertain* to some extent or -- more plainly said -- we are always relatively ignorant about the specific causes or, alternatively, about the specific effects involved in these processes.
+
+In brief, a random process or experiment is one for which we have some uncertainty about its causes or effects.
+
+Statistics is a systematic approach that mathematicians and other thinkers have developed to use our observations of the world (e.g. in the form of data) to reduce our uncertainty as much as possible, i.e. to learn or to acquire more knowledge.  The emphasis should be on the word *systematic*.
+
+Here are some trivial examples of random processes: Your meeting the next person on the street, the SFC students commuting to school, the time that it will take for a SFC student to commute to school, the residents of the U.S. producing new goods in a
+given year, the state of the labor market as of June 5, 2030, etc.
+
+Why are these processes random? Because we are *uncertain* about the gender or the
+age of the next person you will meet, the number of SFC students commuting to school and their characteristics, the lenght of commuting time of SFC students, the means of transportation they will use, the annual gross domestic product in the U.S. or its composition, the unemployment rate on June 5, 2030, etc.
+
+All the possible mutually exclusive results of these experiments or processes are called
+the *outcomes* of the said experiments. E.g. the next person you will meet could be female or
+male, young or old; 80% of all SFC students may commute from Brooklyn and Staten Island; SFC students may take a few or many minutes to commute to school; the U.S. annual GDP may go up or down by some amount compared to the previous year, the U.S. unemployment rate on June 5, 2030 may be 3%; etc.
+
+*Probability* is defined here as the degree or intensity of belief that the outcome of an experiment will be a particular one.
+
+How do we *decide* which probability to assign to a particular outcome of an experiment (e.g. that if you meet another person, the gender of such person will be female)? How to make this *decision* in a well-informed, disciplined, scientific way?^[In a sense, the whole purpose of *statistics* is to determine probabilities or, alternatively, *expectations* based on those probabilities.]
+
+One can only use experience -- individual or collective -- i.e. history to assign probabilities. We may keep record of the gender of the people we meet over time and use the data compiled to inform our belief or look at records on the gender composition of the local population, etc.
+
+# Sample space and event
+
+The *sample space* or *population* of an experiment or process is defined as the set of all the possible outcomes of the experiment. E.g. the sample space of the experiment of flipping a coin twice is: $\Omega=\{(H, H), (H, T), (T, H), (T, T)\}$.^[Here, we rule out by assumption any "freak" possibilities, such as the coin landing on its edge or disintegrating in the air.]  This is a finite sample space.
+
+An example of an infinite sample space would be the possible points in the unit circle where a dart may hit.
+
+An *event* is a subset of the sample space, i.e. a set of one or more outcomes. E.g. the event $(M \leq 1)$ that your car will "need one repair at most" includes "no repairs" $(M=0)$ and "one repair" $(M=1)$.
+
+# Random variables
+
+A *random variable* (r.v.) is a numerical representation or summary of a random outcome or a random event. For example, $G=g$, where (e.g.) $g$ is 0 if "male" and 1 if "female". The number of times your car needs repair during a given month: $M=m$, where $m=0, 1, 2, 3, \ldots$. The time it takes for SFC students to commute to school: $T=t$, where $t$ is time in minutes.
+
+There are *discrete* and *continuous* random variables. Gender, coded as a 0 if "male" and 1 if "female", and the number of car repairs in a month are *discrete* random variables. The commuting time, if recorded in fractions of an hour -- or even fractions of minutes and seconds, etc. can be regarded as a *continuous* r.v.
+
+# Probability distribution
+
+The *probability distribution* of a discrete r.v. is a list of all the values of the r.v. and the probabilities associated to each value of the r.v. By convention, the probabilities are a number between 0 and 1, where 0 means impossibility and 1 means full certainty; the probabilities over the sample space must add up to 1.
+
+More formally, the probability axioms are:
+
+- For every event $A$, $P(A) = p_A = \geq 0$.
+
+- The probability of the sample space $\Omega$: $P(\Omega)= p_{\Omega}=1$.
+
+- If $A_1, A_2, \ldots, A_n$ are disjoint events, then $P\Big(\cup_{i=1}^n A_i \Big) = \sum_{i=1}^n P(A_i) = \sum_{i=1}^n p_i$.
+
+It follows from these axioms that $P(\emptyset)=0$. E.g. let $G = 0, 1$ be the r.v. "gender of the next person you will meet".
+
+  | $G$ |   $P(G=g)$ |
+  | ----|----:|
+  | 0   |  0.45 |
+  | 1   |  0.55 |
+
+
+Using the information in the probability distribution, you can compute the probability of a given event. E.g. the probability that you will meet "a male or a female":
+
+$$P(G = 0 | G = 1) = P(G=0) + P(G=1) = 0.45 + 0.55 = 1= 100\%.$$
+
+In words, we are completely certain that you will meet either a male or a female the next time you meet a person.
+
+Probability distribution of a discrete r.v.
+
+Admittedly, the previous example is trivial. But consider the probability distribution of your car needing repair(s) in a given month.  The r.v. "number of repairs" needed is denoted as $M$:
+
+| $M$ | $P(M=m)$ |
+| ----- | -----:|
+|  0 | 0.80 |
+|  1 | 0.10 |
+|  2 | 0.06 |
+|  3 | 0.03 |
+|  4 | 0.01 |
+
+What is the probability that the the car will need one or two repairs in
+a month? Answer:
+
+$$P(M=1 \ \textrm{or} \ M=2) = P(M=1) + P(M=2) = 0.10 + 0.06 = 0.16= 16\%.$$
+
+The *cumulative probability distribution* (also known as a "cumulative distribution function" or c.d.f.) is the probability that the random variable is less than or equal to a particular value. The first two columns of the following table are the same as in the previous table. The last column gives the c.d.f.:
+
+| $M$ | $P(M=m)$ | $P(M \leq m)$ |
+| ----| --------- | -------------|
+|  0 | 0.80 | 0.80 |
+|  1 | 0.10 | 0.90 |
+|  2 | 0.06 | 0.96 |
+|  3 | 0.03 | 0.99 |
+|  4 | 0.01 | 1.00 |
+
+## Probability distribution of a discrete r.v.
+
+A binary discrete r.v. (e.g. $G = 0, 1$) is called a Bernoulli r.v. The
+Bernoulli distribution is:
+$$G = \left\{ \begin{array}{l}
+       1 \ \textrm{with probability} \ p \\ 0 \ \textrm{with probability} \ 1-p
+       \end{array} \right.$$
+
+where $p$ is the probability of the next person being "female".
+
+## Probability distribution of a continuous r.v.
+
+The *cumulative probability distribution* of a continuous r.v. is also the probability that the random variable is less than or equal to a particular value.
+
+The *probability density function* (p.d.f.) of a continuous random variable summarizes the probabilities for each value of the random variable.
+
+The mathematical description of the p.d.f. of a continuous variable requires that you are familiar with calculus. So, we will skip it for now.
+
+Strictly speaking, the probability that a continuous random variable has a particular value is zero. We can only speak of the probability of the random variable falling in a range (between two given values).
+
+The p.d.f. and the c.d.f. show the same information in different formats.
+
+The density function of a continuous *uniformly*-distributed r.v.:
+
+<https://goo.gl/images/9u2Voj>
+
+The density function of a *normally*-distributed random variable:
+
+<https://www.desmos.com/calculator/fnuleesuzy>
+
+# Characteristics of a r.v. distribution
+
+In the practice of statistics, two basic measures are used extensively to characterize the distribution of a r.v.:
+
+-   the expected value or mean (or average) and
+
+-   the variance.
+
+## Expected value
+
+The *expected value*, mathematical expectation, or (more simply) expectation of a r.v. $X$ or $E(X)$ is the average value of the variable over many repeated trials.
+
+It is computed as a weighted average of the possible outcomes, where the weights are the probabilities of the outcomes. It is also called the mean of $X$ and denoted by $\mu_X$. For a discrete r.v.:
+$$E(X) = p_1 x_1 + p_2 x_2 + \dots + p_k x_k = \sum_{i = 1}^k p_i x_i = \mu_X$$
+
+E.g.: You loan \$100 to your friend for a year at 10% interest. There is a 99% chance he will repay the loan and 1% he will not. What is the expected value of your loan at maturity?
+
+E.g.: You loan \$100 to your friend for a year at 10% interest. There's a 99% chance he will repay the loan and 1% he will not. What is the expected value of your loan at maturity?
+
+Answer: $$(0.99 \times \$110) + (0.01 \times \$0) = \$108.90$$
+
+E.g.: What is the expected value or average of the number of car repairs per month? See the table above.
+
+E.g.: What is the expected value or average of the number of car repairs per month (M)? See the table above.
+
+Answer: $$E(M) = (.80 \times 0) + (.10 \times 1) + (.06 \times 2) + (.03 \times 3) + (.01 \times 4) = 0.35.$$
+
+What does that mean?
+
+E.g.: In general, what is the expected value of a Bernoulli r.v. with $P(G = 1) = p$ and $P(G=0) = 1-p$?
+
+E.g.: In general, what is the expected value of a Bernoulli r.v. with $P(G = 1) = p$ and $P(G=0) = 1-p$?
+
+Answer: $$E(G) = (p \times 1) + ((1-p) \times 0) = p.$$
+
+*Note 1:* Think of the operator $E(.)$ as a function that transforms data on a variable by multiplying each value of the variable by its probability and then adding up all the products.
+
+*Note 2:* The formula for the expected value of a continuous r.v. requires calculus. So we'll skip it for now.
+
+## Variance and standard deviation
+
+The variance of a r.v. $Y$ is:
+$$\textrm{var}(Y) = E[(Y - \mu_Y)^2] = \sigma_Y^2.$$
+
+The standard deviation is the positive square root of the variance
+$\sigma_Y$:
+$$\textrm{s.d.}(Y) = \sigma_Y = + \sqrt{\sigma_Y^2}$$
+
+Basically, the s.d. gives the same information as the variance, but in units that are easier to understand. The units of the standard deviation are the same units as $Y$ and $\mu_Y$.
+
+What is the intuition behind the variance and/or the standard deviation?
+
+For a discrete r.v.:
+$$\textrm{var}(Y) = E[(Y - \mu_Y)^2] = \sum_{i = 1}^k
+(y_i - \mu_Y)^2 p_i  = \sigma_Y^2,$$
+$$\textrm{s.d.}(Y) = \sqrt{\sum_{i = 1}^k
+(y_i - \mu_Y)^2 p_i}  = \sigma_Y.$$
+
+E.g.: What are the var. and s.d. of the number of car repairs per month
+(M)?
+
+E.g.: What are the var. and s.d. of the number of car repairs per month
+(M)?
+
+Answer:
+$$\textrm{var}(M) = [.80 \times (0 - 0.35)^2] + [.10 \times (1 - 0.35)^2] + [.06 \times (2 - 0.35)^2]$$
+$$+ [.03 \times (3 - 0.35)^2]  + [.01 \times (4 - 0.35)^2] = 0.6475$$
+$$\textrm{s.d.}(M) = \sqrt{0.6475} \cong 0.80.$$
+
+E.g.: What are the var. and s.d. of a Bernoulli r.v.?
+
+E.g.: What are the var. and s.d. of a Bernoulli r.v.?
+
+Answer:
+$$\textrm{var}(G) = [(1-p) \times (0 - p)^2] + [p \times (1 - p)^2] = p (1-p),$$
+$$\textrm{s.d.}(G) = \sqrt{p (1-p)}.$$
+
+*Note 1:* Think of the operator $\textrm{var}(.)$ as a function that transforms data on a variable by taking the distance or difference between each value of the variable and its mean, squaring that difference, multiplying it by the respective probability, and then adding up all the products.
+
+*Note 1:* Think of the operator $\textrm{s.d.}(.)$ as a function that transforms data on a variable by taking the distance or difference between each value of the variable and its mean, squaring that difference, multiplying it by the respective probability, adding up all the products, *and taking the positive square root of that sum*.
+
+## Coefficient of variation
+
+In finance (risk management), the coefficient of variation $\tilde{\sigma}_Y$ is used often. We will not do much with it, but here's the formula anyway:
+
+$$\tilde{\sigma}_Y = \frac{\sigma_Y}{\mu_Y}.$$
+
+Why is this necessary?
+
+## Moments
+
+More formally, in statistics, the characteristics of the distribution of a r.v. are called *moments*.
+
+$E(Y)$ is the first moment, $E(Y^2)$ is the second moment, and $E(Y^r)$ is the $r$th moment of $Y$. The first moment is the mean and it is a measure of the *center* of the distribution, the second moment is a measure of its *dispersion* or spread, and $r$-th moments for $r > 2$ measure other aspects of the distribution's shape.
+
+Clearly, the second moment of the distribution is intimately related to the variance. How?
+
+## Skewness
+
+Another measures of the shape (using higher moments) of a distribution are (1) *skewness*:
+
+$$Sk = \frac{E[(Y - \mu_Y)^3]}{\sigma^3_Y}$$
+
+For a symmetric distribution, $Sk=0$. If the distribution has a long left tail, $Sk<0$. If the distribution has a long right tail, $Sk>0$.
+
+Skew plot here.
+
+## Kurtosis
+
+$$Kr = \frac{E[(Y - \mu_Y)^4]}{\sigma^4_Y}$$
+
+For a distribution with heavy tails (likely outliers), $Kr$ is large.
+
+For a normal distribution, $Kr=0$.
+
+Kurtosis plot here.
+
+## Linear transformations of random variables
+
+The mean of a linear function of a r.v.  Consider the income tax schedule: $Y = 2,000 + 0.8 X$, where $X$ is pre-tax earnings and $Y$ is after-tax earnings. What is the marginal tax rate?
+
+Suppose an individual's next year pre-tax earnings are a r.v. with mean $\mu_X$ and variance $\sigma^2_X$. Since her pre-tax earnings are random, her after-tax earnings are random as well. With the following mean:
+
+$$E(Y) = \mu_Y = 2,000 + 0.8 \mu_X$$
+
+Why? Remember that the operator $E(Y)$ means "multiply each value of $Y$
+by its probability and add up the results."
+
+Variance of a linear function of a r.v.
+
+In turn, the variance of $Y$ is:
+
+$$\textrm{var}(Y) = \sigma^2_Y = E[(Y - \mu_Y)^2].$$
+
+Since $Y = 2,000 + 0.8 X$, then $(Y - \mu_Y) = (2,000 + 0.8
+X) - (2,000 + 0.8 \mu_X) = 0.8 (X - \mu_X)$. Therefore:
+
+$$E(Y - \mu_Y)^2 = E\{[0.8 (X - \mu_X)]^2\} = 0.64 E[(X - \mu_X)^2].$$
+
+That is: $\sigma^2_Y = 0.64 \sigma^2_X$.
+
+And taking the positive square root of that number:
+$\sigma_Y = 0.8 \sigma_X$.
+
+Mean and var. of a linear function of a r.v.
+
+More generally, if $X$ and $Y$ are r.v.'s related by $Y = a + b X$, then:
+
+$$\mu_Y = a + b \mu_X$$ $$\sigma^2_Y = b^2 \sigma^2_X$$
+$$\sigma_Y = b \sigma_X$$
+
+# Joint probability distributions
+
+Consider two random variables. We now deal with the distribution of two random variables considered together.
+
+The *joint probability distribution* of two random variables $X$ and $Y$
+is the probability that the random variables take certain values at once
+or $P(X = x, Y = y)$.
+
+The *marginal probability distribution* of a random variable $Y$ is its probability distribution *in the context of its relationship with (an)other variable(s)*.
+
+More generally, consider a multi-variate (bi-variate) joint distribution.
+
+The following table shows relative frequencies (probabilities):
+
+*Joint distribution of weather conditions and commuting times*
+
+| Rain ($X = 0$) | No rain ($X = 1$) | Total |
+| ------ | ----- | ------ | ----- |
+| Long commute ($Y = 0$) | 0.15 | 0.07 | 0.22 |
+| Short commute ($Y = 1$) | 0.15 | 0.63 | 0.78 |
+| Total | 0.30 | 0.70 | 1.00 |
+
+The cells show the joint probabilities. The marginal probabilities (the marginal distribution) of $Y$ can be calculated from the joint distribution of $X$ and $Y$. If $X$ can take $l$ different values $x_1, \ldots, x_l$, then: $P(Y = y) = \sum_{i = 1}^l P(X = x_i, Y = y)$.
+
+## Conditional distribution
+
+The *conditional probability* that $Y$ takes the value $y$ when $X$ is known to take the value $x$ is written $P(Y = y | X = x)$.
+
+The *conditional distribution* of $Y$ given $X = x$ is:
+
+$$P(Y = y | X = x) = \frac{P(X = x, Y = y)}{P(X = x)}$$
+
+### Conditional expectation
+
+Consider the following table:
+
+*Joint and conditional distribution of $M$ and $A$*
+
+| | $M = 0$ | $M = 1$ | $M = 2$ | $M = 3$ | $M = 4$ | Total |
+| ------- | ------ | ----- | ----- | ----- | ------ | ----- |
+| Old car ($A = 0$) | 0.35 | 0.065 | 0.05 | 0.025 | 0.01 | 0.50 |
+| New car ($A = 1$) | 0.45 | 0.035 | 0.01 | 0.005 | 0.00 | 0.50 |
+| Total | 0.8 | 0.1 | 0.06 | 0.03 | 0.01 | 1.00 |
+| $P(M A = 0)$ | 0.70 | 0.13 | 0.10 | 0.05 | 0.02 | 1.00 |
+| $P(M A = 1)$ | 0.90 | 0.07 | 0.02 | 0.01 | 0.00 | 1.00 |
+
+The *conditional expectation* of $Y$ *given* $X$ (or *conditional mean* of $Y$ *given* $X$) is the mean of the conditional distribution of $Y$ given $X$.
+
+$$E(Y | X = x) = \sum_{i = 1}^k y_i P(Y = y_i | X = x).$$
+
+Based on the table, the expected number of car repairs given that the car is old is $E(M | A = 0) = (0 \times 0.7) + (1 \times 0.13) + (2 \times 0.10) + (3 \times 0.05) + (4 \times 0.02) = 0.56$. The expected number of car repairs given that the car is new is $E(M | A = 1) = 0.14$.
+
+## The law of iterated expectations
+
+The mean height of adults is the weighted average of the mean height of men and the mean height of women, weighted by the proportions of men and women. More generally:
+
+$$E(Y) = \sum_{i = 1}^l E(Y | X = x_i) P(X = x_i).$$
+
+In other terms: $$E(Y) = E[E(Y | X)].$$
+
+This is called the law of iterated expectations. If $E(Y | X) = 0$ then $E(Y) = 0$.
+
+## Conditional variance
+
+The *variance* of $Y$ *conditional on* $X$ is the variance of the conditional distribution of $Y$ given $X$:
+$$\textrm{var}(Y | X = x) = \sum_{i = 1}^k [y_i - E(Y | X = x)]^2 P(Y = y_i |
+X = x).$$
+
+Example.
+
+## Statistical independence
+
+Two r.v.'s $X$ and $Y$ are independently distributed (i.e. independent) if knowing the value of one of them gives no information about the other, that is, if the conditional distribution of $Y$ given $X$ equals the marginal distribution of $Y$. Formally, $X$ and $Y$ are independent if, for all values $x$ and $y$,
+
+$$P(Y=y| X=x) = P(Y=y) \ \ \textrm{or}$$
+$$P(X=x, Y=y) = P(X=x) \ P(Y=y)$$
+
+In other words, the joint distribution of $X$ and $Y$ is the product of their marginal distributions.
+
+Example
+
+Suppose you know some marginal and conditional probabilities, but not the joint probabilities.
+
+Diagram here.
+
+Determine the probability that $G$ be low and $u$ high: $P(G=0, u=1)$.
+
+From the formula for the conditional probability:
+$$P(X=x|Y=y)=\frac{P(X=x, Y=y)}{P(Y=y)},$$
+$$P(X=x, Y=y) = P(Y=y) P(X=x|Y=y).$$
+
+Therefore: $P(G=0, u=1)=P(G=0) P(u=1|G=0)=(0.900) (0.950)=0.855.$
+
+What is the probability that the unemployment rate will be high?
+
+A table with the information we have:
+
+*$G$ and $u$: Joint and conditional distributions*
+
+| Low unemployment $u = 0$ | High unemployment $u = 1$ | Total |
+| -------- | ----- | ----- | ------ |
+| Low spending $G = 0$ | P($G=0, u=0$) | P($G=0, u=1$) | 0.90 |
+| High spending $G = 1$ | P($G=1, u=0$) | P($G=1, u=1$) | 0.10 |
+| Total | P($u=0$) | P($u=1$) | 1.00 |
+| P($u \mid G = 0$) | 0.05 | 0.95 | 1.00 |
+| P($u \mid G = 1$) | 0.80 | 0.20 | 1.00 |
+
+The probability that $u=1$:
+$$P(u=1)=P(G=0) P(u=1|G=0) + P(G=1) P(u=1|G=1)$$
+$$P(u=1)=(0.900) (0.950) + (0.100) (0.200)=0.855 + 0.020=0.875.$$
+
+Similarly: $$P(u=0)=P(G=0) P(u=0|G=0) + P(G=1) P(u=0|G=1)$$
+$$P(u=0)=(0.900) (0.050) + (0.100) (0.800)=0.045 + 0.080=0.125.$$
+
+The entire table of joint and marginal probabilities is here:
+
+| $u=0$ | $u=1$ |
+| ---- | ----- | ---- | ---- |
+| $G=0$ | 0.045 | 0.855 | 0.900 |
+| $G=1$ | 0.080 | 0.020 | 0.100 |
+| | 0.125 | 0.875 | 1.000 |
+
+Government spending ($G$) and unemployment rate ($u$): Joint &
+marginal probabilities.
+
+Note that the marginal probability of $u=0$ is given by:
+
+$$P(u=0) = P(G=0) P(u=0|G=0) + P(G=1) P(u=0|G=1),$$
+
+i.e. this marginal probability is the weighted average of the conditional probabilities of $u=0$ given that, respectively, $G=0$ and $G=1$, with the weights being the (known) marginal probabilities that $G=0$ and $G=1$, resepctively. Similarly,
+
+$$P(u=1) = P(G=0) P(u=1|G=0) + P(G=1) P(u=1|G=1),$$
+
+where, obviously, $P(G=0) + P(G=1) = 1$.
+
+## Bayes Theorem
+
+More generally, $P(Y=y) = \sum_{i=o}^n P(X=x_i) P(Y=y|X=x_i)$, where $\sum_i P(X=x_i) = 1$.
+
+This leads to a very important result in Statistics.
+
+In the example, we knew the "marginals" of $G$ and the "conditionals" of $u$ given $G$. But what if we observed $u=1$ and needed to know whether $G$ caused it? We need the "conditionals" of $G$ given that $u=1$. Using what we know:
+
+$$P(G=0|u=1) = \frac{P(G=0, u=1)}{P(u=1),}$$
+$$P(G=0|u=1) = \frac{P(G=0) P(u=1|G=0)}{P(G=0) P(u=1|G=0) + P(G=1) P(u=1|G=1)},$$
+$$P(G=1|u=1) = \frac{P(G=1) P(u=1|G=1)}{P(G=0) P(u=1|G=0) + P(G=1) P(u=1|G=1)}.$$
+
+To generalize:
+
+$$P(X=x_i|Y=y) = \frac{P(X=x_i) P(Y=y|X=x_i)}{\sum_{j=1}^n P(X=x_j) P(Y=y|X=x_j)},$$
+
+where X is a discrete r.v. with $n$ posible values. This is called the *Bayes Theorem*.
+
+In theory, $X$ predicts $Y$ with conditional probability $P(Y=y|X=x)$. The inference problem is the reverse: We observe $Y=y$ and $X=x$: the "data." Our question is the extent to which $Y=y$ as a result of $X=x$. The Bayes Theorem offers a systematic way to update our beliefs on the basis of experience:
+
+$$P(X=x_i|Y=y) = P(X=x_i) \left[\frac{ P(Y=y|X=x_i)}{\sum_j P(X=x_j) P(Y=y|X=x_j)}\right],$$
+
+where $P(X=x_i|Y=y)$ is our *posterior* belief that $X=x_i$ given that we observed $Y=y$, $P(X=x_i$ is our prior belief that $X=x_i$, and $P(Y=y|X=x_i)/[\sum_j P(X=x_j) P(Y=y|X=x_j)]$ is the *updating* factor.
+
+## Covariation
+
+The covariance between two r.v.'s $X$ and $Y$ measures the extent to which they move together. It is the expected value of the product of the deviations of each variable from its expected value. The first equation is general, but the second one is for discrete r.v.'s only: it assumes that $X$ can take on $n$ values and $Y$ can take on $k$ values:
+
+$$\textrm{cov}(X, Y) = \sigma_{XY} = E[(X - \mu_X) (Y - \mu_Y)]$$
+$$\textrm{cov}(X, Y) = \sum_{i = 1}^k \sum_{j = 1}^n (x_j - \mu_X) (y_i - \mu_Y) P(X=x_j, Y = y_i).$$
+
+Note that $- \infty < \sigma_{XY} < + \infty$. How do you interpret the formula?
+
+## Correlation
+
+The problem with the covariance is that it is not bounded. Its size depends on the units of $X$ and $Y$ and is, thus, hard to interpret. The correlation between $X$ and $Y$ is another measure of their covariation. But, unlike the covariance, the correlation eliminates the "units" problem. Its formula is:
+$$\textrm{corr}(X, Y) = \frac{\textrm{cov}(X, Y)}{\sqrt{\textrm{var}(X)\ \textrm{var}(Y) }} = \frac{\sigma_{XY}}{\sigma_X \sigma_Y} = \rho_{X, Y}$$
+
+Note that $-1 \leq \textrm{corr}(X, Y) \leq 1$.
+
+Correlation and conditional mean: If $E(Y|X=x)=E(Y)=\mu_Y$, then $X$ and $Y$ are uncorrelated. That is,
+
+$$\textrm{cov}(X, Y) = 0 \ \textrm{and} \ \textrm{corr}(X, Y) = 0.$$
+
+This follows from the law of iterated expectations.
+
+Mean and variance of sums of r.v.'s.  The mean of the sum of two r.v.'s, $X$ and $Y$, is the sum of their means: $$E(X + Y) = E(X) + E(Y) = \mu_X + \mu_Y$$
+
+The variance of the sum of $X$ and $Y$ is the sum of their variance plus twice their covariance:
+$$\textrm{var}(X + Y) = \textrm{var}(X) + \textrm{var}(Y) + 2 \textrm{cov}(X,Y) = \sigma^2_X + \sigma^2_Y + 2 \sigma_{XY}$$
+
+If $X$ and $Y$ are independent, the covariance is zero and the variance of their sum is the sum of their variances:
+$$\textrm{var}(X + Y) = \textrm{var}(X) + \textrm{var}(Y) = \sigma^2_X + \sigma^2_Y$$
+
+Why?
+
+Sums of r.v.'s. Let $X$, $Y$, and $V$ be r.v.'s and $a$, $b$, and $c$ be constants. Try to prove these facts follow from the definitions of mean, variance, covariance, and correlation:
+$$E(a + b X + c Y) = a + b \mu_X + c \mu_Y$$
+$$\textrm{var}(a + b Y) = b^2 \sigma^2_Y$$
+$$\textrm{var}(a X + b Y) = a^2 \sigma^2_X + 2 a b \sigma_{XY} + b^2 \sigma^2_Y$$
+$$E(Y^2) = \sigma^2_Y + \mu^2_Y$$
+$$\textrm{cov}(a + b X + c V, Y) = b \sigma_{X,Y} + c \sigma_{V, Y}$$
+$$E(XY) = \sigma_{XY} + \mu_X \mu_Y$$
+$$|\sigma_{XY}| \leq \sqrt{\sigma^2_X \sigma^2_Y}.$$
+
+

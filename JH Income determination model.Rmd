@@ -1,0 +1,357 @@
+---
+title: "Income Determination Model"
+author: "Julio Huato"
+date: "5/11/2020"
+output: pdf_document
+bibliography: bib.bib
+---
+
+This handout introduces a basic *model* of economic activity in the short run. It is a highly simplified version of [@keynes1936] as interpreted by [@hicks1937]. The simplification is owed to [@samuelson1976].
+
+The chief purpose of the model is to determine the level of *income* for an economy in equilibrium for given levels of other relevant variables thought to be less directly affected by income. Though simplistic, the model is helpful in capturing the way in which different types of aggregate spending cause large short-run fluctuations in household income, and therefore in employment---fluctuations such as those involved in so-called *business cycles*.
+
+Assumptions of the model
+========================
+
+This chapter uses the same symbols introduced in the previous section to denote a period's monetary inflows and outflows. However, their meaning here is different:
+
+In *macroeconomic accounting*, inflows and outflows (payments and receipts, income and expense) refer usually to activity that took place in the past. In the economists' language, the flows involved are *ex post* (after-the-fact) magnitudes. In such case, in any given period, for each sector (households, businesses, government, and rest of the world) and for each group of markets (final goods markets, primary inputs markets, and financial markets), the inflows and outflows must necessarily be equal. In any given period, whatever any sector or market receives, that sector or market must pay.
+
+However, in a *theoretical* effort, i.e. when one's goal is to anticipate the effect of changes in income caused by changes in given variables, the inflows and outflows stipulated in the model must refer to the desired, expected, or *planned* magnitudes of each sector. In other words, inflows and outflows are to be regarded as *ex ante* (before-the-fact) magnitudes. In general, there is no necessary reason for the effective flows of a sector to be necessarily equal to its planned flows. Also, as long as the inflows of a sector correspond to the outflows of another sector, there is no necessary reason why the plans of each sector must coincide. In principle, all sorts of mismatches are possible. Only by chance will planned and effective flows coincide. After the fact, once the accounting is done, the magnitudes will necessarily match, but the reckoning may not show the severity of the adjustments required to ensure the matching of inflows and outflows.
+
+To illustrate the point, consider a competitive apple market operating in a given day. Early in the morning, buyers may arrive with a budget in mind: some notion of the quantity of apples to purchase at given prices, and the total amount of money to spend. On the other hand, the sellers may arrive with a plan of the quantity of apples to sell at some price, and the total amount of money they expect to receive by the end of the day. Yet, it is only through their haggling and bargaining that the actual price and quantity of apples exchanged, and therefore the amount of money buyers will spend and sellers will receive, will be determined. At the end of the day, the price paid by the buyers will be necessarily equal to the price charged by the sellers, the quantity of apples purchased by the buyers will equal the quantity sold by the sellers, and the sum of money spent by the buyers will match exactly the sum of money received by the sellers. However, this does not mean that every buyer and seller will realize their initial plans, or that they will return home equally happy with the deals they entered into. It is even possible that some sellers may return home with all their apples, unwilling to sell them at a price they regard as too low. Similarly, some buyers may walk away discouraged by a price they view as too high, with no apple on hand.
+
+An economic model or theory is an abstract or simplified representation of an economy. An actual economy is a highly complex socio-historical organism. Simplification is necessary for an economic model to be tractable, from which to derive crisp and clear results. If the model is too complicated, clarity will suffer. However, if the model is too simple, if important features of economic reality are stripped off it, the result may be a distorted view of the economy to the point of being misleading or useless.
+
+As said, the model in this chapter is intended to illuminate the short-run functioning of the economy. The study of long-run growth requires a different theoretical framework. Since the focus in on the short run, and---historically, at least in the case of the United States and other rich countries---prices tend to remain stable in the short run, the model assumes that the price level (as it would be measured by a price index such as the GDP deflator) stays constant. Imbalances between inflows and outflows among the sectors and markets in the economy must adjust for the economy to function, but the assumption here is that the adjustments in such flow *values* will consist in *quantity* adjustments rather than *price* adjustments.
+
+In the final-goods markets, if spending by the various sectors in the economy is small compared to the value of final output offered for sale, the quantity of final goods demanded by these sectors and offered for sale by businesses must adjust down instead of the parties agreeing on lower prices. And if spending is large compared to the value of final goods supplied by businesses, the quantity of these final goods demanded and offered for sale will adjust up rather than the parties agreeing on a higher price.
+
+In the primary factors markets, if business activity is to decrease, the quantity of primary inputs employed by businesses---i.e. labor, capital, and land---will decrease as required, rather than reducing the wage, profit, or rental rates paid by businesses to the owners of these primary inputs. If businesses are to slow down production, they will lay off workers or reduce the hours of work rather than pay each worker less or lower the hourly wage. Also, if business activity expands, businesses will increase their employment of labor, capital, and land rather than increase the pay per worker, machine, or acre of land.
+
+Finally, in the financial markets, the "price of credit"--i.e. the interest rate---will be assumed constant, and it will be the quantity of funds loaned or borrowed that will adjust to ensure the balance between them. This assumptions permits us to ignore the role of the interest rate in the spending behavior of households, businesses, government, and foreigners. The discussion of the interest rate and its role in the economy is left to the chapter on monetary policy.
+
+The model in this chapter ignores the heterogeneity of final output. It is as if one assumes that the economy produces a single final good, which can be used flexibly as a consumption good or as a capital good.[^1]
+
+For the model to be helpful, non-trivial, it must specify (1) the causes or forces that drive the *outflows* of at least some sectors of the economy (e.g. households and businesses) *independently* from the specification of (2) the causes or forces that drive their *inflows*. This is what economists call the *behavioral condition(s)* of the model. Now, since the inflows and outflows in at least some sectors of the economy result now from the actions of different forces, there is no necessary reason for these forces to lead to their equalization. However, a coherent economy requires the existence of some "disciplinary" process by which its parts are made to balance one another. To capture the outcome of this process, the model imposes an *equilibrium condition*, namely the condition that one way or another---by whichever adjustment necessary---the inflows and outflows be equal for the given period. This equilibrium condition "closes" or ties up the model.
+
+The model in this chapter assumes the inflows and outflows of the government, of the rest of the world, and *partly* of households and businesses as given data to "calibrate" the model. In particular, since the model focuses on the short run, then the main purpose of the model in this chapter is the determination of the level of equilibrium income (or value of *final* output in equilibrium) $Y^*$ in the economy as measured---say---by real GDP.[^2]
+
+Aside from helping us determine the equilibrium level of income in the economy $Y^*$, the model will also help us specify the equilibrium levels of (1) household consumption spending $C^*$ and (2) saving $S^*$, and thereby all other relevant macroeconomic flows.
+
+The model set-up 
+================
+
+The model consists of two propositions expressed mathematically as: $$ C = \overline{C} + c \ (Y - \overline{T}),$$ 
+$$Y = C + \overline{I} + \overline{G} + (\overline{X-Q}), $$
+
+where, again, $C$ is consumption spending, $\overline{C}$ is the exogenous or *autonomous* part of consumption spending, $c$ is the *marginal propensity to consume*, $Y - \overline{T} = Y_D$ is disposable (or after-tax) income, $\overline{I}$ is investment spending, $\overline{G}$ is government spending, and $(\overline{X-Q})$ is net exports.[^3] Equation ( ) is called the *consumption function*. The consumption function is the only behavioral condition specified in this model.
+
+Autonomous consumption spending $\overline{C}$ can be interpreted as the hypothetical level of consumption spending the households in the economy will undertake if their disposable income $Y_D$ were to drop to zero. Such a situation is, of course, unthinkable in practice, since an economy with zero disposable income would disintegrate. But, mathematically, if $Y_D = 0$, then $C = \overline{C}$.
+
+The marginal propensity to consume $c$ represents the fraction of an extra dollar of disposable income that the households in the economy spend (or the typical household spends) in consumption goods and services. It is assumed that the marginal propensity to consume is positive yet smaller than $1$, i.e. $0 < c < 1$. In other words, the households in the economy cannot spend in consumption all their disposable income, but only a portion of it, saving the rest. On the other hand, households are not allowed to save all disposable income either: they must spend at least a portion of it. Note that $(1-c)$ represents the marginal propensity to save, or the fraction of an extra dollar of disposable income that the average household saves. Also note that the marginal propensity to consume plus the marginal propensity to save are equal to $1$ or $100\%$ of disposable income.
+
+In brief, equation ( ) says that household consumption spending is the sum of two components: (1) an autonomous consumption portion $\overline{C}$ and (2) a second portion that depends on disposable income $Y_D$---or, more precisely, that depends on income $Y$, since net taxes $T$ are given or assumed.
+
+The part of consumption spending that depends on income is $c \ Y_D$. If, for example, $c = 0.8$, then $80$ cents out of each dollar in disposable income will be spent in consumption while the rest, $20$ cents will be saved.
+
+Equation ( ) is the *equilibrium condition* of the model. This equation says that the income generated by the business' sales of final goods in the economy $Y$, income that businesses then transfer to the households in the form of labor income and property income, must equal household spending in consumption goods $C$, business investment spending in capital goods $\overline{I}$, government spending in all types of final goods $\overline{G}$, and net spending by the rest of the world in domestic final goods (net exports) $(\overline{X-Q})$.
+
+Expanding the product and rearranging terms in equation ( ), and collecting some terms in brackets in equation ( ), permits us to rewrite the model as follows: 
+$$C = (\overline{C} - c \ \overline{T}) + c \ Y,$$ 
+$$Y = C + [\overline{I} + \overline{G} + (\overline{X-Q})].$$
+
+In equations ( ) and ( ), all the variables with the bar on top and also the marginal propensity to consume $c$ are *given* as data. Hence, each of these two equations can be viewed now as a *linear function*. The consumption function has dependent variable $C$, independent variable $Y$, intercept $(\overline{C} - c \ \overline{T})$, and slope $c$. The equilibrium condition has dependent variable $Y$, independent variable $C$, intercept $[\overline{I} + \overline{G} + (\overline{X-Q})]$, and slope $1$.
+
+Equation ( ) shows consumption spending $C$ as a *function* of income $Y$ *because* $Y$ is not yet determined, given, or specified. Also, equation ( ) shows income $Y$ as a *function* of consumption spending $C$ *because* $C$ is also undetermined. Interpreted this way, equation ( ) says that consumption spending depends on income while equation ( ) says exactly the opposite, namely that income depends on consumption spending! A moment reflection should convince you that both are plausible statements: If income increases, then households will tend to increase their spending in consumption goods. And if households spend buying final (consumption) goods from businesses, the said businesses will capture the totality of this spending as their income.
+
+In brief, at this point, the system formed by equations ( ) and ( ) leave income $Y$ and consumption spending $C$ undetermined. We have two equations in two unknowns. By solving these equations simultaneously, we can then reconcile the two statements above: $C$ depends on $Y$ and $Y$ depends on $C$.
+
+The model solution 
+==================
+
+There are various methods to solve a system of two linear equations in two unknowns, as long as---mathematically---these equations are independent (not redundant) and do not contradict each other.[^4] The assumptions of the model are chosen in such a way that there's no redundancy or contradiction in these equations, and they do have a unique solution.[^5]
+
+An algebraic procedure to solve this system of equations, known as the substitution method, is now shown. The method consists in replacing $C$ in equation ( ) with its equivalent from equation ( ), which leads to collapsing the two equations into one, with a single unknown $Y$, because $C$ is eliminated with the substitution. Since $Y$ appears both on the left and right hand sides of the resulting equation, it is required next to solve the equation for $Y$ by moving the $Y$ term in the right hand side to the left hand side and then "cleaning" the left hand side.
+
+$$ Y = (\overline{C} - c \ \overline{T}) + c \ Y + [\overline{I} + \overline{G} + (\overline{X-Q})],$$ 
+$$Y = c \ Y + [\overline{C} + \overline{I} + \overline{G} + (\overline{X-Q})] - c \ \overline{T}, \nonumber $$
+$$Y - c Y = [\overline{C} + \overline{I} + \overline{G} + (\overline{X-Q})] - c \ \overline{T}, \nonumber $$
+$$Y (1 - c) = [\overline{C} + \overline{I} + \overline{G} + (\overline{X-Q})] - c \ \overline{T}, \nonumber $$ 
+$$Y^* = \left(\frac{1}{1 - c}\right) [\overline{C} + \overline{I} + \overline{G} + (\overline{X-Q})] - \left(\frac{c}{1-c}\right) (\overline{T}).$$
+
+The asterisk on $Y^*$ in the final equation indicates the solution of the model. It is a solution because all variables on the right hand side of the equation are exogenously given. Thus, the level of equilibrium income in the economy is determined numerically once the numerical levels of the exogenous variables are given as data.
+
+Now that the income level is determined, the level of consumption in equilibrium can also be determined by substituting the equilibrium level of income in equation ( ):
+
+$$ C^* = (\overline{C} - c \overline{T}) + c Y^*.$$
+
+Since the equilibrium levels of income $Y^*$ and consumption spending $C^*$ are now determined, then the equilibrium levels of disposable income $Y^*_D$ and saving $S^*$ may also be determined numerically.
+
+$$ Y^*_D = Y^* - \overline{T},$$ 
+$$S^* = Y^*_D - \overline{T}.$$
+
+With this, we have a full, numerically determined picture of the entire economy for the upcoming period of time.
+
+A numerical example 
+===================
+
+Suppose that, in a hypothetical economy, the exogenous or autonomous portion of consumption spending by households is $\overline{C} = 20$ billion dollars, the households' marginal propensity to consume out of income is $c = 0.6$, business investment spending $\overline{I} = 40$, net taxes and government spending are both $\overline{T} = \overline{G} = 50$, and net exports is $(\overline{X-Q}) = 0$. Determine the equilibrium levels of income $Y^*$, consumption spending $C^*$, disposable income $Y^*_D$, and saving $S^*$.
+
+We simply substitute the given data in equations ( ), ( ), ( ), and ( ):
+
+$$ Y^* = \left(\frac{1}{1 - 0.6}\right) [20 + 40 + 50 + 0] - \left(\frac{0.6}{1-0.6}\right) (50), \nonumber $$ 
+$$Y^* = \left(\frac{1}{0.4}\right) [110] - \left(\frac{0.6}{0.4}\right) (50), \nonumber $$
+$$Y^* = \left(2.5\right) [110] - \left(1.5\right) (50), \nonumber $$
+$$Y^* = 275 - 75, \nonumber $$ 
+$$Y^* = 200. \nonumber $$
+$$C^* = 20 - (0.6 \times 50) + 0.6 (200), \nonumber $$
+$$C^* = 20 - 30 + 120 = 120 - 10, \nonumber $$
+$$C^* = 110. \nonumber $$ 
+$$Y^*_D = 200 - 50, \nonumber $$
+$$Y^*_D = 150. \nonumber $$ 
+$$S^* = 150 - 50, \nonumber $$ 
+$$S^* = 100. \nonumber$$
+
+The equilibrium level of income in this economy is $200$ billion dollars, of consumption spending $110$ billion dollars, of disposable income $150$ billion dollars, and of saving is $100$ billion dollars. Also, borrowing by the government and the rest of the world (including foreign stock sales to domestic residents) are both, by assumption, equal to zero:
+
+$$ B_G = G - T = 50 - 50 = 0, \nonumber $$ 
+$$B_{ROW} = X - Q = 0. \nonumber$$
+
+Finally, borrowing (including primary stock sales) by businesses is equal to investment spending, given by assumption (in billion dollars): $$B_B = I = 40.$$
+
+All the levels of the flows in this imaginary economy are now completely determined. We are now ready to use the model for its real purpose: to study the fluctuations in economic activity or business cycles.
+
+The use of the model
+====================
+
+Consider the effect that changes in each exogenous or given variable has on equilibrium income $Y^*$. Income is the general measure of economic activity. With some distortion, real GDP captures the economy's productivity and standard of living. Income is closely related to the conditions in the labor market, i.e. with the unemployment rate $u$. The higher $Y^*$, the lower the unemployment rate. Arthur Okun, chairman of the Council of Economic Advisers under president John F. Kennedy's, noted that---roughly---about a $2\%$-increase in real GDP was associated with a $1\%$-decrease in the unemployment rate. Although Okun warned that this empirical regularity had to be taken with due caution, economists have given it the name of "Okun's law." The following plot shows this rough association:
+
+```{r, message=FALSE, warning = FALSE}
+library(quantmod)
+getSymbols('GDPC1',src='FRED')
+Yl <- GDPC1
+Yl.ts <- ts(Yl, frequency = 4, start=c(1947, 01))
+Y.ts <- diff(log(Yl.ts))*100
+Y.ts <- window(Y.ts, start=c(1948, 01))
+
+getSymbols('UNRATE',src='FRED')
+u <- UNRATE
+um.ts <- ts(u, frequency =12, start=c(1948, 01, 01))
+u.ts <- aggregate(um.ts, nf = 4, FUN = mean)
+
+Yhat <- as.vector(Y.ts)
+u <- as.vector(u.ts)
+macro <- data.frame(Yhat, u)
+head(macro)
+
+par(mar = c(5, 5, 4, 2))
+coefficients(lm(u ~ Yhat))
+plot(Yhat, u, pch=16, 
+     sub="Source: FRED, 1948Q1-2020Q1. Calculations: Julio Huato", 
+     mtext(expression(paste("Fitted line: ", u==5.82 - 0.12 ~ hat(Y)))), 
+     main = expression(paste("US unemployment rate ", u, " vs. real GDP growth ", hat(Y))), ylab=expression(u), xlab = expression(hat(Y)))
+abline(lm(u ~ Yhat), lty=1, col="red")
+```
+
+
+Thus, $Y^*$ can be used as a proxy variable for the overall conditions in the economy.
+
+A positive change (increases) in equilibrium income $Y^*$ is akin to an economic expansion, such as in periods of economic recovery or prosperity. A negative change (decrease) in equilibrium income $Y^*$ is indicative of an economic contraction, such as in a recession or a depression. By analyzing equation ( ), in particular the change in $Y^*$ per unit change of each exogenous variables and, also, its sensitivity to changes in the marginal propensity to consume $c$, we will develop intuition as to why an economy is buffeted through its business cycles.
+
+Among all the variables assumed to be exogenous, particular attention needs to be paid to the *fiscal policy* variables: (1) government spending $G$ and (2) net taxes $T$. Central governments have a large measure of control over these two variables which they may use to influence the condition of the economy. In the United States, at the national level, fiscal policy is determined through a political and legislative process that involves Congress and the White House. Each year, the White House proposes to Congress an annual budget stipulating the planned tax receipts and expenditures of the federal government in the upcoming year, budget that the Congress may approve with amendments and the president must sign (or veto and send back to Congress until Congress and White House reach agreement). Once signed, the budget becomes law, and the federal government is in charge of implementing and administering this law. If the law is challenged in court, the judicial branch of government must then render a verdict adjudicating rights and obligations under the budget law.
+
+What is the effect of a given change in government spending $\Delta \overline{G}$ on the equilibrium level of income $Y^*$? In other words, what is the *change* in income $\Delta Y^*$ that results from $\Delta \overline{G}$? To answer this question, consider an initial given level of government spending $\overline{G}_0$ and an initial equilibrium income $Y^*_0$, with all other exogenous variables kept constant. Then, consider a change in government spending $\Delta G$ such that $\overline{G}_1 = \overline{G}_0 + \Delta \overline{G}$. The effect on $Y^*$ is then $\Delta Y^* = Y_1^* - Y_0^*$.
+
+In algebraic terms:
+
+$$ Y_0^* = \left(\frac{1}{1 - c}\right) [\overline{C} + \overline{I} + \overline{G}_0 + (\overline{X-Q})] - \left(\frac{c}{1-c}\right) (\overline{T}), \nonumber \\ Y_0^* = \left(\frac{1}{1 - c}\right) [\overline{C} + \overline{I} + (\overline{X-Q})] - \left(\frac{c}{1-c}\right) (\overline{T}) + \left(\frac{1}{1 - c}\right) [\overline{G}_0], \nonumber \\ Y_1^* = \left(\frac{1}{1 - c}\right) [\overline{C} + \overline{I} + \overline{G}_1 + (\overline{X-Q})] - \left(\frac{c}{1-c}\right) (\overline{T}), \nonumber \\ Y_1^* = \left(\frac{1}{1 - c}\right) [\overline{C} + \overline{I} + (\overline{X-Q})] - \left(\frac{c}{1-c}\right) (\overline{T}) + \left(\frac{1}{1 - c}\right) [\overline{G}_1 ], \nonumber \\ Y_1^* - Y_0^* = \Delta Y^* = \left(\frac{1}{1 - c}\right) [\overline{G}_1] - \left(\frac{1}{1 - c}\right) [\overline{G}_0], \nonumber \\ \Delta Y^* = \left(\frac{1}{1 - c}\right) [\overline{G}_1 - \overline{G}_0], \nonumber \\ \Delta Y^* = \left(\frac{1}{1 - c}\right) \Delta \overline{G}. \nonumber$$
+
+The expression $\left(\frac{1}{1 - c}\right)$ is known among the economists as the *autonomous-spending multiplier*. Since $0 < c < 1$, this multiplier is a positive number greater than one: $\left(\frac{1}{1 - c}\right) > 1$. For example, if $c = 0.6$, then $\left(\frac{1}{1 - 0.6}\right) = \left(\frac{1}{0.4}\right) = 2.5$. This means that an additional dollar of government spending will translate into $2.5$ dollars of additional income in equilibrium.
+
+The reader should verify that the following result, concerning the effect of a change in net taxes $\Delta \overline{T}$ on equilibrium income $Y^*$, is also correct:
+
+$$ \Delta Y^* = - \left(\frac{c}{1 - c}\right) \Delta \overline{T}. \nonumber \\$$
+
+The expression $- \left(\frac{c}{1 - c}\right)$ is the *net-tax multiplier*. It should be noted that this multiplier is negative. For example, again, if $c = 0.6$, then $- \left(\frac{0.6}{1 - 0.6}\right) = - \left(\frac{0.6}{0.4}\right) = - 1.5$. That is, a dollar *increase* in net taxes will translate into a $1.50$ dollar *decrease* in the level of equilibrium income. Note that
+
+$$ \left(\frac{1}{1 - c}\right) - 1 = \left(\frac{1}{1 - c}\right) - \left(\frac{1 - c}{1 - c}\right), \nonumber $$ 
+$$\left(\frac{1}{1 - c}\right) - 1 = \left(\frac{1 - 1 + c}{1 - c}\right)\nonumber $$
+$$\left(\frac{1}{1 - c}\right) - 1 = \left(\frac{c}{1 - c}\right).$$
+
+Therefore, the net-tax multiplier is equal in *absolute value* (that is, ignoring its negative sign) to the autonomous-spending multiplier minus 1. Thus, if the autonomous-spending multiplier is $2.5$, the net-tax multiplier is $-1.5$.
+
+Note that, from the viewpoint of the government finances, a dollar increase in spending has the same effect as a dollar decrease in taxes. Each of these changes translates into an additional dollar *deficit* and, therefore, a dollar of government borrowing. However, the impacts of these two policy measures on equilibrium income are not symmetric. A dollar increase in $G$ leads to a larger increase in $Y^*$ than a dollar decrease in net taxes $T$ does.
+
+Furthermore, the reader should verify that the following results are also correct:
+
+$$ \Delta Y^* = \left(\frac{1}{1 - c}\right) \Delta \overline{C}, \nonumber $$ 
+$$\Delta Y^* = \left(\frac{1}{1 - c}\right) \Delta \overline{I}, \nonumber $$ 
+$$\Delta Y^* = \left(\frac{1}{1 - c}\right) \Delta (\overline{X-Q}). \nonumber$$
+
+This is the reason why the expression $\left(\frac{1}{1 - c}\right)$ is called the autonomous-spending multiplier and not just the government spending multiplier. It is the same multiplier that applies to changes in household autonomous consumption spending, business investment spending, and net exports. This should clarify why it is so important for policymakers to instill confidence in the public about the prospects of the economy. If, regardless of the income level, the government persuades households to spend an extra dollar in consumption goods, or businesses in capital goods, or foreigners in domestic final goods, the positive impact on the economy will be the same as if the government itself had spent one additional dollar in purchasing final goods!
+
+[^1]: Remember that the markets for *intermediate goods*, where businesses exchange with one another raw materials, ancillary materials, and other items for current productive use, are ignored here because including them in the economy's annual net product would lead to counting them more than once.
+
+[^2]: The asterisk on $Y^*$ indicates that it is the *equilibrium* level of $Y$.
+
+[^3]: The bars above some variables indicate that they are *exogenous*, autonomous, or given as data to specify the model quantitatively.
+
+[^4]: Mathematically, the requirements are that, when the equations are graphed, the resulting straight lines (1) do not overlap each other and (2) do not run parallel to each other, but that they cross instead.
+
+[^5]: Aside from the mathematical requirements, there is an economic requirement for a proper solution of the model to exist. For an economy to be viable, its equilibrium levels of income $Y^*$ and consumption spending $C^*$ have to be positive. An economy with $Y^*, C^* \leq 0$ would perish. Therefore, the straight lines representing graphically the consumption function and the equilibrium condition must cross in the positive quadrant. 
+
+R code of the model
+===================
+
+```{r}
+# Julio Huato
+# 5/11/2020
+
+# The simple macroeconomic model
+# based on 
+# (1) Keynes, John Maynard (1936/2018), 
+# The General Theory of Employment, 
+# Interest, and Money. Springer, and
+# (2) Hicks, John R. (1937). 
+# "Mr. Keynes and the 'Classics': 
+# A Suggested Interpretation. 
+# Econometrica, pp.147-159.
+
+# Primary data
+Cbar <- 100
+c <- .9
+Ibar <- 160
+Gbar <- 140
+Tbar <- 140
+X_Qbar <- 0
+
+# Aggregate autonomous spending
+AS <- (Cbar + Ibar + Gbar + X_Qbar)
+AS
+
+# Autonomous spending multiplier
+Am <- 1/(1-.9)
+Am
+
+# Tax multiplier
+Tm <- -(.9/(1-.9))
+Tm
+
+# Equilibrium income
+Ystar <- Am*AS+Tm*Tbar
+Ystar
+
+# Equilibrium consumption
+Cstar <- Cbar + c*(Ystar-Tbar)
+Cstar
+
+# Equilibrium saving
+Star <- Ystar - Cstar - Tbar
+Star
+
+# Fiscal policy data
+dGbar <- 4
+dTbar <- -4
+
+# Effect of delta G on Y*
+dYstarG <- Am*(dGbar)
+dYstarG
+
+# Effect of delta T on Y*
+dYstarT <- Tm*(dTbar)
+dYstarT
+
+# To remove all objects
+rm(list = ls())
+
+# Level function
+macro_eq <- function(Cbar, Ibar, Gbar, Tbar, X_Qbar, c) {
+  # To use the function, type dmacro_eq(Cbar, Ibar, 
+  # Tbar, X_Qbar, c). Make sure 0 < c < 1.
+  if(c <= 0 | c >= 1){
+    print(paste(c, " must be positive and less than 1."))
+  }  
+  A = (Cbar + Ibar + Gbar + X_Qbar)
+  Am = 1/(1-c)
+  Tm = -c/(1-c)
+  Ystar = Am*A + Tm*Tbar
+  Cstar = Cbar + c*(Ystar-Tbar)
+  Star = Ystar - Tbar - Cstar
+  print(paste("The autonomous-spending multiplier is", Am))
+  print(paste("The tax multiplier is", Tm))
+  print(paste("The equilibrium income level is Y*=", Ystar))
+  print(paste("The equilibrium disposable-income level is Y*_d=", Ystar-Tbar))
+  print(paste("The equilibrium level of consumption spending is C*=", Cstar))
+  print(paste("The equilibrium level of household saving is S*=", Star))
+  print(paste("Government borrowing (deficit) is B_g=", Gbar-Tbar))
+  print(paste("Firm borrowing is B_f=", Ibar))
+  print(paste("ROW borrowing is B_row=", X_Qbar))
+  }
+
+# Example: Cbar=20, Ibar=40, Gbar=40, Tbar=40, X_Qbar=0, c=.6
+macro_eq(Cbar=20, Ibar=40, Gbar=40, Tbar=40, X_Qbar=0, c=.6)
+
+# To remove all objects
+rm(list = ls())
+
+# Change function: fiscal policy (dGbar)
+dmacro_eq <- function(Cbar, Ibar, Gbar, Tbar, X_Qbar, c, dGbar) {
+  # To use the function, type dmacro_eq(Cbar, Ibar, 
+  # Tbar, X_Qbar, c, dGbar). Make sure 0 < c < 1.
+  if(c <= 0 | c >= 1){ 
+    print(paste(c, " must be positive and less than 1."))
+  }  
+  A = (Cbar + Ibar + Gbar + X_Qbar)
+  Am = 1/(1-c)
+  Tm = -c/(1-c)
+  Ystar = Am*A + Tm*Tbar
+  Cstar = Cbar + c*(Ystar-Tbar)
+  Star = Ystar - Tbar - Cstar
+  econ_eq <- list(A, Am, Tm, Ystar, Cstar, Star)
+  dYstar_dGbar <- Am*dGbar 
+  print(paste("The change in Y* caused by dGbar is dY*=", dYstar_dGbar))
+  print(paste("The old equilibrium income level is Y*_0=", Ystar))
+  print(paste("The new equilibrium income level is Y*_1=", Ystar+dYstar_dGbar))
+}
+
+# Example: Cbar=20, Ibar=40, Gbar=40, Tbar=40, X_Qbar=0, c=.6, dGbar = 2
+dmacro_eq(20, 40, 40, 40, 0, .6, 2)
+
+# To remove all objects
+rm(list = ls())
+
+# Change function: fiscal policy (dTbar)
+dmacro_eq <- function(Cbar, Ibar, Gbar, Tbar, X_Qbar, c, dTbar) {
+  # To use the function, type dmacro_eq(Cbar, Ibar, 
+  # Tbar, X_Qbar, c, dTbar). Make sure 0 < c < 1.
+  if(c <= 0 | c >= 1){
+    print(paste(c, " must be positive and less than 1."))
+  }  
+  A = (Cbar + Ibar + Gbar + X_Qbar)
+  Am = 1/(1-c)
+  Tm = -c/(1-c)
+  Ystar = Am*A + Tm*Tbar
+  Cstar = Cbar + c*(Ystar-Tbar)
+  Star = Ystar - Tbar - Cstar
+  econ_eq <- list(A, Am, Tm, Ystar, Cstar, Star)
+  dYstar_dTbar <- Tm*dTbar 
+  print(paste("The change in Y* caused by dTbar is dY*=", dYstar_dTbar))
+  print(paste("The old equilibrium income level is Y*_0=", Ystar))
+  print(paste("The new equilibrium income level is Y*_1=", Ystar+dYstar_dTbar))
+}
+
+# Example: Cbar=20, Ibar=40, Gbar=40, Tbar=40, X_Qbar=0, c=.6, dTbar = -2
+dmacro_eq(20, 40, 40, 40, 0, .6, -2)
+```
+
+The graphical solution of the model 
+===================================
+
+Graphically, in a space that shows income on the horizontal axis and consumption spending on the vertical axis, equations ( ) and ( ) appear as two upward sloping straight lines; the income line with a steeper slope (a slope of $1$) than the consumption-spending line (with a slope of $0 < c < 1$). The solution of the model is determined at the point where the two lines cross. Figure [2] illustrates this evaluating the equations with the data from the numerical example above.
+
+Most textbooks in macroeconomics prefer an alternative graphical rendition of the model, which has some illuminating advantages.
+
+
+References
+==========

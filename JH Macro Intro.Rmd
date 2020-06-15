@@ -1,0 +1,2721 @@
+---
+title: 'Economics: A Critical Introduction'
+author: "Julio Huato"
+date: "5/8/2020"
+output:
+  html_document:
+    df_print: paged
+bibliography: bib.bib
+---
+
+# MATERIAL REPRODUCTION OF A SOCIETY
+
+"Every beginning is difficult, holds in all sciences."
+
+-- Karl Marx
+
+"We have now sunk to a depth at which restatement of the obvious is the first duty of intelligent men." 
+
+-- George Orwell
+
+"It is well to remember that the most obvious things are frequently the most important." 
+
+-- Paul M. Sweezy
+
+
+Introduction
+============
+
+The basic precondition and starting point of any social science, including economics, is the *material* or physical existence of humans.
+
+This chapter examines the general conditions for the ongoing existence of people in society: the conditions indispensable for the *production* of the physical lives of humans in a particular social context.[^1]
+
+[^1]: [@Marx:2010Grundrisse1], p. 17: "To begin with, the subject to be discussed is *material production*. Individuals producing in a society---hence the socially determined production by individuals is of course the point of departure."
+
+Due to its high level of generality and abstraction, this will probably be the most challenging chapter in the textbook. The fluidity of the terms, definitions, and concepts in this chapter may tax the readers' patience. Often, the discussion will seem to run in circles.  But, think of it as applying several layers of paint on a wall.  That is what it takes to cover it uniformly with a smooth color.
+
+The chief goals of this chapter are to
+
+1.  expose in general the fundamental content of all social life, which in modern societies appears in various seemingly disjoint spheres (economic, legal, political, ethical, etc.), and
+
+2.  highlight the distinction between---on the one hand---these physical or *material* conditions, which are of a general character, and--on the other hand--the specific *social* context in which such material conditions are embedded.
+
+Human individuals reproduce ourselves in and through our association or cooperation with other human individuals, i.e. through *society*. However, the focus of this chapter is not on this association, which configures the *internal* structure of society.[^2] Instead, the focus is on the general, necessary, and ongoing relation between humans, on the one hand, and the rest of nature, on the other hand.
+
+[^2]: Chapter [\[c:soc\]] focuses on the general formation of *social structure* proper and chapter [\[c:ppf\_coop\]] introduces a simple formal model to study it.
+
+To center the discussion on this humanity-nature ongoing relationship, it is helpful to imagine all individuals as forming a single social unit facing the rest of nature, a harmonious family or communist society, th
+
+To center the discussion on this humanity-nature ongoing relationship, it is helpful to imagine all individuals as forming a single social unit facing the rest of nature, a harmonious family or communist society, thus ruling out any conflict of interest among its individual members.
+
+Frequently, and not always in a fully conscious manner, theoretical economists use a communist society as the "natural" benchmark against which to contrast the efficiency and overall rationality of other, historically evolved social structures. The notions of the *benevolent planner* and the *social planner* in growth theory or the figure of the *auctioneer* postulated in general-equilibrium theory testify to this. In particular, the canonical proof of the *fundamental theorems of welfare economics* presuppose, without naming it, a perfect communist society as its optimal benchmark, and then invokes separation theorems to show that, under highly idealized conditions (perfect knowledge and convexity of preferences and technology), private self-regarding individuals oblivious of the constraints facing society as a whole can choose their (production, consumption, and exchange) actions and generate the communist allocation by each one choosing her actions on the sole basis of their (collectively self-consistent) market prices.
+
+This is the proper starting point, because even though we humans are obviously a part of nature, we have a sharp sense of our uniqueness as a species and, thus, we set ourselves apart from the rest of the physical world.
+
+The first section offers a general discussion of the process and the main activities that constitute it. The second section uses a diagram to visualize the inflows and outflows in each activity of the reproductive cycle. The third section deepens our understanding of the ultimate product of the cycle. The fourth section focuses on some important physical implications of the reproductive process.
+
+Consumption and production ==========================
+
+For individuals to exist and form a modern society, we must breathe air, drink water, eat food, wear clothes, shelter ourselves, transport ourselves on vehicles, read books, use electronic devices, etc.--and, therefore, we must extract, make, or build these items in the first place! In other words, individuals must conduct a host of activities that, taken collectively, *produce* us as concrete humans in our particular historical setting. These activities must recur. Thus, the material production of ourselves in society is a cyclical *reproduction*.
+
+In the most immediate sense, the activity that reproduces people is that in which we personally appropriate, use, or *consume* a host of physical objects such as air, water, food, clothes, buildings, vehicles, roads, books, electronic devices, etc. We may call them consumable objects or just *consumables*. Additional examples of consumables follow: 
+
+In the most immediate sense, the activity that reproduces people is that in which we personally appropriate, use, or *consume* a host of physical objects such as air, water, food, clothes, buildings, vehicles, roads, books, electronic devices, etc. We may call them consumable objects or just *consumables*. Additional examples of consumables follow:
+
+For example: An apple on a kitchen table, ready to be eaten. Also, a car in a garage, which its owner is to use to transport herself to her workplace. Another example: a pristine beach in a Pacific island, ready for vacationers to enjoy.
+
+Consumption or, more specifically, *personal consumption* is the activity in which individual humans use up or take in objects that directly meet our most immediate needs. Consumption is the activity by which we materially or physically produce ourselves as persons. In other words, consumption is the process by which objects are directly used by individuals in the personal production of ourselves.
+
+These are some concrete examples that illustrate the general concept. In reading these examples, keep in mind that, in general, when consuming, the person is producing herself as a person in the world, and pinpoint
+
+- the particular activity of consumption,
+
+- the consumable object involved, and
+
+- the specific result or outcome of this activity.
+
+Several examples follow:
+
+- A baby boy drinking milk off her mother breasts or off a bottle.
+
+- A person using up a housing unit to shelter herself.
+
+- A traveler using her car to transport herself from her home to a vacation resort.
+
+- A man eating a cheeseburger and drinking a milkshake at a fast-food joint.
+
+- A chef learning how to make a dish by reading a recipe from a cookbook.
+
+- A pedestrian walking on a street. A teenager sleeping in a comfortable bed.
+
+Very few, if any, of the objects a person consumes today can be grabbed directly from the natural environment. In modern societies, most consumables are not ready made by nature, simply to be seized and consumed. Before they become consumables, most raw objects drawn from nature have to be prepared or transformed. In other words, most consumables are *products*, i.e. the results of previous processes of *production*.
+
+In turn, the production of consumables requires the use of other objects as inputs. Classical economists called objects that served as productive inputs *means of production*. A few of them can be directly extracted from nature. Most of them also require prior transformation, as do the inputs required to produce these inputs, and so on. The more a society develops, the longer the series of transformations or chain of production activities that objects must undergo before they are ready as adequate productive inputs or, at last, at the very end of the chain, as consumable objects. These are a few examples of means of production:
+
+For example:
+
+- Wheat is a means to producing flour, which is a means to producing pizzas. Iron ore, a mineral, is a means to producing steel, which is a means to producing machines, which in turn are means to producing cars.
+
+- A motorized chipper in a sawmill is a means to producing wood fiber, which is a means to producing paper, which is a means to producing books.
+
+In macroeconomics, one encounters the distinction between
+
+1. means of production or productive inputs consumed within a given year, called *intermediate goods* (e.g. the flour used to make bread), and
+
+2. means of production used for longer than a year, called *investment goods* or *capital goods* (e.g. the oven utilized to make bread over a decade).
+
+This distinction is based on the convention adopted in ancient agricultural societies of the *annual* cycle as the standard period of accounting.
+
+The chain of production processes that precede consumption has grown historically to the point of becoming the bulk of human activity, absorbing most of the resources, effort, and attention of a modern society. As a result, the activity of personal consumption proper has been reduced to a short-lived stage, a small link in the overall chain.
+
+We refer to the entire chain of productive activities, including in it the activity of personal consumption, as the process of material *production* in general. And, again, since it is a repeated activity, we should conceive it as *reproduction* to grasp its comprehensive or totalizing character.
+
+In the broader sense of the term, *production* is the array of material processes by which we humans produce
+
+1. ourselves, [\[e:pc\]]{#e:pc label="e:pc"}
+
+2. consumables, and [\[e:cp\]]{#e:cp label="e:cp"}
+
+3. means of production. [\[e:mp\]]{#e:mp label="e:mp"}
+
+Item 1, personal consumption, is therefore a form of production considered broadly. Production in the narrower sense of the term only includes items 2 and 3, i.e. the production of objective (material or physical, non-human) wealth. Production processes consist of extracting crude objects from nature and transforming them (or reshaping them) into suitable, useful products.
+
+In plainer words, production designates the activities by which we make ourselves personally by consuming houses, cars, oranges, books, computers, etc. It also includes the activities by which those houses, cars, oranges, books, etc. are made. And, finally, it includes the activities by which the bricks to build the houses, the metal and rubber to make the cars, the seeds to plant the orange trees, the paper and ink to make the books, the plastic to encase the computers' circuitry and the machines to assemble the devices, etc., are made.
+
+The following are specific examples of production in the narrow sense. When reading these examples, reflect on (1) the specific process or activity involved, (2) the productive inputs utilized, and (3) the output or result of the activity.
+
+- A mother fixing a meal for her children at home.
+
+- A New York City worker repairing the air conditioner equipment at a public school.
+
+- A crew of workers drilling for oil in deep oceanic waters.
+
+- Taiwanese workers assembling microprocessors for an American company.
+
+- Members of the Park Slope Coop in Brooklyn stocking up the shelves of their cooperative supermarket.
+
+These examples should make it clear that *production* in the narrow sense includes not only production of things for sale (and for profit), but also production for self consumption, production for members of one household, and production for others without exchange. In order to properly distinguish between production for sale in a market and other kinds of production the concept of private ownership needs to be introduced first. This is done in chapter [\[c:soc\]].
+
+Production and consumption are processes that take place over some *period of time*. Therefore, they should be conceived as *flows*. The levels of the flows involved in these activities are represented by the inbound and outbound arrows. Chapter [\[a:stockflow\]] in the Appendix explains the distinction between *stock* and *flow* magnitudes.
+
+An advantage of conceptualizing production in its broader and a narrower senses is that it helps to highlight consumption as an activity also guided and regulated by labor, i.e. as a form of production in which the product is the human person. Though in Figure [\[f:basic\]] below, production and consumption are represented as separate activities, this should not be viewed as implying that consumption and production necessarily take place separately in space, time, and circumstance. One could, of course, envision food preparation as a process of production taking place in a kitchen, by a cook, in a period of time prior to its consumption in a dining room by a person other than the cook herself. In this framing, the product, prepared food, would preexist its consumption, and it would result from an activity spatially and temporally different from the activity of consumption. However, in the case of a man shaving his own beard, production and consumption would coincide in space and time, and both would be carried out by the same person. It is the same process viewed from two opposing viewpoints. Driving oneself to a vacation resort is another case in which personal consumption and production are carried out at once and by the same person.[^3]
+
+[^3]: It should be clear that *transportation* is a particular process of *production*. It entails a physical or mechanical transposition of people or cargo. An apple in a farm upstate New York is not identical to the "same" apple in one's refrigerator. The world with the apple in one's fridge is a physically transformed world compared to the world with that "same" apple in the farm upstate.
+
+In a specific sense, a *product* is an object that has been transformed by humans. A product is the result or outcome of production. Thus, the products of growing wheat by a farmer would be the wheat produced and also the farmer that emerges at the end of the process--a different farmer than the one who started the process. Thus, if consumption, the immediate production of ourselves, is part of production, then the product of eating a meal is the nourished person: an object, because we humans are objects, but a peculiar human object: the *human* subject herself![^4] In the most general sense, the world transformed by human activity is *the* product. A transformed world of objects and a self-transformed world of human subjects is, thus, the *total product* of human activity.
+
+[^4]: Though we humans are also physical *objects*, we are referred here as *subjects*, and to our experience as *subjective*, in order to distinguish us from other physical objects, the items in the non-human *objective* world.
+
+In modern economics, particular useful objects, i.e. objects suitable for either personal consumption or productive use, whether they are products or crude chunks of nature (natural resources), are called *goods*. Classical political economists called them *use values*. Thus, the outstanding totality of goods--consumables and means of production, products and natural resources--constitute society's *wealth*.[^5]
+
+[^5]: Classical economists used the term *land* to designate natural resources in general. Thus, land is pristine nature in general, the natural environment once human society is abstracted from it.
+
+The term *wealth* denotes the stock of goods that individuals use, either directly in personal consumption or indirectly as means for the production of other goods.
+
+Therefore, the elementary components of wealth are goods, whether these goods are products or natural resources.
+
+Nature is the original source of wealth. Biologically speaking, we humans are an animal species that emerged from preexisting natural conditions on earth through a spontaneous process of natural evolution. It has been well established by scientists that modern humans and modern apes (in fact, all other existing forms of life) share a common ancestry. Plants, animals, and other forms of life--we all come from some primitive one-cell organism! Our own physical bodies are part nature and part products of our own making, results of our own history.
+
+Every artifice, every human product is, ultimately, made up of the elements of nature transformed in accordance to some human design. If one were to take each human-made product apart, removing all the layers of human activity performed on them, one would reduce it to elements of raw nature.
+
+It seems as if an object can only be a true natural resource for an instant. Once humans are aware of its need and existence, we are already spending labor on it, thus transforming it into a product. In this light, the totality of existing wealth can be regarded as a human-made product.
+
+Wealth, well-being, happiness, humanity
+=======================================
+
+At first sight, it may seem as if the ultimate result of the
+reproductive cycle is objective wealth: consumable wealth and (chiefly)
+productive wealth or means of production. However, we established that,
+in fact, objective wealth (consumables and means of production) is
+simple a means for the production of ourselves via direct personal
+consumption. This section emphasizes that the real core of the
+reproductive cycle is the production of subjective wealth, i.e. the
+reproduction of ourselves as humans in our social context.
+
+To jump start the discussion, consider the historical origin or
+etymology of the word *wealth*. It comes from Middle English, the
+language spoken in medieval England. The term evolved from the words
+"welthe," "weal," and "well," which denoted the well-being of people.
+This is akin to the evolution of the word *health* departing from the
+old Germanic words that originated the modern English words "heal" and
+"whole."
+
+Thus, historically, material objects have been recognized as wealth only
+to the extent they contributed to the well-being of people. Objects were
+viewed as wealth only because they were the *means* to the *end* of
+personal well-being.
+
+The condition of objects as *goods* and, therefore, as *wealth* does not
+hinge on their physical characteristics *per se*, but on their
+significance, meaning, or importance for us, humans. The key question
+is, What does this object do for us? If it meets our needs and wants,
+needs and wants that evolve historically, then it is a good, a wealth
+item. If the object meets our needs or wants, then it increases our
+well-being, our true and ultimate wealth. However, if the object does
+not meet our needs or wants, then it is useless junk.
+
+Said differently, the "goodness" of the object---its usefulness---is not
+a physical property or a set of physical properties of the object.
+Instead, the usefulness of the object is a *relation* between the
+physical properties of the object and the aspirations and needs of the
+individual subject.[^6]
+
+[^6]: The significance of objects to humans, their "goodness" or
+    character as wealth items, is intimately related to the question of
+    *value* in economics. However, the study of value requires
+    understanding of the formation of social structures. This is why the
+    proper discussion of value is postponed to further chapters.  
+
+Modern economists think of consumption as a process that yields
+*utility*, a positive subjective feeling, in the consumer. For society
+as a whole, the sum or aggregation of individual utilities is called
+social *welfare*. Thus, welfare is the technical term denoting the
+well-being of an entire society. Modern economists do not consider it
+necessary to specify the precise content of the term *utility*. As a
+result, they are also wary of specifying the meaning of the term
+welfare. From their viewpoint, *utility* is whatever the consumer seeks
+to optimize when she makes choices, and welfare is just some sum of the
+individual utilities. In their view, attempts to elucidate the deeper
+significance of utility and welfare (wealth, in the older sense of the
+term) degenerate into empty, useless philosophizing.
+
+Indeed, philosophers have grappled with the question of human well-being
+since ancient times. In a dialogue with his predecessors, Aristotle
+distinguished between *arete* (virtue or excellence), *phronesis*
+(ethical or practical wisdom), and *eudemonia* (prosperity or
+happiness), with the former two being the vehicles for the attainment of
+the latter: the highest human good or ultimate purpose of human
+existence.[^7]
+
+[^7]: [@aristotle2009], Book I, p. 3: "Now, as there are many actions,
+    arts, and sciences, their ends also are many; the end of the medical
+    art is health, that of shipbuilding a vessel, that of strategy
+    victory, that of economics wealth." Note that, in Aristotle's time,
+    "economics" designated the proper management of a single household,
+    composed of the patrician, his children, wife, servants, and slaves.
+
+Since the late 19th century to the early 20th century, the economists'
+notion of *utility*, the individual component of *welfare*, evolved from
+a reference to *pleasure* (with *pain* as its negative or *disutility*)
+to *satisfaction* (vs. dissatisfaction), and then *happiness* (vs.
+unhappiness).[^8] In the pleasure-satisfaction-happiness scale,
+*pleasure* appeared as a merely temporary and perhaps superficial mental
+state.[^9] On the other hand, *satisfaction* appears as the result of
+prior effort: the feeling that results from exertion of one's capacities
+to a higher level, like that of an basketball player scoring a
+three-pointer under defensive pressure. Finally, *happiness* designates
+not necessarily a permanent sense of elation, but rather a deeper sense
+of leading a consistent life, a life with a purpose beyond oneself.
+
+[^8]: [@bentham1996collected], p. 13: "Nature has placed mankind under
+    the governance of two sovereign masters, pain and pleasure. It is
+    for them alone to point out what we ought to do, as well as to
+    determine what we shall do. On the one hand the standard of right
+    and wrong, on the other the chain of causes and effects, are
+    fastened to their throne. They govern us in all we do, in all we
+    say, in all we think: every effort we can make to throw off our
+    subjection, will serve but to demonstrate and confirm it. In words a
+    man may pretend to abjure their empire: but in reality he will
+    remain subject to it all the while."
+
+[^9]: [@mill2010basic], p. 245, responded to claims that Bentham's
+    utilitarian doctrine reduced human needs to base animal urges:
+    "Human beings have faculties more elevated than the animal
+    appetites, and when once made conscious of them, do not regard
+    anything as happiness which does not include their gratification."
+
+Modern American psychologists decompose happiness into (1) the pleasant
+life, (2) "engagement," and (3) "meaning." The first component of
+happiness corresponds to pleasure in the most immediate sense. The
+second component, *engagement*, relates to one's fascination or
+absorption in the activity at hand to the point of losing all sense of
+time and oneself, the mental state of an athlete performing at her
+highest level, a mental state that psychologists call *flow*. The third
+and final component, *meaning*, is about leading a life that transcends
+one's own self regard, a life--perhaps--willingly placed at the service
+of others.[^10]
+
+[^10]: See [@seligman2012flourish] and [@diener2011happiness].
+
+In sum, wealth is ultimately what humans consider meaningful and
+important. Yes, consumable objects and means of production are
+meaningful and important. Therefore, they are our material or objective
+wealth. But, being objects, they are only wealth because they are means
+to our own subjective welfare. It stands to reason that what increases
+our welfare, what we deem important or meaningful, is intimately linked
+to our identity as humans. It seems tautological (circular reasoning) to
+say that we humans regard our own *humanity* as what is truly meaningful
+or important in our lives; that what is important to us is what makes us
+humans; or that our material lives are simply the vehicles in and
+through which we assert our humanity.
+
+We are thus compelled to ponder the question: What is *humanity*? What
+makes us, as a species, different from the rest of nature?
+
+Ultimate wealth or labor power
+==============================
+
+If, at its core, the material reproduction of individual humans is our
+self-production as humans, the production of our humanity by means of
+our humanity; if humanity is our true and ultimate wealth or welfare,
+the beginning and the end, the alpha and the omega of our social life,
+then what is specifically the trait that distinguishes us humans from
+the rest of nature? That is the question we grapple with in this
+section.
+
+Philosophers and scientists have coined a number of terms to designate
+the unique set of human traits, abilities, or powers that separate us
+from other forms of life. Terms such as *rationality* and
+*consciousness*. Unlike other forms of life, humans tend to defy nature
+and our own history. We do not simply accept what nature and prior
+history endowed us with. To judge by our own history, we refuse to
+simply adapt to the world as it exists. The world as it exists appears
+to us insufficient, lacking. Thus, we humans set out to transform it in
+accordance to our will, purpose, or design.
+
+In other words, we humans problematize the world we face. Our human
+problem is that of transforming the world from *what it is* to *what it
+needs to be* for us. The recurrent human attempt to solve this human
+problem is precisely *production*, i.e. the transformation of the
+
+In other words, we humans problematize the world we face. Our human
+problem is that of transforming the world from *what it is* to *what it
+needs to be* for us. The recurrent human attempt to solve this human
+problem is precisely *production*, i.e. the transformation of the world
+as it exists into the world as we need or want it to be. Since, once we
+contemplate our product (our material wealth and ourselves as
+self-transformed humans), we find it again insufficient and lacking, the
+problem recurs as does its solution. This is why production can only be
+repeated production or reproduction.
+
+In this light, human activity, human history in general, appears as the
+evolution or development of individuals capable of carrying out
+conscious, willful, or purposeful activity. The general term commonly
+used to designate human purposeful activity is *labor*.
+
+In the most general sense, the term *labor* denotes the purposeful,
+conscious, or goal-oriented activity of humans.
+
+This notion that humans engage the world purposefully is essential in
+economic analysis. As we will see later, many of the usual assumptions
+that economists make when studying economic behavior (e.g. the
+assumption of *rationality* in consumption and production) are
+extensions of this notion of labor-- meaning purposeful human activity,
+activity oriented towards materializing an idea, towards implementing a
+purpose, goal, or design.
+
+The concept of labor permits us to reformulate our concept of
+production. Production now appears as the transformation of the world
+guided and regulated by our labor or working activity. In working, in
+the labor process, we express and demonstrate our specific power as
+humans, i.e. our *labor power*.
+
+In the narrower sense, *labor power* is the whole set of abilities
+residing in our bodies that allow humans to conduct our purposeful
+activity or labor. Labor power is, thus, the essence of our humanity. In
+the broader sense, labor power it is the productive power of our labor
+residing in our material wealth and in our own bodies--the total of our
+material and human wealth.
+
+When people consume, they meet their human needs, produce themselves as
+humans. They thus remain humanly powerful or become more humanly
+powerful. Needs are aspirational powers. The productive force of labor.
+Labor power is the substance of all human powers. The powers that humans
+exercise on one another in their social interactions are always and
+everywhere labor power, because we can only affect others as physical
+objects that interact with other physica objects--physical forces acting
+on physical forces.
+
+If the alpha and the omega of social life is the continuous or recurrent
+production of humanity, then one can rephrase the sentence and say that
+the alpha and the omega of social life is the production of labor power.
+Thus, reproduction is the production of labor power by means of labor
+power; societies are "devices" for the production of labor power by
+means of labor power.
+
+Again, what is characteristically human is not that humans consume.
+Other animal species consume as well. What is characteristically human
+is that we seek to produce ourselves purposefully or consciously. As
+noted, historically, human personal consumption has become increasingly
+complex and refined. Consumption is preceded by an ever lengthening
+chain of productive activities. Without meaning to put down other animal
+species or living beings, the fact is that--generally speaking--we
+humans consume not to merely vegetate or lead animalistic lives. We
+consume to live *humanly*.[^11] Thus, human breathing, eating, watching
+movies, etc. are functions subordinated to the reproduction of our
+essential human power, which is our *labor* power, the power to act in
+purposeful ways, the power to shape up our lives willfully. Consumption
+is an activity that involves, increasingly, deliberate action: labor.
+
+[^11]: As a testimonial to the increasing purposefulness of modern human
+    consumption, consider the proliferation of cable networks that focus
+    on life style, entertainment, and food preparation.
+
+
+Labor power, freedom, knowledge
+===============================
+
+Does our concept of *labor power* include all conceivable human powers,
+individual and collective? Yes! All human powers are ultimately powers
+to transform nature, i.e. they are ultimately forms of the productive
+*force* or *power* of labor. In other words, all human powers are forms
+of *labor power*. Why? Because one's ability to transform the world
+purposefully, including here our self transformation (which is, again,
+the ultimate goal of human activity), is at bottom our ability to
+transform the objective world.
+
+What is in the way of our designs? The obstacles, barriers, or
+constraints to one person's purposeful actions are of two kinds: (1) the
+actions of other individuals and (2) the forces of the physical world.
+However, since the actions of other individuals are also physical
+actions, they appear to us as physical forces (if they were not
+physical, they would not have any effect on us, since again we are part
+of the physical world), then the obstacles to her purposeful actions are
+always and everywhere physical obstacles.
+
+The ability or power to circumvent these barriers is precisely what we
+denote by terms such as *liberty* or *freedom*. These terms, which one
+usually encounters in political science or ethics textbooks, are in fact
+other names for labor power. Following [@berlin2017two], modern
+philosophers distinguish between "negative" freedom or liberty and
+"positive" one
+
+The ability or power to circumvent these barriers is precisely what we
+denote by terms such as *liberty* or *freedom*. These terms, which one
+usually encounters in political science or ethics textbooks, are in fact
+other names for labor power. Following [@berlin2017two], modern
+philosophers distinguish between "negative" freedom or liberty and
+"positive" one. The former, they define as "the absence of obstacles,
+barriers or constraints" to human action, while the latter as "the
+possibility of acting--or the fact of acting--in such a way as to take
+control of one's life and realize one's fundamental purposes."[^12]
+
+[^12]: [@sep-liberty-positive-negative].
+
+Taken literally, the conventional definition of negative freedom is
+absurd. Human action always and everywhere faces obstacles. Again, as a
+rule, nature does not grant us wealth--ultimately, labor power--freely
+and spontaneously. Our relationship with nature entails both cooperation
+and conflict. Humans do not have infinite productive powers or, as
+economists prefer to frame it, humans always face *scarcity*.[^13] What
+permits humans to overcome the obstacles the physical world presents to
+us is our finite but expanding *knowledge* of the structure and
+functioning of the physical world, knowledge that we can only acquire by
+a mindful transformation of the world!
+
+[^13]: Economics textbooks declare that economics as an intellectual
+    discipline exists because goods, resources, labor, etc. are scarce,
+    while human needs or wants are not necessarily tethered to reality.
+    One can always dream. In the terms of this discussion, *scarcity* of
+    goods, resources, etc. simply means that our productive power to
+    reproduce them is finite, that we do not have an infinite
+    productivity. And, indeed, because we do not have infinite
+    productivity, we must make choices and take actions under the
+    constraints imposed by such finite productivity.
+    
+It is no accident that the Russians use the same term, *volia*, to designate freedom, liberty, and human will.  Of course!
+
+It is by perceiving the world as unfit to our ever more exacting needs
+and wants, by taking action to transform it into a world for us, taking
+it apart and then putting back together in practice, that we are
+compelled to take it apart and then put it back together in our minds,
+so we are able to remake it in a form that suits our shifting demands.
+By constructing buildings and bridges, we are compelled to expand our
+knowledge of the laws of physics, to better understand gravity,
+understand that then permits us to build better bridges and buildings.
+Our expanding knowledge does not remove the obstacles, it does not
+eliminate the force of gravity, but it does help us circumvent it or use
+it to our own advantage. Thus, *knowledge* is another word for *freedom*
+and, therefore, another word for *labor power*. We can then invoke
+[@hobbes2016thomas]'s phrase, which he attributed to his mentor, Francis
+Bacon: *ipsa scientia potestas est* or knowledge itself is power. In our
+terms, *knowledge itself is labor power*.
+
+What about the conventional notion of positive freedom? Is there truly a
+difference between *negative* freedom, entailing the "absence" of
+external barriers, and *positive* freedom, entailing "control of one's
+life"? As the article in [@sep-liberty-positive-negative] makes it
+clear, the latter points to "internal" obstacles to purposeful action.
+First off, it is also impossible for humans to exercise full control
+over our lives. Second, what are the "internal" obstacles to one's
+deliberate action? Forces in or tendencies in the constitution of our
+own bodies that we do not yet understand. But, again, we humans are
+physical objects, a part of nature. Thus, nature is not only outside of
+our bodies, but also within them--and, therefore, influencing our
+consciousness, which is an aspect or manifestation of our bodily
+activity. In this sense, knowledge of natural laws includes self
+knowledge, knowledge of the forces that shape our behavior--blind forces
+against which our conscious actions press. Upon reflection, the
+negative-positive freedoms dichotomy is a distinction without a
+difference.
+
+In sum, labor power is the full extent of our human powers and of our
+human freedom. As Engels wrote, citing Georg Wilhelm Friedrich Hegel,
+"freedom is the insight into necessity," since "necessity is blind only
+in so far as it is not understood." It is by better knowing what happens
+necessarily in the world, what results from the operation of the laws of
+nature, that our freedom or human powers expand.[^14] Thus, we may
+restate again our notion of reproduction as a process that produces
+freedom by means of freedom.[^15]
+
+[^14]: This is from Engels ([@Engels2010], pp. 105-6): "Freedom does not
+    consist in any dreamt-of independence from natural laws, but in the
+    knowledge of these laws, and in the possibility this gives of
+    systematically making them work towards definite ends. This holds
+    good in relation both to the laws of external nature and to those
+    which govern the bodily and mental existence of men themselves--two
+    classes of laws which we can separate from each other at most only
+    in thought but not in reality. Freedom of the will therefore means
+    nothing but the capacity to make decisions with knowledge of the
+    subject. Therefore the freer a man's judgment is in relation to a
+    definite question, the greater is the necessity with which the
+    content of this judgment will be determined; while the uncertainty,
+    founded on ignorance, which seems to make an arbitrary choice among
+    many different and conflicting possible decisions, shows precisely
+    by this that it is not free, that it is controlled by the very
+    object it should itself control. Freedom therefore consists in the
+    control over ourselves and over external nature, a control founded
+    on knowledge of natural necessity; it is therefore necessarily a
+    product of historical development."
+
+[^15]: In political science, the emphasis of the terms liberty and
+    freedom is placed on the absence of *coercion* by others or by the
+    state. Again, coercion by others is a particular form in which the
+    world restricts human action. This is the case in which a particular
+    individual, group, or class of people appropriates the labor power
+    that results from the totality of our associations and wields it
+    against the rest of society. Discuss these matters more adequately
+    requires study of the subsequent chapters.
+
+An important corollary of the claim that welfare, freedom, and knowledge
+are words that denote or connote one and the same human trait, i.e.
+labor power, is that any concession to superstition, magical thinking,
+or mysticism represents an abdication of our humanity. The weight that
+modern culture and media grants to superhumans and to extra- or
+supernatural forces untettered by the laws of the physical world (as if
+forces *outside* of our physical world could affect it!) corresponds to
+a critique of ideology. Ideology, i.e. ideas reproduced to justify and
+promote the interests of particular individuals, groups, or social
+classes, can only emerge when our social structures pit us against one
+another.
+
+Labor power, knowledge, technology, and information
+===================================================
+
+Knowledge as consciousness. Knowledge as an aspect of human activity:
+labor. Knowledge is not simply observations (data). Knowledge is ideas
+but organized, from essence to phenomenon, from general to singular,
+from content to form.
+
+Technology in the conception of the economists as an information set
+that contains as elements:
+
+1.  a description of the finished product (a consumable or a means of
+    production), specified in quality and quantity, in as much detail as
+    necessary to guide labor or productive practice,
+
+2.  a detailed list of the productive inputs (means of production)
+    required as elementary components of the finished product,
+    specifying quality and quantity, and
+
+3.  a proper description of the process or procedure by which the
+    productive inputs are to be combined to produce the finished
+    product.
+
+What we typically view as knowledge goods are those that permit the
+easiest communication or sharing of technology. However, all wealth is
+knowledge embodied physically. Not only textbooks or online manuals or
+how-to youtube videos.
+
+Teaching is to show. One can show by simply exhibiting the finished
+product. The human mind can try and take that product apart and copy it,
+reverse engineer it. But sharing knowledge is tricky. Each individual
+body/mind comes from some background, which makes it more or less apt to
+get the point that another individual body/mind wants to communicate.
+That's the difficulty of human learning, not from doing but from the
+experience of others (culture).
+
+Ideas are always embodied physically: in objective wealth or in
+subjective wealth (labor power) residing in our bodies. It is the human
+or labor or cognitive or technology or information content embodied
+physically, i.e. that appears in a physical form that makes wealth
+wealth rather than just raw nature.
+
+There are no ideal products. All products are material. There is no
+wealth that is not material. But its material or physical aspect is just
+the form. Its specific and essential content as such wealth is labor
+power. All wealth is the projection or physical representation of
+humanity or labor power. Humanity is that fascinating spar
+
+There are no ideal products. All products are material. There is no
+wealth that is not material. But its material or physical aspect is just
+the form. Its specific and essential content as such wealth is labor
+power. All wealth is the projection or physical representation of
+humanity or labor power. Humanity is that fascinating spark that only a
+portion of the physical world endowed with a superb organization can
+exhibit. All other forms of matter have reflection abilities, but due to
+their structure, that reflection is most primitive. Human bodies, not
+individually but collectively (as a society), are the thinking bodies
+(Ilyenkov).
+
+Society and nature
+==================
+
+The proper environment (clean, healthy, in a sustainable way) conceived
+as a reproducible wealth.
+
+Nature and entropy. Entropy is defined as the opposite of usefulness to
+humans, i.e. as nature proper without human imprint on it.[^16]
+Thermodynamics law. Life and organized human life swims in the other
+direction, but that is at the expense of increasing entropy in the rest
+of the universe. Garbage or entropy is sticky. The challenge is to find
+a form to cooperate with nature for the longest run. The sun will die.
+For all we know, we're a tiny speck in the known physical universe. How
+do we transcend as a species? We need socialism.
+
+[^16]: "The road to understanding what entropy is begins with the primary
+    distinction between *available* and *unavailable* energy. This
+    distinction is unmistakenly anthropomorphic (more so than any other
+    concept in the natural sciences). Indeed, energy is available or
+    unavailable according to whether or not we, humans, can use it for
+    our own purposes." [@georgescu1986entropy], p. 3.
+
+Is nature useful for us? Only by chance! Entropy means randomness. Only
+by accident we will find that nature throws a good pitch at us that we
+can bat out of the field. Mostly, nature will make it hard for us to
+figure it out and manipulate it productively.
+
+Diagram of the reproductive cycle
+=================================
+
+Figure [\[f:basic\]], showing a diagram depicting the general cycle of
+material reproduction, helps to sum up the discussion.[^2] The empty
+background of the diagram represents the rest of nature, the natural
+environment in which human society is embedded. The two boxes show the
+main processes or activities that every society must perform,
+respectively the *production* and *consumption* of objective wealth. The
+boxes are connected with arrows, which indicate the inputs and outputs
+of each activity. The *inputs* are the arrows pointing into the activity
+boxes and the *outputs* are the arrows pointing out of them.
+
+[^17]: The diagram follows the convention among computer programmers to
+    represent *activities* by rectangular boxes, *storage units* or
+    stocks as cylinders, and *flows* between storage units and
+    activities (and vice versa) as arrows.
+
+Figure [1], showing a diagram depicting the general cycle of material
+reproduction, helps to sum up the discussion.[^18] The empty background
+of the diagram represents the rest of nature, the natural environment in
+which human society is embedded. The two boxes show the main processes
+or activities that every society must perform, respectively the
+*production* and *consumption* of objective wealth. The boxes are
+connected with arrows, which indicate the inputs and outputs of each
+activity. The *inputs* are the arrows pointing into the activity boxes
+and the *outputs* are the arrows pointing out of them.
+
+[^18]: The diagram follows the convention among computer programmers to
+    represent *activities* by rectangular boxes, *storage units* or
+    stocks as cylinders, and *flows* between storage units and
+    activities (and vice versa) as arrows.
+
+![Production of humanity]
+
+The inputs of production are
+
+-   *labor power* (or humanity, subjetive wealth, welfare, well-being,
+    freedom, knowledge, etc.),
+
+-   *natural resources*, and
+
+-   *produced means of production* or objective productive wealth.
+
+The outputs of production are
+
+-   *produced consumables*, and *produced means of production* or
+    objective productive wealth--i.e. the part of the output of
+    production that feeds back into the production box as an input.
+
+In turn, the inputs of consumption are
+
+-   *produced consumables* and
+
+-   *natural resources*,
+
+and consumption's output is *labor power*.
+
+Material need and social necessity
+==================================
+
+THIS IS PREPARATION FOR THE CHAPTER ON SOCIAL FORMATION. IT GOES AT THE
+END OF THIS CHAPTER.
+
+At this point, the needs of individuals are such that society as a whole
+sets out to satisfy them. This excludes needs such as the need to *win*
+in a contest or be *first* at the expense of others, the need to keep
+others from eating my food without my consent, etc. The former are
+called *material needs* in contrast with the latter, which will be
+referred instead as *social necessities*, necessities that emerge from
+particular social structures. Remember that---at this point---the
+internal structure of society is being deliberately ignored. As a
+result, *social necessities* cannot yet arise.
+
+To make this point clearer: Suppose that the natural, anatomic, etc.
+differences between the sexes or ages of individuals lead historically
+to a division of society between *dominant* young adult males and
+*dominated* females, children, and elderly, where young adult males
+control access to the wealth of society and force females, children, and
+elderly to submission. Under these conditions, the creation of a force
+devoted
+
+To make this point clearer: Suppose that the natural, anatomic, etc.
+differences between the sexes or ages of individuals lead historically
+to a division of society between *dominant* young adult males and
+*dominated* females, children, and elderly, where young adult males
+control access to the wealth of society and force females, children, and
+elderly to submission. Under these conditions, the creation of a force
+devoted to the disempowerment of women, children, and seniors may become
+a social necessity of the dominant group, the young adult males,
+especially if the subordinated group or groups resist actively or rebel
+against the supposed social arrangement. It is by no means a material
+need of society for the young adult males to maintain their rule over
+the rest of society. The necessity emerges only as a result of
+particular social relations or interactions between these groups, it is
+the necessity to maintain, reproduce, or prop up specific social
+structures.
+
+Individuals take the rest of nature and, with the help of means of
+production, transform it into goods. Or, at least, that is the purpose
+that guides their actions; whether (or to which extent) their purpose is
+fulfilled is quite another issue.
+
+Goodness and value
+==================
+
+THIS IS ALSO PREPARATION FOR OTHER CHAPTERS OR FOOTNOTES.
+
+A *consumption good* is a good that is directly used or consumed by
+individuals. A means of production is a good used as in input in the
+production of other goods, either consumption goods or other means of
+production. A glass of water for a thirsty person is an example of a
+*good* and, more particularly, a *consumption good*. A steel beam for
+the construction of a building is a *good* and, more particularly, a
+*means of production*---that is, a means for the production of a
+building, which may be directly used by people as a dwelling place or
+indirectly as a means for the production of other goods (for example, to
+house a restaurant or bakery).
+
+It must also be noted here that the usefulness of objects, the quality
+that turns objects into goods, is finite. It is also contextual or
+relational.
+
+The goodness of an object is a *relation* between people as producers or
+consumers and the object itself. Furthermore, the goodness of an object
+must be viewed as place-, time-, and context-specific. Badness is the
+negative of goodness. Goodness and badness can be viewed as the opposite
+*directions* in the same continuum. The quality *goodness* (or its
+negative, *badness*) entails its quantification. Determining how good
+objects are for society, as opposed to how good they are for
+individuals, is the process we call *valuation*. Chapter x discusses the
+topic of valuation in greater detail. In the supply-and-demand model of
+a market in chapter x, the notions of *preferences* and *technological
+requirements* refer precisely to this very relation.
+
+We define a *bad* is an object that decreases human well-being. A glass
+of water for a person who is not thirsty, does not want, or feel no need
+for the water, if imposed on that person, it may become a bad (e.g.
+water-boarding). A pile of non-recyclable garbage at the factory gate is
+another example of a bad. In fact, the concept of bad is unnecessary.
+That is just nature or entropy which is captured in thought,
+conceptually as randomness or chance. Necessity is what grasp and
+therefore the measure of our power or freedom. Chance or randomness is
+what escapes our control, the extent of our ignorance and, therefore,
+our poverty vis-a-vis nature, our lack of freedom. Entropy (rest of
+nature) is the background of the diagram.
+
+ARE WE INCLUDING ALL PRODUCTS WHEN WE CALL THEM 'MATERIAL'? YES! IS NOT
+INFORMATION A PRODUCT? NO. KNOWLEDGE, INFORMATION, CONSCIOUSNESS IS
+EMBODIED IN MATERIAL THINGS: HUMAN BODIES AND OTHER OBJECTS (PRODUCTS OR
+POTENTIAL PRODUCTS).
+
+The service of a good is the use or consumption of the good over a
+period of time.
+
+Land or nature vs. us
+=====================
+
+The concept of bad is bad, because it places nature as our enemy. Yet,
+nature is our rival. We are humans by both cooperating with nature and
+fighting with it.
+
+We need to correct our notion now: It is not just wealth (labor power)
+that we produce. We also produce extra unavailable energy, entropy,
+nature that appears more difficult to grasp and manipulate--which means
+less labor power (the net is positive). So, we interpret labor power at
+the center of the diagram as net of the degradation that we cause by
+increasing entropy. Alternatively, we can interpret the "natural
+resources" flows into production and consumption as a net flow. It is by
+cognition (and human activity) that we turn unavailable energy into
+available or usable energy. So, it can be represented on the nature side
+or on the labor power side, because they are in contradiction.
+
+The background of the diagram is a stock or container: a resorvoir of
+unusable or "unavailable" matter or energy (except by chance).
+
+The natural environment (land) is absolutely essential for our survival
+as a species. We breath the oxygen in the air, drink the water
+available, use to a large extent the motive force, the energy that comes
+from the sun and that nature on earth has processed in many ways. We are
+a part of nature, but a part of nature with awareness, with
+consciousness, with the ability to self-reflect. We operate in and on
+nature as a natural force. Nature is even inside of ourselves, as there
+are biological processes that are essential for the physical structures
+that make up our bodies to exist.
+
+A sustainable interaction with the rest of nature is increasingly a
+necessary product we need to produce. In the last few decades, it's
+become increasingly clear that human activities disrupt the natural
+cycles in our planet, including the climate. Our relationship with the
+rest of nature is a very complex process. We cannot easily regulate or
+control the overall impact of our social life in the rest of nature. So
+we have to be particularly careful, because the forces that we unleash
+can backfire on us. We are all familiar with the changes in the planet's
+climate, with global warming, which is attributed to certain gases that
+we emit into the atmosphere that creates a greenhouse effect on the
+planet and trap the heat, which then disrupts our weather patterns. This
+phenomenon has the potential to cause great damage to human societies,
+especially those that do not have the resources and technology to face
+these weather disruptions. That is why I say that, increasingly, more by
+omission than by action, but we need to deliberately produce a
+sustainable relationship with the rest of nature. That has to be a
+purpose and we then have to produce it, just like we develop blueprints
+to build houses and then we go ahead and build houses in accordance with
+those blueprints.
+
+Finally, another output of production: waste, refuse, garbage,
+pollution, chemicals that we can't use any longer and dump in the
+natural environment, heat from our activity that dissipates into the
+atmosphere, etc.
+
+Clearly, when we travel for pleasure, we go on a vacation, take a cruise
+to the Bahamas, etc., we are consuming, replenishing our energy,
+recharging our batteries, etc. But we are also polluting, generating
+garbage, etc. Note also that waste bites us back. It becomes an input of
+both production and consumption. That is the case when toxic substances
+make it into our products, either accidentally or as a result of some
+business people deliberately cutting corners at the expense of
+consumers. And clearly, when we take a walk in the park, we suffer the
+pollution in the air, etc. So, waste sneaks back into our basic
+processes as an undesirable but present nonetheless input to production
+and consumption.
+
+Summary
+=======
+
+Production is making goods. Consuming is using those goods. What are
+goods then? Well, this is a very loose definition. Goods are whatever we
+humans may regard as good, whatever enhances our welfare. By producing
+wealth, we also produce entropy. Paradoxically, we carve out from nature
+our anthroposphere, a space in which we make the world more hospitable
+to humanity, but this is only possible because we are making it less
+hospitable to us in the remainder of nature.
+
+The stock of goods that exist at a given point in time, we call wealth.
+We have to distinguish between the goods that we produce over a period
+of time and the wealth that exists at a point in time. For a
+clarification of the distinction between stocks and flows, see the
+corresponding video clip.
+
+Finally, welfare is human well-being or productive force of labor.
+
+The inputs of production are natural resources (T for Terrum, land in
+Latin), produced means of production (K), both capital and intermediate
+goods, and labor power (L). And, of course, waste.
+
+The outputs of production are our products: consumption goods (CG),
+produced means of production (K), and waste.
+
+The inputs of consumption are consumption goods and, unfortunately,
+waste.
+
+The outputs of consumption are ourselves, individual human beings (our
+labor power and, if we are to keep these things separate, our welfare).
+Another output of consumption and production is a degraded nature, which
+means a reduced labor power.
+
+We should distinguish between goods and products. Products are the
+outputs of production. We produce the products. We produce some goods.
+Those goods that we produce are, therefore, both goods and products. A
+computer that we use for work or entertainment is a good and it's a
+product. Computers don't fall from the sky. But there are also some
+goods that we don't produce. For example, the oxygen in the air.
+Pristine water in the Alaskan wilderness, the stars in the sky, natural
+resources in general. They are goods, yet they are not products. Now,
+some of our products are bads. They are, for the most part, unintended
+products. But they are our products. For example, we produce garbage,
+which is a bad.
+
+Welfare and labor power results from consumption -- but also from
+production (or, if you prefer, only from consumption, but including the
+consumption that coincides in time with production). I could add here
+that there's a fourth output of production. You see, when the human
+producer gets into the production box, that is a different human being
+than when she emerges out of that box. Many things happen as humans
+produce. we learn how to produce, for one. we also get tired, exhausted,
+perhaps even psychologically depressed. It all depends on the conditions
+in the workplace, etc. Maybe that is a human being who has befriended
+her coworkers and emerges out of that box an enriched and empowered
+human being. Or maybe it's a lousy workplace with a despotic boss and
+grumpy coworkers, and she emerges out of that box depressed and with
+suicidal tendencies. So, although I'm getting ahead of myself here, I'll
+say that I could have added an arrow stemming from production labeled
+"welfare" (which can be positive welfare or negative welfare).
+Furthermore, I could have added another arrow and connected it to the
+line on top -- labor power, since, again, it is entirely possible that
+as we produce, we learn how to produce more and better, and so we become
+better producers, our labor power is thus produced, by producing! But I
+decided that I didn't want to do that, because (and this is just a
+convention I'm introducing here) I decided that when people produce and
+learn and get happy or grumpy, we are in fact consuming. So that should
+go more into the consumption box.
+
+At first, the cylinder at the top of the diagram appears as a unit
+storing \"welfare,\" human well-being, or whatever the apparent goal of
+human consumption may be. \"Welfare\" is a good starting label, since it
+is a concept commonly used in conventional economics. However, students
+can then be prompted to interrogate the concept in greater depth. If
+properly human, consumption cannot be a merely instinctive, mindless,
+and passive process by which individuals simply reproduce ourselves
+biologically. The needs of humans are culturally, historically
+developed. Human needs proper are envisioned powers, powers to acquire
+purposefully. Thus, the production of humanity is not only attained
+through immediate consumption, but mainly and increasingly by their
+activity as producers. When humans produce, their output is not simply
+objective products but also ourselves as more developed producers.
+
+Thus, upon reflection, students are guided to conclude that, if labor is
+defined as general purposeful or conscious human activity, that
+production (the transformation of the world by humans to meet their
+needs) is guided and regulated consciously, then the distinctive essence
+of \"welfare\" or \"humanity\" that gets stored in this container is the
+specifically human power or ability to perform labor, i.e. labor power.
+Thus labor power emerges as the alpha and the omega of the entire
+reproductive circuit. Th
+
+Thus, upon reflection, students are guided to conclude that, if labor is
+defined as general purposeful or conscious human activity, that
+production (the transformation of the world by humans to meet their
+needs) is guided and regulated consciously, then the distinctive essence
+of \"welfare\" or \"humanity\" that gets stored in this container is the
+specifically human power or ability to perform labor, i.e. labor power.
+Thus labor power emerges as the alpha and the omega of the entire
+reproductive circuit. The ultimate leitmotif of human activity proves to
+be self referential in that the material reproduction of a society is
+the recurrent production of labor power by means of labor power,
+mediated by objective wealth and the rest of nature.
+
+This exercise also helps to emphasize the following ideas:
+
+1.  If the internal structure of society -- the set of reproductive
+    interrelations (i.e. social relations of production) among the
+    individual members -- does not get in the way, if the individual
+    members of this community attain and sustain their cooperative
+    unity, then the core of the material reproduction of society is and
+    can only be the development of the productive force of labor of its
+    individual members. Human development, the development of the
+    universal powers of the individual members of society is the alpha
+    and the omega of the whole reproductive circuit.
+
+2.  The direct consumption process, the use of goods for the personal
+    production of the individuals, is not what is specific of human
+    societies. Other animal species must necessarily consume the objects
+    they most immediately appropriate from their environment. Some
+    animal species may transform the objects they directly appropriate
+    from nature into objects that are more suitable to their needs, but
+    this transformation is not viewed here as \"purposeful\" in the
+    specific human sense. It is a fact that humans, through the
+    development of language and symbolic (or abstract) thinking have a
+    distinctive form of rationality that governs the ways in which
+    humans interact with the rest of nature (and with one another).
+
+3.  The development of production, as guided by labor, is an expanding
+    sphere that appears as distinctively human. Historically, production
+    has become a absolutely and relatively larger part of the
+    reproduction circuit, becoming overwhelmingly dominant. It has
+    become more \"round about\" (Alwyn Young's term) -- an ever
+    lengthening chain of activities, reducing consumption, the direct
+    personal use of goods, to the last link in the chain. This helps to
+    dispel in the students the conventional notion of \"consumer
+    sovereignty\" as governing economic principle.
+
+4.  The consciousness inherent to collective labor is necessarily
+    incorporated in the bodies of the producers (particularly in their
+    nervous systems) and in the totality of objective wealth (especially
+    in libraries, the Internet's physical media, etc., where it exists
+    in its most directly communicable form).
+
+5.  The conventional concept of \"technology\" or productive knowledge
+    -- defined in economics textbooks as the \"information set\"
+    containing (1) a description of finished outputs, (2) an exhaustive
+    list and description of the inputs required under various production
+    procedures (techniques), and (3) descriptions of the processes by
+    which the inputs are to be combined to make the outputs under the
+    various techniques -- can be reinterpreted in the broadest sense as
+    the consciousness inherent to labor.
+    
+Common misconceptions are:
+
+1.  The notion that all societies need private ownership over wealth,
+    that production requires money as an input, or that hierarchies are
+    necessarily inherent to society. The internal management of modern
+    families, firms, and other organizations can be used to show that
+    the allocation of resources (which this exercise to consist,
+    ultimately, in a distribution of labor power, directly or
+    indirectly) does not necessitate money or commodity exchange (trade)
+    to be carried out. A college or university does not require that
+    faculty members or students directly purchase the markers or erasers
+    used in class. A mother does not require that her children purchase
+    from her the milk they take from the family's refrigerator.
+
+2.  The notion that technology is a separate input of production, that
+    ideas exist in some separate Platonic world. In fact, technology can
+    only exist in the physical world. If it did not exist in a physical
+    medium or form, then it would not be of any consequence, because
+    only physical objects can interact with other physical objects,
+    human bodies included.
+
+3.  Relatedly, that there are (i) \"intellectual\" (or \"spiritual\")
+    production in which the output is ideal or immaterial and,
+    separately, (ii) \"physical\" production in which the output is
+    material or physical wealth. In fact, it can be shown to students,
+    all production is necessarily physical, it must use physical inputs
+    (labor power and means of production are physical). Also, all
+    production necessarily incorporates labor which is conscious
+    activity, and this consciousness or purpose is embodied in all
+    produced wealth.
+
+If we take all humans as a unit facing the rest of the nature, then
+humans are on their own. can only reproduce ourselves by produce and
+meet its own needs with its own resources.
+
+It is, of course, possible for some individuals to subsist at the
+expense of other individuals. But this cannot be true for all
+individuals in society at once.
+
+As a rule, societies considered as a totality must produce and consume
+*wealth* continuously or recurrently, or risk extinction; and this is
+true, regardless of their historical origin or institutional
+characteristics. *Human* society regarded as a whole must necessarily
+produce its own wealth.[^19]
+
+[^19]: This does not mean, of course, that members of society must all
+    produce at once, only that some must produce enough for all to
+    consume. Children, the elderly, and the disabled may not be apt to
+    take part in production. Society may have legal or ethical norms
+    prohibiting or discouraging work in production for certain
+    categories of people. Furthermore, at any given point in time, a
+    fraction of society's labor force may be excluded from productive
+    work as a result of social failures such as market disruptions,
+    financial crises, political conflict, wars, etc.
+    
+As a rule, societies considered as a totality must produce and consume
+*wealth* continuously or recurrently, or risk extinction; and this is
+true, regardless of their historical origin or institutional
+characteristics. *Human* society regarded as a whole must necessarily
+produce its own wealth.[^20]
+
+[^20]: This does not mean, of course, that members of society must all
+    produce at once, only that some must produce enough for all to
+    consume. Children, the elderly, and the disabled may not be apt to
+    take part in production. Society may have legal or ethical norms
+    prohibiting or discouraging work in production for certain
+    categories of people. Furthermore, at any given point in time, a
+    fraction of society's labor force may be excluded from productive
+    work as a result of social failures such as market disruptions,
+    financial crises, political conflict, wars, etc.
+
+Clearly, if people at a potluck dinner are to eat anything, then at
+least one person should bring food. This chapter examines the conditions
+that this fact imposes on our social life.
+
+By assuming humans as united harmoniously to focus on the relation
+between all humans and the rest of nature, the *internal* life of
+society was deliberately ignored. Human society was regarded as endowed
+with a single will, with its individual members pulling together in
+unison, with no conflicting interests among its members.
+
+This assumption implies that there is no meaningful distinction between
+the wealth that society as a whole *has* and what its individual members
+*own*. Instead, wealth is held by society as a whole, just like the
+family's bathroom or refrigerator belongs to the entire family and not
+to one particular individual member.
+
+In subsequent chapters, by extension, the term *wealth* will also refer
+to the stock of goods that one individual or particular group of
+individuals *owns* at the exclusion of others. However, the notion of
+exclusive or *private* ownership emerges only upon examination of the
+internal structure of society.
+
+One of the important results of the analysis of this chapter is that
+private ownership is *not*, and cannot be regarded as, a *natural*
+institution. It is human-made or artificial--though not necessarily
+arbitrary. It is a historically-specific social structure. The
+historical record shows that human societies proper, distinguishable
+from groups of pre-human apes, have lived on earth for about a million
+years. Private ownership proper only goes back in history thirteen or
+fourteen centuries, to the time when civilized societies first emerged
+in what is now known as the Middle East. Chapters x and xx will examine
+the interactions among the individual members of society and show how
+these interactions generate *social structures*. We will then see how
+particular social structures may pit individuals (or groups of
+individuals) against one another.
+
+At first sight, *wealth* appears as a set of goods that society holds at
+a given point in time.
+
+According to the *Online Etymology Dictionary*, the term *wealth*
+evolved from the word *wele*, a term used in England in the Middle Ages
+to refer to *happiness*, *well-being*, or what economists today refer to
+as *welfare*. Nowadays, people rarely use the term wealth as a
+synonymous of welfare. Instead, they use it to designate "material
+possessions" available for productive use or direct personal
+consumption. Clearly, if the term *wealth* were used in its original
+sense, then it would be redundant to say that wealth (or goods), when
+used or consumed, increases welfare.
+
+In other words, under this definition, wealth is a *stock* of
+*goods*.[^21]
+
+[^21]: \[CHAPTER\] discusses the distinction between *stock* and *flow*
+    magnitudes.
+
+
+Goods are objects that meet material human needs or wants, and as such
+goods are the elementary components of wealth.
+
+A good is defined as a discrete *object*. The totality of good is
+wealth. This definition of a good may seem too narrow. Are there not
+"intangible goods," goods such as information, friendship, or good will?
+The nature of so-called "intangible goods" is clarified in \[SECTION\]
+below.
+
+Sometimes, it is convenient to say that goods are objects that when used
+or consumed generate material *welfare* for individuals.[^22]
+
+In turn, welfare can be simply defined as the well-being of individuals.
+A more detailed discussion on the content of the term *welfare* follows
+below.
+
+[^22]: As an object, a good can be viewed as existing at a point in time.
+    When used or consumed over time, goods provide a *material service*
+    over a period of time. A material service then is a *flow*. Again,
+    refer to \[CHAPTER\] for a detailed discussion of the stock-flow
+    distinction. A material service is to be distinguished from a
+    *socially necessary activity*. This distinction is similar to the
+    one introduced above between *material needs* and *social
+    necessities*. In our society, there is a host of activities that are
+    necessary for the reproduction of specific social structures.
+    Policing to enforce private ownership is a socially necessary
+    activity, but it is not a material service.
+    
+
+-   Illustrate the concept of personal consumption with four examples.
+    In each example, specify (1) the main activity or process
+    involved, (2) the input or inputs, and (3) the outcome or result of
+    personal consumption.
+
+-   Illustrate the concept of production with four examples. In each
+    example, specify (1) the specific activity involved, (2) the inputs
+    utilized, and (3) the output or result of the specific production
+    activity.
+
+-   In what sense can we say that personal consumption is production?
+    Explain.
+
+-   In what sense can we say that consumables are means of production?
+    Explain.
+
+-   In what sense can we distinguish personal consumption from
+    production? Explain.
+
+-   In what sense can we say that production is consumption? *Hint:*
+    What is consumed when humans produce?
+
+-   List the products of wheat farming. Is wheat a product of wheat
+    farming? Is a worn tractor a product of wheat farming? Is the
+    exhausted farmer a product of wheat farming? Is the experienced and
+    more skilled farmer also a product of wheat farming? Explain.
+
+-   Do natural resources truly exist? To clarify the question, consider
+    a raw mineral resource like "crude" oil in underground deposits. To
+    which extent can we say that this object is a natural resource when
+    human labor has already been spent in prospecting
+    activities--exploring, locating, and estimating the size and
+    chemical quality of these deposits? Has this work not already
+    transformed the oil in these deposits into a product?
+
+-   Are our nearby galaxies natural resources? Since we have begun to
+    observe them through our telescopes and map them, have they already
+    become products of human activity? Explain.
+
+-   Inspect carefully the diagram in Figure [\[f:basic\]], close the
+    textbook, and then try for a few minutes to replicate the diagram
+    exactly. When you finish your replica of the diagram, reopen the
+    textbook and compare the diagrams.
+
+[R]{.sans-serif} code
+---------------------
+
+```{r}
+a <- 10 + 50 + 60 + 25 + 10 + 45 + 220 + 90 
+a 
+a - (20 + 40 + 80 + 250)
+```
+
+
+# SOCIAL COOPERATION AND SOCIAL STRUCTURES
+
+Introduction
+============
+
+The previous chapter focused on the relationship between the whole of
+society and the rest of nature. It highlighted the ongoing metabolism
+between society and the rest of nature, a process through which society
+reproduces itself physically. By contrast, this chapter focuses on the
+internal life of society, on how repeated cooperative interactions among
+individuals lead to the formation of social relationships or *social
+structures*. Two main types of social structures are distinguished. The
+last part of the chapter is devoted to outlining the formation of chief
+economic structures of a modern society: those of private ownership,
+modern states and markets, and the way in which the historical formation
+of global inequality overlaid on states and markets, led to the
+emergence and development of capitalist economic structures, and with
+them the extraordinarily rapid expansion of productivity and also social
+instability and turbulence.
+
+Social cooperation
+==================
+
+Societies are other than a multiplicity of individuals. The interaction
+among them -- their recurrent cooperation to be more specific -- is the
+basis of all social life.
+
+Individuals either interact or engage with one another -- or not. If
+they do not, they may simply withdraw from one another, or they may even
+enter into outright conflict. Repeated engagement, cooperation in
+particular, forms society. Withdrawal and, worse, conflict unravel
+society.
+
+When individuals cooperate in various ways, and they do so in a repeated
+or stable manner, then they form more or less permanent social
+structures. A concrete society or social formation is a complex ensemble
+of social structures.
+
+Cooperation can be simply defined as interactive human activity in which
+individuals help one another. To help one another, individuals require
+sharing some common purpose or design, and then acting collectively to
+realize it.
+
+People may help others accomplish their designs without expecting much
+or anything in return from them, more or less selflessly. One may call
+this type of cooperation noninstrumental or direct.
+
+Thus, *direct cooperation* is cooperation for its own sake, unilateral
+or mutual help among neighbors or friends, by a mother caring for her
+baby. A host of crucial social institutions that have formed
+historically under the mos diversed conditions, one can find families,
+clans, tribes, city states, nation states, clubs, churches, business
+firms, etc.[^1]
+
+In contrast, individuals may help one another moved by the expectation
+of the beneficiaries of their help helping them in turn -- immediately
+or in the future. One may call this type of cooperation instrumental,
+self-regarding or indirect.
+
+[^1]: http://nyti.ms/5DAldO 
+
+Thus, *indirect cooperation* is cooperation for one's own sake, *quid
+pro quo*. Examples of this type of cooperation are those that lead to
+the formation of a state, in which people have mutual expectations (e.g.
+tax payment, shared protection, etc.), market exchange, etc.
+
+This is the logic of "I scratch your back if you scratch mine." In the
+case of market exchange or trade, it is the logic of "I scratch your
+back only if you scratch mine in accordance to the rate of mutual back
+scratching dictated by market prices."
+
+In sum, the life of a society is always -- necessarily -- based on the
+cooperation among individuals. We can only produce, work, and live in
+cooperation -- even when and if it doesn't seem like it.
+
+Depending on the prevailing form of cooperation, one may distinguish
+between two extreme types of social structures: social organisms and
+social organizations. Social organisms are more or less spontaneously
+form, without any of its participant individuals having, beforehand, a
+clear design of the final look and feel of the organism. In the case of
+social organisms, order and coherence are spontaneous or accidental
+results of the collision among multiple individual wills, none of which
+exercises control over the organism.
+
+Social organizations are conceived, planned, and then undertaken in
+practice more or less in accordance to a plan. In the case of social
+organizations, improvisation and on-the-spot adjustment in response to
+unexpected circumstances, are secondary to the overall design.
+
+Instances of social organizations or, more simply, organizations are
+families or, more generally, households from the viewpoint of parents or
+partners taking the initiative to form them. Proto-states (from extended
+families to clans to tribes) and states (from city-states to national
+states to multinational states), as well political and civic formations
+are examples of organizations. One can also mention business firms.
+
+Organizations have a "unified command center" and, thus, make relatively
+coherent choices, as if they were healthy individuals. Control by a
+central will may or may not be easy to attain in an organization, but
+there is the clear intent to exercise it.
+
+Instances of social organisms are families or households from the
+viewpoint of children, markets, mobs, spontaneously formed crowds,
+cities or towns in their earlier formation.
+
+Again, social organisms exhibit behavior that may appear or be orderly,
+but they lack a "unified command center," so the orderly or disorderly
+behavior of the organism results from the aggregation of mutually
+conflicting choices made by the individual members of the organism.
+
+Private ownership, trade, markets
+=================================
+
+Trade is a form of social cooperation.
+
+Trade is self-regarding cooperation.
+
+Upside: May unleash individual productivity and creativity.
+
+Downside: May weaken social bonds, especially in the presence of gaping
+inequality.
+
+Upside or downside shift depending on conditions.
+
+Trade presupposes private ownership.
+
+Private ownership:
+
+Economics Law Ideology An economy with markets and government
+
+Productivity under capitalism
+
+https://www.google.com/publicdata/directory
+
+Productivity under capitalism Productivity under capitalism Productivity
+under capitalism Productivity under capitalism Productivity under
+capitalism
+
+Trade, markets, and capitalism
+
+Trade is trade of financial "securities" (legal claims of ownership over
+goods)
+
+Money is a highly acceptable financial claim
+
+Markets connect other social structures (households, firms, states)
+
+Use of private wealth for profit goes back to ancient times
+
+Capitalism: markets + inequality (wage labor)
+
+Horizontal cooperation
+
+Simple cooperation
+
+Division of labor and specialization
+
+Mechanization and industrialization
+
+Automation and digital technology
+
+Division of labor
+
+Labor is purposeful human activity
+
+To accomplish any purpose, labor has to be divided:
+
+At each point in time or for each period of time
+
+By individual
+
+Yet, at the end of the day, we need labor to unite
+
+The labor of society is divided by task, function, age, sex/gender,
+occupation, industry, sector, nation
+
+Division of labor
+
+Uniting the divided labor is cooperating
+
+Cooperation entails sharing (at least) a purpose
+
+Cooperation usually requires that workers share productive inputs
+(natural resources, means of production)
+
+Divisibility of labor, specialization, freeing time to save labor
+
+Mechanization
+
+Machines have (1) a motor or engine, (2) a transmission mechanism, and
+(3) a tool or set of tools attached to it that operates on the labor's
+object (instead of directly using the hands)
+
+Simple tools: the motor or engine is human or animal. Advanced tools:
+the motive force is water, wind, steam, internal combustion,
+electricity, etc.
+
+Mechanization builds on labor division and cooperation
+
+Automation
+
+Automata have (1) a programmable control system and (2) a machine or set
+of machines controlled or regulated by it
+
+Advanced automata use modern information (digital) technology. Computers
+(programmable digital machines) are being used as universal control
+systems.
+
+Vertical cooperation
+
+Methods of hierarchical cooperation:
+
+Force or threat thereof Deprivation of basic necessities (land,
+consumption goods) "Enlightened" self-interest Psychological
+manipulation Horizontal cooperation: Rational persuasion between equals
+Democracy at the workplace, polity, etc.
+
+Summary
+=======
+
+Societies are based on cooperation among individuals Social structures
+(organizations and organisms) result from cooperation Trade is a form of
+social cooperation, with pluses and minuses Trade requires other forms
+of social cooperation Productivity expanded as labor division led to
+mechanization and automation Vertical cooperation has been the rule in
+the last few thousand years of history Do we need more horizontal
+cooperation and less vertical now? Is it possible?
+
+Readings / Extra credit
+
+Adam Smith, Wealth of Nations, Intro Adam Smith, Wealth of Nations, book
+1, ch 1 Karl Marx, Capital, vol I, ch 7, section 1
+
+Extra credit work: Read, reflect on, and compose a summary of each
+reading (4-5 paragraphs) and submit via Canvas message. (Do not create
+file. Type the summary in the body of the message.)
+
+Some review questions:
+
+-   What is society?
+
+-   What is a social structure?
+
+[R]{.sans-serif} code
+---------------------
+
+Here's the [R]{.sans-serif} code.
+
+```{r}
+a <- 10 + 50 + 60 + 25 + 10 + 45 + 220 + 90 
+a 
+a - (20 + 40 + 80 + 250)
+```
+
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+# APPENDIX I
+
+
+# APPENDIX II
+
+[**VARIABLES, ABSOLUTE & RELATIVE CHANGE (%)**]{.sans-serif}
+
+Introduction
+============
+
+These notes review the concept of a variable, defines its change (in
+absolute and percentage terms), and shows how to compute them.
+
+Concept of a variable
+=====================
+
+A *variable* is a mathematical concept that designates a *quality*,
+*property*, or *aspect* of the world subject to change that is of
+interest to us. The phrase "subject to change" in the prior sentence was
+not really necessary, since most everything in the universe appears to
+be subject to change or variation.
+
+Consider a few examples of different types of variables:
+
+**Categorical or nominal variables**: The first name of a man, which can
+take particular values such as "John," "Carlos," "Abdul," etc. The color
+of a flower, which can take values such as "Red," "Yellow," "Purple,"
+etc. The race or ethnicity of a group of people, which can take values
+such as "White," "Black," "Hispanic," "Asian," etc.
+
+A categorical or nominal variable has values that cannot, inherently, be
+ordered in any meaningful way. They can be ordered by reference to
+another variable, but that is not "inherent." Also, they can be ordered
+alphabetically, but that is not particularly meaningful.
+
+**Ordinal variables**: The answers to a survey question on political
+preferences, which can take particular values such as "Extreme Right,"
+"Moderate Right," "Moderate," "Moderate Left," "Extreme Left." Or the
+answers to a survey question on customer satisfaction: "Very satisfied,"
+"Satisfied," "Neither satisfied nor dissatisfied," "Dissatisfied," "Very
+dissatisfied."
+
+Ordinal variables are those whose values can be ordered, but the
+"spacing" or "distance" between the values may not be the same from one
+to its next in order.
+
+It should be clear that variables as those in the examples above are not
+amenable to arithmetic manipulation. We may compare two names or colors
+categorically, but we will not be able to reach any conclusion on
+whether one name or color is "greater than" or "less than" another name
+or color. The values of ordinal variables can be ordered as "first,"
+"second," "third," etc., but there is no way to know whether the
+difference between the values "first" and "second" is the same as the
+difference between the values "second" and "third," etc.
+
+Some times we denote a variable by a symbol, such as $x$, that within a
+given theoretical framework or model can take more than one particular
+value. This is especially convenient when we are dealing with *cardinal
+variables*, like the variables shown in the following examples.[^1]
+
+Here is a bunch of examples of cardinal variables:
+
+-   The age of a college student, $x$, where
+    $x = 18, 19, \ldots, 35, \ldots$.
+
+-   The unemployment rate, $u \in (0, 1)$, where $u=0$ means that there
+    are no unemployed workers and $u=1$ means that the entire labor
+    force is unemployed. The expression $u \in (0, 1)$ reads as: "The
+    values of $u$ belong in the interval with endpoints $0$ and $1$,
+    where the endpoints are not possible values of $u$."
+
+-   The price of milk in the local market, $p > 0$ (in dollars per
+    gallon). Thus, on May 10, 2013, $p=\$3.12/$gallon.
+
+-   The median annual income of households in New York State, $y_t > 0$
+    (in thousands of dollars), where $t=2008-2009, 2010-2011$ is another
+    variable (called a time index) denoting the year. Thus,
+    $y_{2010-2011}=\$56,950$.[^2]
+
+-   The median annual income of a household in a given state, $y_i > 0$
+    (in dollars), where $i = 1, 2, \ldots, 50$ is another variable (a
+    state index) indicating the state and where the codes are
+    $1=$Alabama, $2=$Alaska, $\ldots$, $50=$Wyoming. Thus, in 2011,
+    $y_1=42,407$ is the 2011 median household annual income in Alabama,
+    $y_2=58,552$ in Alaska, $\ldots$, $y_{50}=54,178$ in Wyoming.[^3]
+
+-   The annual gross domestic product per capita (GDPPC) in a given
+    country, $y_{it} > 0$ (in current U.S. dollars per person), where
+    $i = 1, 2, \ldots, 214$ is the country index with codes
+    $1=$Afghanistan, $2=$Albania, $\ldots$, $214=$Zimbabwe, and
+    $t=60, 61, \ldots, 11$ denotes the year. Thus, $y_{1, 60=55.61}$ is
+    the 1960 GDPPC in Afghanistan, $y_{2, 84=665.60}$ is the 1984 GDPPC
+    in Albania, $\ldots$, $y_{214, 11}=757.09$ is the 2011 GDPPC in
+    Zimbabwe.[^4]
+
+Again, cardinal variables take numerical values that can be ordered and
+manipulated arithmetically. The following discussion on variables refers
+to cardinal ones only.
+
+Absolute change
+===============
+
+If we know the value of a variable at different points in time (or for
+different periods of time), we can then determine the *absolute change*
+(change, for short) of its value from one point in time (or period of
+time) to another.
+
+**Absolute change**: The **absolute change** (or, for short, the
+*change*) of a variable $x$ is the difference between two of its values.
+We conventionally call one of its values the *initial value* and the
+other one its *final value*.
+
+For example: The change in the height of a student, from Peter to John.
+The change in Peter's height over a year.
+
+Note that the change of a variable may be *cross-sectional* (across
+categories) or *temporal* (over time), from one point in time (or period
+of time) to the next: $$\begin{aligned}
+\Delta x_t = x_t - x_{t-1},\label{eqn:change}\end{aligned}$$ where the
+capital Greek letter $\Delta$ indicates absolute change and $t$
+indicates the time point (or period).
+
+When the change in a variable $x$ is greater than $0$, $\Delta x > 0$,
+we say that $x$ increased. When $\Delta x < 0$, we say that $x$
+decreased. When $\Delta x = 0$, we say that there was no change.
+
+Here is an example that illustrates the concept of *change*:
+
+**Absolute change in a boy's height**: On December 15, 2010, the height
+of a boy is 100 centimeters. On December 15, 2011, it is 118
+centimeters. With these data we may determine the change in the boy's
+height. Let $t = 0$ indicate the date December 15, 2010 and $t=1$ the
+date December 15, 2011. Then, $x_0 = 100$ and $x_1 = 118$. We read this
+information as: "The level of $x$ at $t=0$ is 100 and 118 at $t=1$." We
+substitute in
+equation [\[eqn:change\]](#eqn:change){reference-type="ref"
+reference="eqn:change"} to determine the change in $x$:
+$$\begin{aligned}
+\Delta x_1 = x_1 - x_0 = 118 - 100 = 18.\end{aligned}$$ In words, the
+annual change in the boy's height is 18 centimeters. Or, the boy's
+height increased in 18 centimeters from December 15, 2010 to the same
+date in 2008.
+
+[R]{.sans-serif} code
+---------------------
+
+\<\<\>\>= x0 \<- 100 x1 \<- 118 dx \<- (x1 - x0) dx @
+
+Percent change
+==============
+
+**Percent change**: The **percent change** or *relative change* of a
+variable $x$ is defined as its absolute change expressed as a proportion
+of its initial value: $$\begin{aligned}
+\hat{x}=\frac{\Delta x_t}{x_{t-1}} = \frac{x_t - x_{t-1}}{x_{t-1}},\label{eqn:perchange}\end{aligned}$$
+where the "hat" \^ on top of a variable's symbol indicates its percent
+change.
+
+When the percent change of a variable $x$ is positive, $\hat{x} > 0$, we
+say that $x$ grew. When $\hat{x} < 0$, we say that $x$ decayed. When
+$\hat{x} = 0$, we say that $x$ stagnated.
+
+When a percent change refers to change *over time*, it is often called
+*growth rate*. Note that the change in the value of a variable is not
+necessarily change over time. For example: The variable *milk price*
+today may change from its value in Brooklyn to its value in Queens. To
+distinguish it from growth or change *over time*, we call this
+*cross-sectional change*.
+
+To illustrate the need for the concept of percent change, consider the
+following examples:
+
+During 2010, John was a senior college student working part time at
+McBurgers, where his income totaled \$10,000. During 2011, John worked
+for an economic consulting firm as a junior analyst and his annual
+income amounted to \$50,000. The change in in John's 2010 income to its
+2011 income (in thousands of dollars, with zeros and signs omitted):
+$$\begin{aligned}
+\Delta y^J_1 = y^J_1 - y^J_0 = 50 - 10 = 40,\end{aligned}$$ where
+$y^i_t$ indicates individual $i$'s annual income in year $t$ (abreviated
+to its last digit).
+
+Now consider Mary, a lawyer at a Wall Street firm, who had annual
+incomes of \$400,000 in 2010 and \$440,000 in 2011. The change in Mary's
+annual income from 2010 to 2011 (again, in thousands of dollars) was:
+$$\begin{aligned}
+y^M_1 = y^M_1 - y^M_0 = 440 - 400 = 40.\end{aligned}$$
+
+Now compare John and Mary. Their 2011 change in annual income was the
+same, \$40,000. However, it would not feel right to say that both John
+and Mary had a similar experience. John started from a much lower income
+in 2010 and his \$40,000 increase in annual income represents a dramatic
+turnaround in his life. Mary was already making a hefty income in 2010
+and an additional income of \$40,000, while not negligible, did not
+alter her professional status significantly. If we only look at the
+change in income without putting things in the context of their initial
+or 2010 annual incomes, it would seem as if both experienced the same.
+How do we capture the significantly different experiences that John and
+Mary had between 2010 and 2011?
+
+We express their changes in annual income as percentages of their
+initial (2010) income. The result is the percent change or growth rate
+of their annual incomes. Thus, for John: $$\begin{aligned}
+\hat{y}^J_1 = \frac{\Delta y^J_1}{y^J_0} = \frac{40}{10} = 4 = 400\%\end{aligned}$$
+
+In words, "John's annual income grew by 400 per cent" or "John's annual
+income quadrupled between 2006 and 2007." For Mary: $$\begin{aligned}
+\hat{y}^M_1 = \frac{\Delta y^M_1}{y^M_0} = \frac{40}{400} = 4 = 10\%\end{aligned}$$
+
+In words, "Mary's annual income grew by 10%" or "Mary's annual income
+increased by one tenth over the year."
+
+Again, the percentage change in John's annual income is *over time*,
+rather than cross-sectional, and that is why we call it *growth rate*. A
+cross-sectional percent change would be the difference between John's
+and Mary's annual income levels for a given (the same) year expressed as
+a percentage of any one of them.
+
+We could have put in perspective the change in John or Mary's annual
+income dividing it by the final (2011) annual income level or by some
+average between the annual income levels in 2010 and 2011, rather than
+dividing it by the initial or 2010 annual income level. As long as we
+are consistent in the denominator we use, the interpretation of the
+results should be straightforward. Although there are some exceptions
+(such as the calculation of elasticities using the *mid-point method*),
+most often, when economists refer to percentage changes or growth rates,
+they refer to changes in the variable of interest divided by the level
+of the variable at the initial point.
+
+In economics, the numerical value of a variable is often called its
+*level* or magnitude. The level is to be distinguished from its absolute
+change, or *change* for short, and from its percent change or growth
+rate, often shortened to the *growth* of the variable.
+
+Students should be very careful about whether a particular symbol
+denotes the "level" of a variable, or its "change," or its "growth."
+Note that, depending on the sign of the change, the growth rate can be
+positive (growth proper) or negative (also called "decay"). Also crucial
+is the specification of the units in which a given variable is measured.
+For more on this, see the section on stocks and flows.
+
+As an exercise, create four examples of absolute and relative (or
+percentage) change, and submit your work as intra credit.
+
+[R]{.sans-serif} code
+---------------------
+
+\<\<\>\>= \# Program of a general growth rate function: hatx \<-
+function(x0, x1) hat \<- x1/x0 - 1 return(hat) hatx(10, 50) hatx(400,
+440) @
+
+[^1]: Cardinal variables can be ordered, can be multiplied by constant
+    numbers, and the "spacing" or "distance" between their values is
+    meaningful.
+
+[^2]: U.S. Census Bureau, `http://www.census.gov/hhes/www/income/data/`.
+
+[^3]: Ibid.
+
+[^4]: *Source*: World Bank, `http://data.worldbank.org/`.
+
+
+# APPENDIX III
+
+[**RELATIONS AND FUNCTIONS**]{.sans-serif}
+
+Introduction
+============
+
+To take purposeful action, humans need to anticipate consequences. Since
+we people act as physical forces in the physical world and in society,
+and our actions collide with other forces of nature, including the
+actions of other people, for our actions to be deliberate, we need to
+sort out causes and effects. In other words, we need to build in our
+minds theories or models of the structures and processes in the reality
+in which we are immersed so we can best manage.
+
+"What causes the price of oil to drop?" "What causes unemployment to
+increase?" "What kind of policies will increase the growth rate of an
+economy by one percent over the long run?" These are questions that
+concern economists.
+
+Ascertaining cause-effect relationships is particularly difficult in
+economics, because controlled experiments tend to be either very
+expensive or impracticable. Since our main theoretical tool is
+abstraction, symbolic reasoning, our ability to manipulate concepts
+logically, then we must pay close attention to the logical consistency
+of our arguments.
+
+These notes introduce the notion of an economic theory or model as well
+the mathematical concepts that may help us specify the connections
+between various aspects of our economic life: functions (multivariate
+and bivariate) and their main types.
+
+Theories or models
+==================
+
+A model or theory is a simplified description of some phenomenon of
+interest built in order to rationalize, make sense of, or understand
+such phenomenon.
+
+Formally, a model or theory is a reasoning or chain of logical
+statements of the type: "IF $X$, THEN $Y$," where $X$ is the set of
+premises, assumptions, hypotheses, or postulates of the model, $Y$ is
+the set of conclusions, results, consequences, predictions, or
+implications of the model, and $Y$ follows logically (e.g.
+mathematically) from $X$.
+
+All models have that form. For example, a fashion model (see Figure
+[1](#p:mod){reference-type="ref" reference="p:mod"}. Clearly, a fashion
+model is not like oneself. She or he can look very different from us.
+Yet, what a fashion model parading down the runway shows us is what we
+would look like if only we had a body and face like her or him and
+dressed alike. That is, if the premise set is accepted, then the
+conclusion set follows and is, therefore, warranted.
+
+![Fashion models \[©Walterlan Papetti\]](images/model.jpg){#p:mod
+width="5cm"}
+
+The premises contain the conclusions, because no thing can result from
+nothing. The conclusions are already lodged in the premises, but they
+are not apparent. If they were obvious, then the model would be silly or
+tautological (Google that word). It still takes an effort for the human
+mind to extract the conclusions logically from the premises. The
+conclusions may appear obvious to us, but only after we have become so
+familiar with the model that its structure and results seem trivial to
+us.
+
+Learning about the world, mentally appropriating it, involves a
+trade-off. One's body, or even the bodies of all humans taken together,
+is a tiny subset of the universe. The universe cannot fit fully into
+one's head. We need to compress it tightly, filtering out what one deems
+unimportant or irrelevant, and focusing on what one regards as
+essential.
+
+One cannot make any significant progress in cognition if she is not
+willing to break up a complicated phenomenon into its component parts,
+examine each of these parts in turn as if they existed separately, and
+then try and reconstitute the whole, though now in an organized and
+understood manner.
+
+In reality, everything seems to be related to everything else. But we
+cannot take in all things at once. We can only focus on one or a few
+things at a time. That is why one must necessarily assume, as a
+provisional step in cognition, that the parts can be separated from the
+whole, studied on their own. When one pretends that some part exists in
+itself, outside of its relationship to the whole phenomenon, one is
+already dealing with an abstraction.
+
+An abstraction is an aspect of the world, but since it is an aspect
+taken apart from the aspects, then it can only be light or sketchy in
+its content. It is only by reintegrating it with the rest of the whole
+that an abstraction gains detail, specificity, etc., and becomes
+concrete.
+
+Truth, insofar as one can approximate it, is concrete organized
+knowledge. To get any closer to concrete organized knowledge, one starts
+from abstractions, carefully selected ones, general concepts that, at
+first, are largely empty of particular, concrete content. Gradually, as
+one's familiarity with the parts of the phenomenon and with the form in
+which these parts form the whole increases, these notions become more
+concrete and realistic, and therefore more useful to guide one's
+practical actions in the world.
+
+Thus, building abstract models or replicas of concrete phenomena is a
+valid step in cognition. These replicas are necessarily simpler than the
+phenomenon they aim to depict. One can only learn about the world by
+reducing the unknown to what is already familiar. This is another way of
+saying that one needs to reduce complex phenomena to simpler analogs. No
+give, no take, like no pain, no gain.
+
+It is silly to say that an abstraction or idea is not identical with the
+aspect world it seeks to depict. Similarly, it is silly to say that
+theory and practice are different. Of course they are! But there's
+nothing more practical---more practically powerful---than a good theory,
+just like there is nothing more concrete than a good, properly chosen
+abstraction.
+
+If the model is too complex, then one is back to square one. Models that
+are too complex cannot help us see the light. They have so many parts
+moving in our minds that we are incapable of obtaining from them
+straight answers. Complex models leave us confused. To be tractable,
+models need to be simple so our minds are lucid.
+
+However, the ultimate goal of our modelling exercises is practical. We
+need to solve practical problems, intervene in the world successfully.
+That requires that the results or conclusions of the model be
+sufficiently realistic. We are cutting some corners in our theorizing,
+but if we cut too many of them (or the important ones), then the results
+are not going to help us much.
+
+If the premises are less realistic, then the conclusions will also be
+less realistic. Yet, if the premises are too realistic, then the model
+becomes more complex, almost as complex as the phenomenon we are trying
+to figure out and manage. That defeats the purpose of having a model.
+
+In brief, there is a relative conflict between the realism of a model
+and its tractability. We need models that are useful, which requires
+that they be somewhat realistic, but we need our models not to be so
+realistic that they become intractable, impossible for us to figure out.
+
+Again, the ultimate purpose of building an economic model is to,
+ultimately, guide one's practical choices. In microeconomics, a business
+manager uses a model of a firm's activity to make choices about how to
+minimize costs or maximize profits given certain restrictions (e.g.
+technology, input prices, competition, laws). In macroeconomics, a
+policymaker (e.g. the Federal Reserve) uses a model of the economy to
+make choices about how to manipulate credit conditions to boost
+employment or reduce inflation. Etc.
+
+Typically, an economic model has a set of endogenous variables. An
+endogenous variable represents, for example, the state of the firm's
+finances (e.g. costs, profits, etc.) or the state of the economy (e.g.
+income level, productivity, employment, inflation rate, etc.). This
+variable is endogenous because the model is going to help us determine
+its approximate level or value.
+
+The model also has exogenous variables, those that the model takes as
+given. Usually, one needs to designate the variables that one directly
+controls or manages as exogenous, since one would like to retain the
+freedom to choose them on the basis of their effects on the endogenous
+variables as predicted by the model.
+
+Also, some exogenous "variables" may represent some relatively *stable*
+or constant features of the world depicted in the model. These
+relatively fixed "variables" (or, perhaps more properly, "constants")
+are referred as the parameters of the model.
+
+Deciding which variables should be endogenous and which exogenous (and
+then which ones have the stability to be considered as parameters) is an
+art in economics. It depends on what the practical questions are that
+the model must help to answer. It requires some experience and
+judiciousness.
+
+Some models serve a general theoretical purpose to guide our intuitions
+and do not need to give us precise quantitative answers. Other models
+are built to help us anticipate not only the direction but also the
+magnitude of the effects of changes in the exogenous variables. In this
+case, once the model is built, one needs to "calibrate" it with
+real-world data so it can provide us with specific quantitative answers.
+
+Let us now turn to the mathematical machinery involved in economic
+models.
+
+Multivariate functions
+======================
+
+Usually, economic events of interest result from multiple causes.
+However, if many of these causes are minor and if---to some
+extent---they offset one another, then it is possible for economists to
+find simpler yet powerful explanations, i.e. explanations that isolate a
+few though important causes, especially those that---aside from being
+important---are under the control or conscious influence of individuals,
+organizations, or governments.
+
+In mathematical terms, we say that most (if not all) economic phenomena
+are the result of relationships between multiple variables. We specify
+these relations by means of *functions*. In mathematics, a function is a
+*relation* between two sets---the *input* set (or *domain*) and the
+*output* set (or *codomain*)---and denoted as follows:
+
+A **function** $f$ is a relation between the domain set $X$ and the
+codomain set $Y$. $$\begin{aligned}
+f: X \rightarrow Y.\end{aligned}$$
+
+The elements of $X$ are called the arguments of the function. The
+element $y$ of codomain set $Y$ that corresponds to a given element $x$
+of domain set $X$ is called the *value* of the function or the *image*
+of $x$ under the function $f$.
+
+If we restrict both sets to the real numbers, then we usually denote a
+function as: $$\begin{aligned}
+y = f(x),\end{aligned}$$
+
+an object that one can perhaps plot in a graph.
+
+There are many ways to describe this with words. This is the common way
+in which theoretical economists refer to $y=f(x)$: "$f$ maps each value
+of $x$ to a unique value of $y$."
+
+Although mathematicians introduce very subtle distinctions between these
+terms, for our purposes the terms *relation*, *function*,
+*transformation*, or *mapping* will be treated here as synonymous or
+interchangeable.
+
+Let us define now a very general functional specification that will
+cover a lot of cases of interest to us:
+
+The relation between a variable and a host of other variables can be
+represented by a **multivariate function**: $$\begin{aligned}
+y = f(x_1, x_2, \ldots, x_n),\end{aligned}$$ where $y$ is called the
+*dependent variable*, $f(.)$ means "a function of" the *arguments* of
+the function (the variables in parenthesis), that is, the *independent
+variables* $x_1, x_2, \ldots, x_n$, where $n$ can be any positive whole
+number. That $y$ is "a function of" the independent variables $x_i$ (for
+$i=1, \ldots, n$) means that its value or level depends on the values or
+levels of the independent variables. The function $f(.)$, once
+specified, is descriptive of the type of relationship between the
+dependent and the independent variables.
+
+The variables on the right hand side of the expression above are called
+"independent" because they are regarded as largely unrelated to one
+another. In fact, in the universe, everything seems to be interrelated
+with everything else, one way or another. However, some of these
+interrelations are more immediate or direct than others. This is why,
+forcing things a little, one can frame things this way.
+
+Now, from a mathematical viewpoint, that $y$ is a function of $x_i$ does
+*not* mean that $x_i$ *causes* $y$: A multivariate function does not
+imply that the independent variables $x_i$ (for $i=1, \ldots, n$) are
+the *causes* of the dependent variable $y$. In other words, it does not
+imply that changes in their values *cause* the value of the dependent
+variable to change in accordance to the rule $f(.)$. The function only
+says that there is some definite *relationship* between $y$ and $x_i$
+(for $i=1, \ldots, n$), so that when some $x_i$ changes, $y$ also
+changes according to rule $f(.)$.
+
+Conventionally, the function suggests that theorists believes that $y$
+is the *effect* and $x_i$ (for $i=1, \ldots, n$) the *cause*. However,
+the function itself does not imply that this is necessarily the case.
+Under the function, $x_i$ *may* cause $y$, $y$ may cause some or all
+$x_i$, or both $y$ and $x_i$ may be caused by some other variable not
+identified in the expression. In a theory, the economist must postulate
+the direction of causality independently from this mathematical
+expression. The mathematical statement is used only to get a better
+sense of the logic involved.
+
+Bivariate functions
+===================
+
+Since dealing with multivariate functions mathematically can get very
+complicated very quickly, in this textbook we assume that there is only
+one independent variable of interest. All other independent variables
+are assumed to be *constant* or "given." This assumption is needed so we
+focus on one independent variable $x$ at a time.
+
+This should not be viewed as a terrible sacrifice. It is easier for us
+to grasp things with only one moving part at a time, while the other
+parts are assumed fixed. In logic, when we imagine that everything else
+remains constant to focus on the relationship between only two
+variables, we are making the *caeterius paribus* assumption.[^1]
+
+This assumption effectively reduces multivariate functions to bivariate
+functions. A relationship involving two variables can be represented by
+a *bivariate function*: $$\begin{aligned}
+y = f(x),\end{aligned}$$
+
+Again, $y$ is the dependent variable and $x$ the (single) independent
+variable. The equation says that as $x$ varies, $y$ varies in accordance
+with rule $f(.)$.
+
+Bivariate functions are very convenient to work with, since we may
+represent them graphically on a plane---a flat space split by two
+perpendicular lines, a vertical axis and a horizontal one, each axis
+representing a variable. This way we gain a visual understanding of the
+relationship between the two variables.
+
+Conventionally, we plot the values of $x$ on the horizontal axis and the
+values of $y$ on the vertical axis. Each axis is a number line and each
+pair of values $(x, y)$ corresponds to a point in the plane: a point's
+projection on the horizontal axis is the value $x$ and its projection on
+the vertical axis is the value $y$.
+
+Identity function
+-----------------
+
+We now study the simplest types of bivariate functions. The very
+simplest (somewhat trivial) case of a bivariate function is the
+**identity function**: $$\begin{aligned}
+y = x.\end{aligned}$$
+
+In words, whenever $x$ takes a value, then $y$ takes that same value.
+
+Assigning values to $x$ and using those values to determine the
+corresponding values of $y$ as given by the function is called
+*evaluating* the function. When we evaluate bivariate functions, we
+generate data tables with two columns, one column with the values of $x$
+and the other one with the values of $y$. To plot the graph, we need at
+least two values of $x$, which by using the equation $y = x$, yield two
+corresponding values for $y$.
+
+**Example**: Evaluating the identity function: Since $y = x$, then, if
+$x=-2$, then $y=x=2$ or $y=2$. Also, if $x=5$, then $y=5$.
+
+Table [1](#t:ident){reference-type="ref" reference="t:ident"}, which you
+can easily complete, displays some selected values of $x$ and $y$:
+
+::: {#t:ident}
+    $x$   $y=x$
+  ----- -------
+     -2      -2
+     -1 
+      0       0
+      1 
+      2 
+      3       3
+      4 
+
+  : The identity function: $y=x$
+:::
+
+With these figures, we have sufficient information to plot the graph of
+this function, which is a straight line that goes through these points.
+In this case (the identity function), the line also goes through the
+origin (i.e. the point where $x = 0$ and $y = 0$).
+
+Use <https://www.desmos.com/> to graph the identity function $y = x$ and
+all the other functions discussed below. Or, if you prefer, use
+<https://www.google.com/>. Play with the parameters of these graphs.
+While these tools are handy, make sure you feel comfortable plotting
+these graphs manually with pen on paper.
+
+Figure [\[f:id\]](#f:id){reference-type="ref" reference="f:id"} is my
+own plot of the identity function:
+
+Proportional function
+---------------------
+
+The **proportional function** has the following form: $$\begin{aligned}
+y = b x,\end{aligned}$$ where $b$ is a "parameter" indicating some given
+or constant number.
+
+Here is an example of a proportional function: $$\begin{aligned}
+y = 3 x,\end{aligned}$$ where $b=3$. In words, $y$ is always the triple
+of $x$. Thus, if $x = 10$, then $y = 3 \times 10 = 30$. Table
+[2](#t:prop){reference-type="ref" reference="t:prop"} shows in tabular
+form some (fill in the blanks) numerical values of $x$ and $y$:
+
+::: {#t:prop}
+    $x$   $y=3 x$
+  ----- ---------
+     -2        -6
+     -1 
+      0         0
+      1 
+      2 
+      3         9
+      4 
+
+  : A proportional function: $y=3 x$
+:::
+
+A good economic example of a proportional function follows. Currency
+conversion at a given *exchange rate* illustrates the use of the
+proportional function in economics. Suppose that today's U.S.
+dollar-Mexican peso exchange rate is 10 Mexican pesos per U.S. dollar.
+Then, algebraically: $$\begin{aligned}
+y = 10 x,\end{aligned}$$ where $x$ is an amount of money denominated in
+U.S. dollars and $y$ is its equivalent amount in Mexican pesos. If, for
+example, the amount in U.S. dollars is $x=25$, then the equivalent
+amount in pesos is $y = 10 \times 25 = 250$.
+
+What is the reverse exchange rate, i.e. the Mexican peso-U.S. dollar
+exchange rate? In other words, how many dollars are the market
+equivalent of one Mexican peso?
+
+As another example, let the exchange rate of U.S. dollars into euros be
+.9 euro per U.S. dollar. The graph of this function is shown in Figure
+[\[f:prop\]](#f:prop){reference-type="ref" reference="f:prop"}.
+Determine the equivalent amount in euros of 327 U.S. dollars.
+Algebraically: $$\begin{aligned}
+y = .9 \ x,\end{aligned}$$ where---again---$x$ is the amount in U.S.
+dollars and $y$ is the equivalent in euros. We evaluate this function
+for $x=327$: $y = .9 x = .9 \times 327 = 294.3$. In words, 327 U.S.
+dollars is equivalent to 294.3 euros.
+
+Note that the examples are simple. They are meant to illustrate general
+concepts. Students should try with more complicated numbers.
+
+The constant "parameter" $b$ is called the *slope* of the function, and
+it indicates the *scale* at which $y$ expands or shrinks as $x$ changes.
+Graphically, $b$ determines the inclination (or "slope") of the linear
+graph representing $y = b x$. More formally, the slope $b$ indicates the
+change in $y$ when $x$ changes in one unit: $$\begin{aligned}
+b=\frac{\Delta y}{\Delta x}= \frac{y_1 - y_0}{x_1 - x_2},\end{aligned}$$
+
+where the subindex indicates the initial ($0$) or final ($1$) value of a
+variable. To show this result, let $x_1=0$ and $x_1=3$. Therefore:
+$y_0 = b x_0 = b \times 0 = 0$ and $y_1 = b x_1 = b \times 3 = 3 b$. The
+changes in the variables are, respectively,
+$\Delta x = x_1 - x_0 = 3 - 0 = 3$ and
+$\Delta y = y_1 - y_0 = 3 b - 0 = 3 b$. We then note that:
+$$\begin{aligned}
+\frac{\Delta y}{\Delta x} = \frac{3 b}{3} = b.\end{aligned}$$
+
+To double check the result, let $x_0 = 10$ and $x_1 = 50$. Therefore:
+$y_0 = b x_0 = b \times 10 = 10 b$ and
+$y_1 = b x_1 = b \times 50 = 50 b$. The changes in the variables are,
+respectively, $\Delta x = x_1 - x_0 = 50 - 10 = 40$ and
+$\Delta y = y_1 - y_0 = 50 b - 10 b = 40 b$. We note that:
+$$\begin{aligned}
+\frac{\Delta y}{\Delta x} = \frac{40 b}{40} = b.\end{aligned}$$
+
+Again, the slope $b$ indicates the change in $y$ when $x$ changes by
+one.
+
+When $b = 1$ the proportional function becomes ("degenerates" or
+simplifies to) the identity function. In other words, the identity
+function is the proportional function in the particular case when
+$b = 1$.
+
+Here is an exercise for you to evaluate a proportional function: Let
+$y = 4.5 x$. Evaluate this function for $x_0=2.2$ and $x_1=3.2$,
+construct a data table, and then graph the function.
+
+### [R]{.sans-serif} code
+
+\<\<\>\>= .9\*327 @
+
+Linear function
+---------------
+
+Consider now a more general function. The **linear function** is defined
+as, $$\begin{aligned}
+y = a + b x,\end{aligned}$$ where $a$ and $b$ are both "parameters"
+indicating given or constant numbers.
+
+As noted above, the *slope* $b$ shows how steep or shallow the linear
+graph is and it indicates the change in $y$ associated with a
+unit-change in $x$: $$\begin{aligned}
+b = \frac{\Delta y}{\Delta x}.\end{aligned}$$
+
+The constant "parameter" $a$ is called the vertical intercept or,
+simply, the *intercept*, because it determines the location of the graph
+in the plane. More specifically, $a$ determines the point at which the
+linear graph crosses the vertical axis. The intercept $a$ can be
+positive or negative. If $a > 0$, then the linear graph crosses the
+vertical axis above the origin (on the positive region of $y$). If
+$a < 0$, then the linear graph crosses the vertical axis below the
+origin (on the negative region of $y$). If $a=0$, then the linear graph
+crosses the vertical axis at the origin (at $y=0$).
+
+The proportional function is a "degenerate" case of the linear function.
+In other words, the proportional function is a linear function when a =
+0: $$\begin{aligned}
+y = a + b x = b x,\end{aligned}$$ if $a=0$. Again, graphically, when
+$a = 0$, the line crosses the vertical axis at the origin, that is, when
+$y = 0$.
+
+Another example follows. The formula to convert from the Celsius
+temperature scale to the Farenheit scale is: $$\begin{aligned}
+y = 32 + \left(\frac{9}{5}\right) x,\end{aligned}$$ where $x$
+temperature in the Celsius scale and $y$ is its equivalent in the
+Farenheit scale.
+
+In Celsius, the water begins to freeze at 0 degrees or when $x=0$. In
+Farenheit, the "freezing point" is $y = 32 + (9/5) 0 = 32$. The
+intercept $a=32$ immediately gives us the needed information: Water
+begins to freeze at 32 degrees Farenheit.
+
+On the other hand, the water begins to boil at 100 degrees Celsius. For
+$x=100$, $y=32 + (9/5) x = 32 + [(9/5) \times 100] = 32 + 180 = 212$.
+The water begins to boil at 212 degrees Farenheit.
+
+If $b > 0$ (positive slope), then the change in $y$ associated with the
+unit-change in $x$ is positive. In other words, there is a *positive* or
+*direct relationship* between $x$ and $y$. If $b < 0$ (negative slope),
+then the change in $y$ associated with the unit-change in $x$ is
+negative. That is, there is a *negative* or *inverse relationship*
+between $x$ and $y$.
+
+If $b = 0$, then no matter how much $x$ changes, $y$ does not change at
+all: the graph is a flat or horizontal line. However, if
+$b \rightarrow \infty$, then even the tiniest change in $x$ will send
+$y$ through the roof. In other words, the graph would become a vertical
+line.
+
+The linear **consumption function**, which we will study later in the
+course, offers a good example. Let, $Y$ be *income* and $C$ *consumption
+spending* (or "consumption" for short), both in monetary units and for a
+given period of time. Consider the data in Table
+[3](#t:cfn){reference-type="ref" reference="t:cfn"} for selected levels
+of $Y$ and $C$, in monetary units not indicated to avoid cluttering text
+and table. (Fill in the blanks.):
+
+::: {#t:cfn}
+    Income ($Y$)   Consumption ($C = a + b Y$)
+  -------------- -----------------------------
+               0                            50
+             100                           100
+                                           150
+             300 
+             400                           250
+             500 
+             600 
+
+  : A linear consumption function: $C = a + b Y$
+:::
+
+The visual inspection of the data shows that there is a linear
+relationship between $Y$ and $C$. From one row to the next, $Y$
+increases by 100 and, as a result, $C$ increases by 50. By taking data
+from any couple of rows, we can then determine the slope of this
+relationship. Let us take two rows with proper data: $Y_0 = 0, C_0 = 50$
+and $Y_1 = 400, C_1 = 250$. Therefore, the changes are, respectively,
+$\Delta Y = Y_1 - Y_0 = 400 - 0 = 400$ and
+$\Delta C = C_1 - C_0 = 250 - 50 = 200$. The slope is then:
+$$b = \frac{\Delta C}{\Delta Y} = \frac{200}{400} = 0.5.$$
+
+With this information, we know that the relationship between income and
+consumption is given by: $$\begin{aligned}
+C = a + 0.5 Y.\end{aligned}$$
+
+However, we still ignore the value of intercept $a$. To determine $a$
+and completely specify our (linear) consumption function we need
+information that any one row in the table can give us. Let us use the
+second row. Hence $C = a + 0.5 Y$ is evaluated as:
+$100 = a + (0.5 \times 100) = a + 50$. This is a simple linear equation,
+which we can solve for $a$ by subtracting 50 from each side of the
+equation: $100 - 50 = a = 50$. We got it! $a = 50$. The (linear)
+consumption function, representative of the data in the table, is now
+fully specified as: $$\begin{aligned}
+C = 50 + 0.5 Y.\end{aligned}$$
+
+In macroeconomics, $a=50$ is called the level of *autonomous consumption
+spending*, the level of consumption spending in an economy with zero
+income. The slope $b=0.5$ is called the *marginal propensity to
+consume*, which indicates that when income increases by one dollar,
+consumption increases by 50 cents. Clearly, since $b=0.5 > 0$ is a
+positive slope, there is a positive relationship between income and
+consumption spending.
+
+With our consumption function fully specified, we are in a position to
+determine the level of consumption spending for any given level of
+income, and not only those in the table. In fact, we only need data from
+two rows in the table (or, alternatively, to evaluate twice the linear
+function $C = 50 + 0.5 Y$) and plot the resulting graph. As an
+intra-credit exercise, do this on Desmos or Google.
+
+Figure [\[f:cfn\]](#f:cfn){reference-type="ref" reference="f:cfn"} is my
+rendition of the graph of this consumption function:
+
+The algebraic formulation (the equation form) conveys the same (in fact,
+more) information than the numerical data table. And it does so in a
+much more compact manner. That is the power of math!
+
+The inverse function of a linear function
+-----------------------------------------
+
+This subsection shows how to derive the inverse function of a linear
+function. Consider the general linear function $y = a + b \ x$. Then,
+the following step-by-step sequence yields its inverse function:
+$$\begin{aligned}
+y = a + b \ x, \\
+a + b \ x = y, \\
+b \ x = - a + y, \\
+x = - \frac{a}{b} + \frac{1}{b} \ y, \\
+x = c + d \ y,\end{aligned}$$
+
+where $$c \equiv - \left(\frac{a}{b}\right),$$
+$$d \equiv \left(\frac{1}{b}\right).$$
+
+Consider the linear equation (function) $Q_d = 100 - 2 \ p$, where $Q_d$
+is the quantity of apples (in boxes) that buyers in a market wish to buy
+and $p$ is the price of a box of apples (in \$/box). Figure
+[\[f:dem\]](#f:dem){reference-type="ref" reference="f:dem"} shows its
+graph.
+
+Therefore, the inverse demand equation is: $$\begin{aligned}
+Q_d = 100 - 2 \ p, \\
+100 - 2 \ p = Q_d, \\
+- 2 \ p = -100 + Q_d, \\
+p = \frac{100}{2} - \frac{1}{2} \ Q_d, \\
+p = 50 - 0.5 \ Q_d.\end{aligned}$$
+
+Using the formulas above, one can determine the inverse function more
+quickly. Since $a = 100$ and $b=-2$, then:
+
+$$\begin{aligned}
+c \equiv - \frac{a}{b} = - \frac{100}{-2} = 50, \\
+d \equiv \frac{1}{b} = \frac{1}{-2} = -0.5, \\
+p = 50 - 0.5 \ Q_d.\end{aligned}$$
+
+Figure [\[f:idem\]](#f:idem){reference-type="ref" reference="f:idem"}
+shows the grap of the inverse demand function, which is the one most
+typically shown in textbooks:
+
+Nonlinear relationships
+=======================
+
+In this textbook, we will not use the algebraic or equation form for
+nonlinear relationships between two variables, $x$ and $y$. For them, we
+will only use graphs and intuition. Usually, when dealing with nonlinear
+relationships, intercepts are of little or no interest. Most of the
+interest focuses on the *slopes*, which are now variable rather than
+constant.
+
+Figure [\[f:con\]](#f:con){reference-type="ref" reference="f:con"}(a)
+shows a curve that is concave to the origin (the point in the plane
+where $x = 0$ and $y = 0$). Note that, throughout, the slope of the
+curve is negative. When $x$ is close to zero, the slope is a very small
+negative number (almost zero). Then, as $x$ increases, the slope of the
+curve becomes increasingly negative and, when it hits the horizontal
+axis, it is very negative.
+
+Figure [\[f:con\]](#f:con){reference-type="ref" reference="f:con"}(b)
+shows a graph that also slopes downward. However, this curve is convex
+to the origin. When $x$ is close to zero, the slope is very high (it
+tends to infinity). Then, as $x$ goes up, the curve's slope becomes less
+and less negative. When it hits the horizontal axis, the slope of the
+curve is almost zero.
+
+Finally, the graph in Figure
+[\[f:curve\]](#f:curve){reference-type="ref" reference="f:curve"} shows
+a more complicated relationship between $x$ and $y$. This is a curve
+that changes direction. When $1 < x < 1.9$ approximately and also when
+$x > 3.1$, the slope of the curve is positive. For all other values of
+$x$ in the graph, the slope is negative. Also note that the curve's
+slope becomes zero at approximately $x = 1.9$ and also somewhere around
+$x =3$. At these points the slope changes from positive to negative or
+vice versa. So, a flat or horizontal tangent line can be drawn to touch
+them. These points are either *maxima* or *minima* (the plural of
+*maximum* and *minimum*, i.e. the highest and lowest values of $y$).
+
+[^1]: The *caeteris paribus* assumption requires that the independent
+    variables are indeed (relatively speaking) independent (or largely
+    so) from one another. If at least some of $x_i$ are not sufficiently
+    independent, but they vary together, then the
+    "everything-else-constant" assumption may lead to serious nonsense.
+    Again, in the world, things appear to be all interrelated. There
+    seem to be hard limits to human cognition. Such is life!
+
+
+# APPENDIX IV
+
+[**STOCKS AND FLOWS**]{.sans-serif}
+
+Introduction
+============
+
+As in the physical sciences, all basic magnitudes in economics are
+specified either *at a point in time* or *over a period of time*. The
+distinction between these two types of magnitudes is one of the most
+important ones in accounting, finance, and economics. Much confusion can
+be avoided by understanding the distinction, and maintaining it
+consistently when conducting economic analysis. Let us define the basic
+concepts.
+
+Definitions
+===========
+
+A *stock* magnitude (a *stock*, for short) is the value of a variable at
+a given point in time. A flow magnitude (or, simply, a *flow*) is the
+value of a variable for a given period of time.
+
+Once these basic magnitudes are defined, a host of other magnitudes can
+be derived as well---such as *ratios* of flows to flows, stocks to
+stocks, flows to stocks, and stocks[^1] to flows.
+
+As an analogy, consider a vessel or container with water, with one pipe
+delivering additional water into the vessel, and another pipe leaking it
+out. A physicist or an engineer would call this a simple "hydrodynamic
+system." Figure [1](#f:sf){reference-type="ref" reference="f:sf"}
+illustrates the idea.
+
+![A container](images/stock_flow.png){#f:sf width="4.5cm"}
+
+Stock and flow magnitudes can be used to measure the performance of this
+system. A stock measure would be the amount of water in the container at
+given points in time, such as Sundays at noon. Alternatively, a flow
+measure would be one of the amount of water flowing into, through, or
+out of the vessel over given periods of time, such as a day or month.
+
+Then, by combining both forms of measurement, we would obtain a better
+understanding of the functioning of the system. The stock measures may
+help us correct errors in the measurement of flows and, vice versa.
+
+Let $S_0$ be the amount of water in the vessel at the end of month $0$,
+$i_1$ the amount of water flowing into the vessel during month $1$, and
+$o_1$ the amount of water flowing out of the vessel during that same
+month. Then, the net amount of water flowing *through* the vessel in
+month $1$ is given by $i_1 - o_1$, and the amount of water in the
+container at the end of month $1$ is: $$\begin{aligned}
+S_1 = S_0 + \Delta S_1 = S_0 + i_1 - o_1.\end{aligned}$$
+
+In words, the amount of water in the container at the end of the period
+equals the amount of water in the container at the beginning of the
+period, plus the water that got into it during the period, minus the
+water that leaked out of it during the same period. Therefore, the
+change in the stock of water from the end of month $0$ to the end of
+month $1$ is the net flow of water in the month: $o_1 - i_1$.[^2]
+
+General formula
+===============
+
+Let $t$ denote a period and its end time point. Then, the general
+formula linking stocks and flows is: $$\begin{aligned}
+S_{t+1} = S_t + \Delta S_{t+1} = S_t + i_{t+1} - o_{t+1}.\end{aligned}$$
+
+Consider an example. On November 1 ($t = 0$), the amount of water in the
+container is 10 gallons ($S_0 = 10$). The water flowing into the vessel
+during November is 40 gallons ($i_1 = 40$) and the water flowing out of
+the vessel is 39 gallons ($o_1 = 39$). The amount of water in the
+container on December 1: $$\begin{aligned}
+S_1 = S_0 + i_1 - o_1 = 10 + 40 - 39 = 11.\end{aligned}$$ That is, there
+are eleven gallons of water in the container at the end of November. If,
+mysteriously, the stock of water on December 1 is any different from
+(greater than or less than) the result above, then we have made errors
+in our measurements. The new measure of the water level can help us
+correct our records.
+
+A more relevant example is Peter's checking account. But, for a change,
+let us also change the notation. Now, $B$ is the balance (stock), $d$
+the deposits (inflows), and $w$ the withdrawals in all forms (outflows).
+On November 1 ($t = 0$), the balance of Peter's checking account is 100
+dollars ($B_0 = 100$). During November, Peter deposited checks his
+grandmother and father sent him that totalled 400 dollars ($d_t = 400$).
+Also in the month, he made electronic payments, wrote checks, and
+withdrew cash from the ATM machine for a total of 390 dollars
+($w_t = 390$). The balance of his account on December 1 is determined as
+follows: $$\begin{aligned}
+B_1 = B_0 + \Delta B_1 = B_0 + d_1 - w_1 = 100 + 400 - 390 = 110.\end{aligned}$$
+That is, Peter held a balance of 110 dollars at the end of November.
+
+Another example (using the original notation above). On January 1, 2010
+($t = 0$), a town's assets were estimated in 10,000 dollars
+($S_0 = 10$). In 2010, the town received local taxes and grants from the
+central government totalling 40,000 dollars ($i_t = 40$). Also in 2010,
+the town spent in its administration, public works, and local public
+programs a total of 39,000 dollars ($o_1 = 39$). The value of the town's
+assets at the end of 2010 is given by: $$\begin{aligned}
+S_1 = S_0 + \Delta S_1 = S_0 + i_1 - o_1 = 10 + 40 - 39 = 11.\end{aligned}$$
+That is, the town began 2011 with assets worth 11,000 dollars.
+
+Note that the mathematical structure of the four examples above is
+essentially the same.
+
+Do the following example yourself, and submit it as intra-credit work:
+As of January 1, 2010 ($t = 0$), the total wealth of an economy is
+estimated in 10 billion dollars ($X_0 = 10$). During 2010, the economy
+produced output estimated in 40 billion dollars ($x_{it} = 40$). ALso,
+households in the economy consumed 39 billion dollars during the year
+($x_{ot} = 390$). Determine the change in the outstanding wealth of the
+economy in 2011 and also the economy's wealth as of January 1, 2011.
+
+[R]{.sans-serif} code
+---------------------
+
+\<\<\>\>= 10 + 40 - 39 100 + 400 - 390 @
+
+Accounting fundamentals
+=======================
+
+The two basic financial statements that accountants produce are the
+*balance sheet* and *the income statement*. These financial statements
+provide a detailed picture of the ongoing financial performance of a
+business or organization.
+
+The *balance sheet* of any individual or organization (such as a
+business) is a report that describes the financial condition of such
+entity at some given point in time.
+
+The balance sheet has two sides. The left-hand side reports the value of
+all the organization's *assets*, again, at a given point in time,
+typically at the end of a year. The assets are the resources under the
+management or control of the organization measured at a point in time.
+The right-hand side reports the source of the value of the assets listed
+on the left-hand side. They are either *owed* to others, in which case
+they are called *liabilities*, or they are *owned* by the legal owners,
+in which case they are called *equity*, *net worth*, or (in the case of
+banks) *capital*.
+
+In usual practice, organizations report a balance sheet every year,
+quarter, and---sometimes---month. Less usual is every week or day. In
+principle, it could be determined at each and any point in time.
+Real-time balance sheets are now the rule thanks to modern day
+computers.
+
+The fundamental equation of the balance sheet is: $$\begin{aligned}
+A_t = L_t + E_t\end{aligned}$$
+
+where $t$ indicates a point in time (e.g. the last day of the year), $A$
+is total assets, $L$ is total liabilities, and $E$ is total equity.[^3]
+
+As an example, consider the following balance sheet of a typical firm.
+See table [1](#t:bal){reference-type="ref" reference="t:bal"}.
+
+::: {#t:bal}
+  Item                           Amount Item                                  Amount
+  ---------------------------- -------- ----------------------------------- --------
+  Cash and liquid securities       \$10 Payables                                \$20
+  Inventories                        50 Other short-term debt                     40
+  Receivables                        60 Mortgages                                 80
+  Trucks (net)                       25 Other long-term debt                     250
+  Office equipment (net)             10 **Total liabilities**                    390
+  Machinery (net)                    45 **Total equity**                         120
+  Buildings (net)                   220                                     
+  Other fixed assets (net)           90                                     
+  **Total assets**                \$510 **Total liabilities plus equity**      \$510
+
+  : ABC, Inc.'s balance sheet as of 12/31/2010
+:::
+
+All items in the balance sheet are *stock* measures. So, whenever you
+consider a balance sheet, think of "water in a container" measured at a
+point in time.
+
+In the balance sheet, by convention, asset items are viewed as positive
+stock magnitudes while liabilities and equity items are negative stock
+magnitudes.
+
+The *income statement* (or result statement or profit-loss statement) of
+any individual or organization (such as a business) is a report that
+describes the financial activity of the organization over a given period
+time.
+
+The income statement reports on its *top line* the total flow of *gross
+income* (e.g. sales revenues) received by the organization during a
+period of time (e.g. a year) as a positive number. The next lines report
+the various expenses that the activity of the organization incurred
+during the period to sustain its gross income. These expenses---sorted
+out as production costs, operating expenses, financial expenses, and
+taxes---are deducted or subtracted from the top line. In other words,
+they are regarded as negative numbers. Finally, the *bottom line* of the
+income statement indicates the flow of *net income* or *net profit* (if
+the net income is positive) or *net loss* (if the net income is
+negative) during the period.
+
+The fundamental equation of the income statement is: $$\begin{aligned}
+NI_t = GI_t - PC_t - OE_t - FE_t - Tt\end{aligned}$$ where $t$ is the
+period of time from point in time $t-1$ to point in time $t$, $NI$ is
+the residual income or net income (net profit or net loss), $GI$ is the
+gross income (typically, revenues from sales, though it may include
+rental income and interest income the organization may receive during
+the period), $PC$ is the total cost of goods sold (such as cost of raw
+materials, storage costs, wages and benefits of factory-floor workers),
+$OE$ are the operating expenses (sales and administrative expenses,
+including salaries and commissions of administrative and sales personnel
+and depreciation of fixed assets), $FE$ is financial expenses (interest
+paid on outstanding liabilities), and $T$ is taxes paid.
+
+As an illustration, consider the following income statement for some
+typical firm: See table [2](#tab:inc){reference-type="ref"
+reference="tab:inc"}.
+
+::: {#tab:inc}
+  Item                                                 Amount
+  -------------------------------------------------- --------
+  ($+$) Sales revenues                                  \$200
+  ($-$) Cost of goods sold                                 90
+  Gross profit                                            110
+  ($-$) Operating expenses (includes depreciation)         40
+  Operating profit                                         70
+  ($-$) Interest paid                                      10
+  Taxable profit                                           60
+  ($-$) Taxes                                              10
+  Net profit                                             \$50
+
+  : ABC, Inc.'s income statement from 1/1/2010 through 12/31/2010
+:::
+
+Note that all items in the income statement are *flow* measures. Think
+of them as "water that flows in or out of the container" over a period
+of time.
+
+In the income statement, the convention is that revenues (from sales)
+are regarded as positive flows and all costs and expenses as negative
+flows.
+
+As shown with the vessel analogy above, the balance sheet and the income
+statement are intimately related.
+
+Again, it is useful to think that, every time an organization conducts
+an operation or transaction, every time a business takes raw materials
+from its inventories and have its workers process them on the factory
+floor, every time its sales people sell a batch of goods or its
+administrative personnel orders a shipment from its suppliers, every
+time a payment is made or received, etc. there is "water flowing" from
+one balance-sheet "container" into another one. At the end of the given
+period (and beginning of the next period), the balance sheet reports the
+adjusted levels of "water in each container at that point in time."
+
+Also at the end of the given period (beginning of the next), each spurt
+of "water" that flowed from "container" to "container" during the period
+is added up (aggregated) into its respective category and recorded in
+the income statement. The legal owners of the organization (if a
+corporation, the legal owners are called *stockholders* or
+*shareholders*) pay most attention to the level of "water" in their
+equity "container."
+
+The examples above should make it clear that the principles of
+accounting are the same whether they are applied to one household,
+business, entity, or organization, including a national economy or the
+entire global economy for that matter.
+
+The Generally Accepted Accounting Principles (GAAP)---with rules set by
+the Financial Accounting Standards Board (FASB), a private sector
+organization---that are used in business practice, are a set of detailed
+conventions based on these fundamental principles. The national income
+and product accounts (NIPA) and the balance of payments (BoP) accounts
+kept by the Bureau of Economic Analysis (BEA) of the U.S. Department of
+Commerce, the flow of funds (FoF) accounts kept by the Federal Reserve
+("Fed"), and the data on prices, employment, pay, and productivity kept
+by Bureau of Labor Statistics, all of them statistical records intended
+to measure the performance of the U.S. economy, are based on these very
+principles. Other national statistics agencies, central banks, and
+international organizations---such as the International Monetary Fund
+(IMF), the World Bank (WB), the World Trade Organization (WTO), the
+Organization for Economic Cooperation and Development (OECD), and the
+United Nations (UN)---apply the same principles to their statistical
+collection efforts.
+
+Further details are the subject matter of formal courses in financial
+accounting, macroeconomics, and other particular fields.
+
+[R]{.sans-serif} code
+---------------------
+
+\<\<\>\>= a \<- 10 + 50 + 60 + 25 + 10 + 45 + 220 + 90 a a - (20 + 40 +
+80 + 250) 200 - 90 200 - 90 - 40 200 - 90 - 40 - 10 200 - 90 - 40 - 10 -
+10 @
+
+[^1]: The term *stock* has several meanings in economics and finance. It
+    also refers to the equity or residual wealth claimed by the legal
+    owners of a company traded in the market. The context should make it
+    clear when the term is used in one or another sense.
+
+[^2]: Evaporation and any other form of water entering or leaving the
+    container are ruled out by assumption.
+
+[^3]: To separate an organization from its individual owners, it may be
+    convenient to state the equation as A = L, i.e. assets equal
+    liabilities. They are liabilities to either others or to the
+    individual "owners" of the organization. In this interpretation, the
+    equity of the legal owners of, e.g., a business is considered a
+    special type of liability.
+
+# REFERENCES

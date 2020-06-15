@@ -1,0 +1,312 @@
+---
+title: "Numbers, Reciprocals, and Averages"
+author: "Julio Huato"
+date: "5/9/2020"
+output: html_document
+---
+
+Introduction
+============
+
+This document reviews numerical notation and important arithmetic
+operations regularly used in economics courses: the reciprocal or
+multiplicative inverse, and two types averages: (1) the arithmetic or
+simple mean and (2) the weighted mean. There will also be a tiny bit of
+algebra below. Just a tiny bit.
+
+Numerical notation
+==================
+
+Economic data appears in different but essentially equivalent numerical
+forms. For certain purposes, a certain numerical notation is preferred
+to others or is more convenient than others. This is a matter
+ofconvenience, convention, and habit.
+
+Here are some examples:
+
+**Decimals** The Bureau of Economic Analysis estimated the *gross
+domestic product* of the United States in 2011 at 14.99 trillion
+dollars.
+
+**Percentages** The Bureau of Labor Statistics estimated that, as of
+March 2013, the U.S. *unemployment rate* was 7.6%.
+
+**Fractions or ratios** The Bureau of Economic Analysis also estimated
+that U.S. *imports* of goods and services in 2007 were approximately 1/6
+of gross domestic product. Alternatively, the ratio of U.S. imports of
+goods and services to GDP in 2007 was 1:6.
+
+**Fractions or ratios** The Census Bureau reported that in 2007, the
+ratio of money income of the poorest fifth of U.S. households to the
+richest fifth was approximately 1:15, the highest of all developed
+economies. Alternatively, the money income of the poorest fifth of U.S.
+households was approximately 1/15 of that of the richest fifth.
+
+Students of macroeconomics should visit and get well acquainted with the
+following sources of U.S. economic data:
+
+-   **Bureau of Economic Analysis**: <https://bea.gov/>
+
+-   **Bureau of Labor Statistics**: <https://www.bls.gov/>
+
+-   **Federal Reserve**: <https://www.federalreserve.gov/>
+
+-   **Census Bureau**: <https://census.gov/>
+
+-   **FRED**: <https://fred.stlouisfed.org/>
+
+In reading and manipulating numbers, one should be able to go back and
+forth between them. The following examples show the equivalences:
+
+$$20 = 20.00 = \frac{20}{1} = \frac{200}{10} = \frac{2000}{100} = \dots = 20:1 = 2000\%.$$
+$$1 = 1.0 = \frac{1}{1} = \frac{5}{5} = \frac{777}{777} = \dots = 1:1 = 100\%. $$
+$$0.5 = \frac{1}{2} = \frac{2}{4} = \frac{13}{26} = \dots = 1:2 = 50\%. $$
+$$0.333\ldots = \frac{1}{3} = \frac{300}{900} = \dots = 1:3 = 33.\bar{3}\%. $$
+$$0.25 = \frac{1}{4} = \frac{10}{40} = \frac{25}{100} = \dots = 1:4 = 25\%.$$
+
+Note that a number can be correctly expressed in fractional notation in
+an infinite number of ways, as long as the proportion between numerator
+and denominator is kept.
+
+Reciprocals
+===========
+
+One often needs to take reciprocals (also called "multiplicative
+inverses"). The **reciprocal** of a number $x$ is that number divided
+into 1 or 1/$x$.
+
+These are different forms to express the reciprocals of 50, 5, 0.5, and
+0.01, respectively: 
+$$\frac{1}{50} = 1:50 = 2\% $$
+$$\frac{1}{5} = 1:5 = 20\% $$
+$$\frac{1}{0.5} = 2 = 200\% $$
+$$\frac{1}{0.01} = 100 = 10,000\%.$$
+
+Note that when one divides any number by 1, the result is that number
+itself. However, when one divides any number by a "small" number (a
+number less than 1), the result is a large number (a number greater than
+1). And, contrariwise, when one divides any number by a "large" number,
+the result is a "small" number.
+
+Note that the reciprocal of zero is so large that it cannot be defined
+as a number. It is said to be undefined or *infinity*, and denoted with
+the symbol $\infty$.
+
+In brief, any number (positive or negative) divided by zero is
+undefined. That is: $x/0 = \infty$, where $x$ may be any number,
+positive, negative, or zero.
+
+Finally, note that when the reciprocal of a number $a$ multiplies a
+number $x$, the result is the same as $x$ divided by $a$. That is
+
+$$\left( \frac{1}{a} \right) \times x = \frac{x}{a}.$$
+
+For example: 
+$$\left( \frac{1}{2}\right) \times 10 = \frac{10}{2} = 5.$$
+
+As an exercise, fill out all the blanks in the following spreadsheet.
+Try to do the computations manually and memorize as much as you can.
+Show me your completed worksheet at the beginning of the next class.
+
+   $x$   $\frac{1}{x}$   $\frac{1}{x}$ (as a fraction)   $\frac{1}{x}$ (in decimals \[1\])    $\frac{1}{x}$ (in percentage)
+  ----- --------------- ------------------------------- ----------------------------------- -------------------------------
+    0      $\infty$                   \-                                \-                                               \-
+   .1         10                $\frac{10}{1}$                         10.0                                         1,000 %
+   .2          5                                                                                                       500%
+               4                 $\frac{4}{1}$                                                                           \%
+   .5          2                                                                                                         \%
+    1                                                                   1.0                                            100%
+    2                            $\frac{1}{2}$                          .5                                              50%
+    3                            $\frac{1}{3}$                      $.\bar{3}$                                $33.\bar{3}$%
+    4                                                                                                                   25%
+    5                                                                                                                    \%
+    6                                                                                                                    \%
+    7                                                                                                                    \%
+    8                                                                                                                    \%
+    9                                                                                                                    \%
+   10                           $\frac{1}{10}$                                                                          10%
+   11                                                                                                                    \%
+   12                                                                                                                    \%
+   13                                                                                                                    \%
+
+R code
+======
+
+```{r}
+x <- c(0, .1, .2, .25, .5, 1:13) 
+1/x 
+```
+
+
+Simple average
+==============
+
+Often there are data on a variable and one needs to find its *typical*,
+*representative*, or **average** value. This is an example in which one
+uses the simplest average concept, that of the *arithmetic mean* or
+simple average.
+
+A group of four students found in their pockets the following amounts of
+cash (in dollars): $\{25, 15, 10, 30\}$. What is the amount of cash in
+the pocket of a typical student in the group? Note that no particular
+individual needs to have exactly that amount. One may have learned in
+middle school how to calculate the simple or arithmetic average of the
+data given: 
+$$\frac{25 + 15 + 10 + 30}{4} = \frac{80}{4} = 20.$$
+
+This result may be interpreted as: "The average amount of cash in the
+pocket of an individual in this group is \$20."
+
+More generally, let $x$ be any variable of interest for which one has
+data $\{x_1, x_2, \ldots, x_n\}$, where $n$ is the number of values of
+$x$. In statistics, $n$ is called the "sample size" or the "number of
+observations" of the variable $x$. Now, let $\bar{x}$ be the simple or
+arithmetic average of the data (a.k.a. "arithmetic mean"). Then:
+
+$$\bar{x} = \frac{x_1 + x_2 + \ldots + x_n}{n}$$
+
+If one defines $\sum_{i=1}^n x_i \equiv x_1 + x_2 + \ldots + x_n$, the
+formula can be simplified to: 
+$$\bar{x} = \frac{\sum_{i=1}^n x_i}{n}.$$
+
+In general, the **summation operator** is an abbreviation used to
+express the addition of numbers. If $\{x_i: i=1, 2, \ldots, n\}$ is a
+sequence of $n$ numbers, then the summation of the $n$ numbers is
+defined as: 
+$$\sum_{i=1}^n x_i \equiv x_1 + x_2 +\cdots + x_n.$$
+
+Thus, another way of presenting the same formula is this:
+$$\bar{x} = \Big(\frac{1}{n}\Big) \sum_{i=1}^n x_i.$$
+
+This reads as: "The simple average or mean of $x$ is the sum of the data
+values of $x$, from the first to the last value, divided by the sample
+size (or multiplied by the reciprocal of the sample size)."
+
+R code
+======
+
+```{r}
+x <- c(25, 15, 10, 30) 
+mean(x)
+```
+
+Weighted average
+================
+
+Often, one needs to take averages of averages.
+
+To illustrate this, call the group in the previous section's example,
+group $x$. One knows that their average pocket cash is $\bar{x}_1 = 20$
+dollars and that the number of people in the group is $n = 4$
+individuals. Suppose now that there is a second group of people, group
+$y$, with the following pocket cash (also in dollars): $\{5, 17, 8\}$.
+Clearly, $\bar{y} = (5 + 17 + 8)/3 = 30/3 = 10$ dollars. Also, the
+sample size of the second group is $m = 3$.
+
+Now suppose that only the averages of each group are given:
+$\bar{x} = 20$ and $\bar{y} = 10$ as well as the number of people in
+each group: $n = 4$ and $m=3$, and one needs to find the typical value
+for both groups taken together. Let us call $z$ the group formed by
+combining the two groups.
+
+It should be clear that one cannot just take the average of the simple
+averages: $(20 + 10)/2 = 15$. Why not?
+
+Because that would give the same "weight" to each group average in
+determining the average of averages. But, the first group has *four*
+people while the second group only has *three*. As a result, each
+individual in the second group would be given more importance in
+determining the mean of the supergroup $z$.
+
+The correct mean requires that each individual be given the same
+importance or "weight" regardless of the group in which she belongs. In
+other words, since the total number of people in the two groups combined
+is $n + m = 4 + 3 = 7$, then group $1$ should have a "weight" of
+$n/(n+m) = 4/7$ while group $2$ should have a "weight" of
+$m/(n+m) = 3/7$ in determining the average of averages.
+
+That is, 
+$$\bar{z} = (4/7) \times 20 + (3/7) \times 10 = 15.7.$$
+
+This is called the **weighted mean** or weighted average of the two
+group averages.
+
+Note that the sum of the weights equals $1$, because $n + m$ is the
+sample size of the supergroup $z$.
+
+One can verify that this is the correct or "fair" way of computing the
+average of averages by combining the two groups into a single pool of
+people and taking the average of their pocket cash:
+$\{25, 15, 10, 30, 5, 17, 8\}$. The overall mean of all the individuals
+in the two groups now merged in a single supergroup is:
+$$\frac{25 + 15 + 10 + 30 + 5 + 17 + 8}{7} = 15.7.$$
+
+In general, the weighted average of any variable $x$ or $\bar{x}$ for a
+$m$ (finite) groups is given by: 
+$$\bar{x} = \omega_1 \ \bar{x}_1 + \omega_2 \ \bar{x}_2 + \dots + \omega_m \ \bar{x}_m,$$
+
+or, more compactly: 
+$$\bar{x} = \sum_{k=1}^m \omega_k \ \bar{x}_k,$$
+
+where $\omega_k = n_k/n$ is the *weight* of group $k$ given by the
+sample size for group $k$ as a fraction of the entire merged sample,
+such that 
+$$\sum_{k=1}^m \omega_k = 1.$$
+
+In three towns, the average price of oranges (in \$/per bag) is,
+respectively: $\bar{p}_1=4, \bar{p}_2=2, \bar{p}_3=6$. The population in
+each town (in thousands) is, respectively: $n_1=12, n_2=14, n_3=18$.
+Therefore, the weights for each town are: 
+$$\sum_{i=1}^3 n_i = 12 + 14 + 18 = 44, $$
+$$\omega_1 = \frac{n_1}{\sum_{i=1}^3 n_i} = \frac{12}{44} = 0.27, $$
+$$\omega_2 = \frac{n_2}{\sum_{i=1}^3 n_i} = \frac{14}{44} = 0.32, $$
+$$\omega_1 = \frac{n_1}{\sum_{i=1}^3 n_i} = \frac{18}{44} = 0.41.$$
+
+Verify that $\sum_{i=1}^3 \omega_i = 0.27 + 0.32 + 0.41 = 1.00$. The
+mean for the three towns taken together, i.e. the weighted mean, is
+given by: 
+$$\bar{p} = \omega_1 \ \bar{p}_1 + \omega_2 \ \bar{p}_2 + \omega_3 \ \bar{p}_3 $$
+$$\bar{p} = (0.27 \times 4) + (0.32 \times 2) + (0.41 \times 6) $$
+$$\bar{p} \approx 4.18.$$
+
+Note that it was possible to use *thousands* as the units of the sample
+sizes, because the weights are the sample sizes (the population in each
+town) as a fraction of the entire merged sample size (the population of
+the three towns added together). In the weight formulas, the thousands
+in the numerators cancel out the thousands in the denominators.
+
+The notation used in the formulas is mixed. This should help you get
+comfortable with different symbols used to denote the same mathematical
+objects. Different textbooks use different notations, and sometimes the
+same book has to change notation from chapter to chapter or section to
+section, because there are only so many letters in the alphabet.
+
+Make your own exercises to practice the computation of simple arithmetic
+means and weighted means. Intra credit for every adequate exercise that
+you may create and submit.
+
+Another exercise that should help you expand your skill set:
+
+Using Fred (<https://fred.stlouisfed.org/>) and Excel, determine the
+mean of the the quarterly real gross domestic product per capita of the
+U.S. for the period 2000 Q1-2019 Q3. Also using Excel, determine the
+quarterly growth rate of real GDP per capita. Submit this for intra
+credit as well.
+
+R code
+======
+
+```{r}
+(20+10)/2 
+(4/7)*20+(3/7)*10 
+z <- c(25, 15, 10, 30, 5, 17, 8) 
+mean(z) 
+p <- c(4, 2, 6) 
+n <- c(12, 14, 18) 
+w <- n/sum(n) 
+w
+sum(w*p)
+```
+
+References
+==========
