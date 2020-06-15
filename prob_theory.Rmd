@@ -219,7 +219,7 @@ One can only use experience -- individual or collective -- i.e. history to assig
 
 # Sample space and event
 
-The *sample space* or *population* of an experiment or process is defined as the set of all the possible outcomes of the experiment. E.g. the sample space of the experiment of flipping a coin twice is: $\Omega=\{(H, H), (H, T), (T, H), (T, T)\}$.^[Here, we rule out by assumption any "freak" possibilities, such as the coin landing on its edge or disintegrating in the air.]  This is a finite sample space.
+The *sample space* or the *population* of an experiment or process is defined as the set of all the possible outcomes of the experiment. E.g. the sample space of the experiment of flipping a coin twice is: $\Omega=\{(H, H), (H, T), (T, H), (T, T)\}$.^[Here, we rule out by assumption any "freak" possibilities, such as the coin landing on its edge or disintegrating in the air.]  This is a finite sample space.
 
 An example of an infinite sample space would be the possible points in the unit circle where a dart may hit.
 
