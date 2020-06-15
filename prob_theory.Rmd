@@ -10,24 +10,32 @@ bibliography: bib.bib
 
 # Introduction
 
-This document offers a brief introduction to probability theory.  Econometrics is the machinery of statistical inference deployed to extract information out of observational data sets.  Statistical inference takes data and extracts from it information or knowledge.  In order to do so, statistical inference relies heavily on a *mathematical theory* of learning known as *probability theory*.  To learn or to acquire knowledge means to reduce one's relative ignorance or uncertainty about the world.  Thus, probability theory is a set of theoretical elements that help us to organize our understanding of the part of the world we do not yet understand or know. 
+This document offers a brief introduction to *probability theory*.  
 
-Make sure that the elementary principles of probability theory are clear in your mind, because everything we will do in the subsequent sections of the course is based on these principles.
+Remember that a theory (or model) starts with a set of premises and logically derives conclusions from them.  So, probability theory starts from rather simple and more or less plausible premises. The conclusions that follow from those premises are amazingly powerful.
 
-But before we get to probability theory, we will cover briefly the summation operator.  Operators are symbolic commands that tell us what procedure to apply to other symbols or numbers.  Think of an operator as a sentence in common language that tells you what to do next.  Once we understand clearly what the operator means, all we need to do is mechanically apply the command issued by it.
+Econometrics is the machinery of statistical inference applied to extract information from *observational* data.  
+
+Statistical inference takes data and extracts from it information or knowledge in a systematic fashion.  In order to do so, statistical inference must rely on a *mathematical theory* of learning known as *probability theory*.  
+
+To learn or to acquire knowledge means to reduce one's relative ignorance or *uncertainty* about the world.  Thus, probability theory is a theory of uncertainty, a theory of our relative ignorance and how to go about systematically reducing it -- i.e. systematically learning from the world as observed. 
+
+So, make sure that the elementary principles of probability theory are clear in your mind, because everything we will do in the subsequent sections of the course is based on these principles.
+
+But before we introduce probability theory, let us cover briefly the *summation operator*.
 
 
 # Summation operator
 
-Operators are mathematical symbols that compress or abbreviate further our math language. This is why they can be extremely powerful tools in econometrics.
+Operators are symbolic commands that tell us in a very compact way which procedure to apply on some symbols or numbers.  Think of an operator as a sentence in common language that tells you what to do next but in an abbreviated form.  Once we understand clearly what the operator means, what it tells us to do, then all we need to do is to mechanically apply the procedure.
 
 It bears repetition that, math is, among other things, a *language*. We use language to think. Ideas need to have an outward form to be communicated, be it internally to ourselves in the process of thinking or externally to others in the process of sharing one's ideas.
 
 In principle, the same ideas that we express with math symbols we may express with words, which are also symbols. But, math symbols have the advantage of their brevity and sharpness.  At a point, it becomes impossible to do with regular language what we can most easily accomplish with mathematical language.  
 
-## Operators
+## Familiar operators
 
-These are some familiar examples of operators:
+These are some examples of operators that you already know well:
 
 -   Addition: $+$
 -   Subtraction: $-$
@@ -36,19 +44,17 @@ These are some familiar examples of operators:
 
 In the context of a mathematical statement, these operators tell us to execute specific operations:
 
-- ($a + b$) add $b$ to $a$;
-- ($a-b$) subtract $b$ from $a$;
-- ($a \times b$) multiply $b$ times the number $a$;
-- ($a \div b$) divide $a$ by $b$ (or $b$ into $a$).
-
+- ($a + b$) tells us to add $b$ to $a$;
+- ($a-b$) tells us to subtract $b$ from $a$;
+- ($a \times b$) tells us to multiply $b$ times the number $a$;
+- ($a \div b$) tells us to divide $a$ by $b$ (or $b$ into $a$).
 
 ## Summation Operator ($\sum$)
 
-The *summation* operator is extremely useful in econometrics.
+The *summation* operator is extremely useful in econometrics.  It is most powerful when we need to carry out sums of very large lists of symbols or numbers.  It simplifies computation tremendously.
 
 Let $a$, $b$, $k$, and $n$ be *constant* numbers, and $x$, $y$, and $i$ be variables. The variables $x$ and $y$ can take any real value.  The variable $i$, which will be used to index the location of numbers and variables, can only take integer values.  
 
-The following are some properties of the summation operator.
 
 ## Summation ($\sum x_i$)
 
@@ -66,6 +72,7 @@ Evaluating our expression using the data:
 
 $$\sum_{i=1}^6 x_i = 20 + 19 + 22 + 19 + 21 + 18 = 119.$$
 
+The following are some properties of the summation operator that follow from its definition above.
 
 ## Summation ($\sum x_i$)
 
@@ -104,47 +111,60 @@ With large lists of numbers, this simplification permits us to save a considerab
 
 For example:
 
-HERE.
-
 $$\sum_{i=1}^3 5 x_i =  5 x_1 + 5 x_2 + 5 x_3 = 5 (x_1 + x_2 + x_3) = 5 \sum_{i=1}^3 x_i.$$
+In conclusion, when we need to sum a list of numbers that are multiplied by a common constant, one can simply factor the constant out of the operator, take the sum of the list of numbers first, and then multiply that sum by the constant to obtain the result.
 
-## Summing the sum of two variables ($x$ and $y$)
+## Summing the sums of two variables ($x$ and $y$)
+
+Often in econometrics, we have tables with numbers listed along the columns with the lists having equal length.  For example:
+
+| $x$ | $y$ |
+|---|---|
+| $x_1$ | $y_1$ | 
+| $x_2$  |  $y_2$ |
+| $\dots$ | $\dots$ |
+| $x_n$  | $y_n$ |
+
+One may be required to add the corresponding values of $x$ and $y$, and then add up the partial sums for all the rows in the table.  If $x$ and $y$ have many values, then this computation can be simplified drastically by using a property of the summation operator, namely that one can add up the values of $x$ and $y$ first, and then add up these partial sums to obtain the final result.
 
 $$\sum_{i=1}^n (x_i + y_i) = \sum_{i=1}^n x_i + \sum_{i=1}^n y_i$$
 
 Example:
-$$\sum_{i=1}^2 (x_i + y_i) = (x_1 + y_1) + (x_2 + y_2) = x_1 + y_1 + x_2 + y_2$$
-$$= x_1 + x_2 + y_1 + y_2 = (x_1 + x_2) + (y_1 + y_2) = \sum_{i=1}^2 x_i + \sum_{i=1}^2 y_i.$$
+$$\sum_{i=1}^4 (x_i + y_i) = (x_1 + y_1) + (x_2 + y_2) + (x_3 + y_3) + (x_3 + y_3)$$ 
+$$\sum_{i=1}^4 (x_i + y_i) = x_1 + y_1 + x_2 + y_2 + x_3 + y_3 + x_4 + y_4,$$
+$$\sum_{i=1}^4 (x_i + y_i)= (x_1 + x_2 + x_3 + x_4) + (y_1 + y_2 + y_3 + y_4) = \sum_{i=1}^4 x_i + \sum_{i=1}^4 y_i.$$
 
 ## Summing the linear rule of a variable ($x$)
 
-The *linear rule* of a variable $x$ is: $a + b x$. E.g.: $4 + 5 x$.
+Sometimes, we need to sum across a linear equation or linear rule.  The *linear rule* of a variable $x$ is: $a + b x$, where $a$ is the "intercept" or "shift" and $b$ is the "slope."
 
 If the $n$ values of the variables are indexed ($i=1, 2, \ldots, n$), then we can express the sum of this linear rule of $x$ over its $n$ values as follows:
 
 $$\sum_{i=1}^n (a + b x_i) = n a + b \sum_{i=1}^n x_i$$
 
-Example:
-$$\sum_{i=1}^3 (4 + 5 x_i) = \sum_{i=1}^3 4 + \sum_{i=1}^3 5 x_i = (3 \times 4) + 5 \sum_{i=1}^3 x_i = 12 + 5 \sum_{i=1}^3 x_i.$$
+As an example, consider the linear rule $4 + 6 \ x_i$, which we are required to add up for 5 values of $x$: 
+$$\sum_{i=1}^5 (4 + 6 \ x_i) = \sum_{i=1}^5 4 + \sum_{i=1}^5 6 \ x_i = (5 \times 4) + 6 \sum_{i=1}^5 x_i = 20 + 6 \sum_{i=1}^5 x_i.$$
 
 
 ## Double summation
 
-The double summation operator is used to sum up twice for the same variable:
+Again, in econometrics we often have tables with symbols or numbers.  Later on, we will learn that these tables have been baptized as *matrices* by the mathematicians. If we need to add up all the numbers in a table with several rows and several columns (without necessarily the number of columns equaling the number of rows), then this property of the summation operation gives us permission to carry out the sum across the rows first or across the columns first (and then add up the sub-sums), as convenient to us.
+
+When we have a table, then the subscript indicating the location of the variable has two index elements, the first telling us the row and the second telling us the column.  Thus, $x_{ij}$ indicates the value of $x$ located in the $i$th row and the $j$th column.
+
+Thus, one can use a double summation operator to denote the total sum of the values of the variable across the entire table:
 
 $$\sum^n_{i=1} \sum^m_{j=1} x_{ij} = \sum^n_{i=1} (x_{i1} + x_{i2} + \ldots + x_{im})$$
 $$= (x_{11} + x_{21} + \ldots + x_{n1}) + (x_{12} + x_{22} + \ldots + x_{n2}) + \ldots + (x_{1m} + x_{2m} + \ldots + x_{nm})$$
 
-## Double summation
-
-In econometrics, we often deal with data tables.  The following property of the summation operator simply says that the total sum is the same whether one adds up first the numbers along the rows first and then adds the partial sums or one adds up first the numbers along the columns and then sums up the partial results.  A property of the double summation operator is that the summations are interchangeable:
+Again, this property of the summation operator simply says that the total sum is the same whether one adds up first the numbers along the rows and second the partial sums vertically or one adds up first the numbers along the columns and then the partial sums horizontally.  As a result, in the double summation operator, the summations are interchangeable:
 
 $$\sum^n_{i=1} \sum^m_{j=1} x_{ij} = \sum^m_{j=1} \sum^n_{i=1} x_{ij}.$$
 
 
 ## The product operator
 
-The product operator ($\prod$) is defined as:
+This is just FYI.  There is a product operator ($\prod$), defined as:
 
 $$\prod^n_{i=1} x_i = x_1 \cdot x_2 \cdots x_n.$$
 
@@ -152,7 +172,13 @@ Example: Let $x$ be a list of numbers: ${20,19, 22}$. Then,
 
 $$\prod_{i=1}^3 x_i = 20 \times 19 \times 22 = 8,360.$$
 
-Note that $\prod_{i=1}^n k = k^n$. The $n$-product of a constant is the constant raised to the $n$-th power.
+Note that $\prod_{i=1}^n k = k^n$. The $n$-product of a constant is the constant raised to the $n$-th power:
+
+$$\prod_{i=1}^5 2 = 2 \times 2 \times 2 \times 2 \times 2 = 2^5 = 32.$$
+
+There are many more operators that are very useful in econometrics.  For now, the summation operator is the one we need the most.  But if you study more advanced econometrics, you will get to familiarize yourself with other, very powerful operators.
+
+It is time to turn to probability theory.
 
 # Uncertainty and probability
 
