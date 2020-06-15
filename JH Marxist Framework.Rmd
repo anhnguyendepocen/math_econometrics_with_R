@@ -1,0 +1,403 @@
+---
+title: "Marxist framework"
+author: "Julio Huato"
+date: "5/1/2020"
+output: html_document
+bibliography: bib.bib
+---
+
+
+# Marxist accounting framework
+
+This note summarizes the accounting framework to be used in the analysis of international *macroeconomic* data.  It follows on the tradition of Marx's [@Marx2010Capital1; @Marx2010Capital2; and @Marx2010Capital3's] critique of political economy.  For a modern mathematical treatment, see [@lange1969theory; @brody1970prices; @pasinetti1977lectures; @morishima1978marx; and @foley2009understanding]. 
+
+## Gross output and value added
+
+Consider the flow of annual output of a capitalist society, denoted by $X$, in physical units.  Conveniently, choose output (or "use-value") units so that each requires exactly one unit of social labor for its reproduction (i.e. one unit of generic use-value equals one unit of value or one unit of social labor time).  Thus $X$ is also the *value* of annual output, quantified --- like all values --- in social labor (time) units.
+
+Conventionally, $X$ is also called the "gross output" or "gross income."  The production of $X$ requires the utilization of the preexisting stocks of means of production and labor power.  Thus, in producing $X$, $k$ value units of constant capital are used up.  This is done by utilizing $K$ value units of constant capital outstanding at the beginning of the year.  Note that $k$ is a flow and $K$ is a stock, and their relation is given by
+
+$$k = K \tau,$$
+
+In Marx's terms, since the extant stock of means of production utilized preexists its utilization in producing $X$, the stock $K$ of constant capital represents "past" or "dead" social labor.  By using a fraction $\tau$ of $K$ (i.e. by spending the flow $k$) in producing $X$, the workers maintain this value passing it on to $X$.
+
+Note that the stock of means of production utilized includes both durable and nondurable production inputs.  In conventional terms, it includes the stock of "fixed capital" as well as the inventories of raw and ancillary materials, etc. commonly called "intermediate inputs."
+
+Aside from $k$, the other component of $X$ is, of course, the flow of annual services supplied by the labor power utilized, which --- in Marx's terms -- generates the new value or value added in the period, $Y$.  In other words, $Y$ is the quantity of "living" social labor spent in the year to produce the annual gross output $X$.  
+
+In algebraic terms:
+$$ 
+X = k + Y, \\
+X = K \tau + Y. 
+$$
+
+Two other conventional names to designate the value added $Y$ are "net output," "net income," or simply "income."
+
+As a result of capitalist ownership over the means of production, $Y$ is split into two portions.  One portion, $W$, is the flow of variable capital, i.e. the quantity of social labor represented in the wages of the workers utilized in production in the period.  In other words, this portion of $Y$ is distributed among the workers as their annual labor income (as the Bureau of Economic Analysis calls the sum of wages, salaries, and benefits earned by the labor force in a given period).
+
+For a capitalist society to be sustainable in the long run, these wages must suffice for the workers to regenerate the labor power utilized in the year, not in accordance with strict survival needs but rather in accordance with existing social norms, norms that shift with the political and cultural development of the workers.  In other terms, these wages should represent sufficient social labor time to reproduce the flow of commodities the workers need to consume in the period to sustain themselves and their households, under acceptable social standards of health, nutrition, housing, schooling, etc.   These social standards are the result of prior historical class conflict.
+
+The remaining portion of $Y$ is the flow of surplus value $\Pi$, i.e. the portion retained by the capitalists after the $W$ outlay.  The surplus value, $\Pi$, is the part extorted from the workers on the basis of the capitalists' ownership over the means of production, by excluding them from access to such means of production and, thereby, to their means of subsistence.  The surplus value is the source of all forms of non-labor income or, as the BEA calls it, "property income" (i.e. profits, interests, rents, and taxes).
+
+Thus,
+$$ 
+Y = W + \Pi.
+$$
+
+Therefore:
+$$ 
+X = K \tau + W + \Pi.
+$$
+
+In a sense, in spite of the conditions in which they live and work under capitalist rule, the workers exercise a measure of direct control over their labor income, and the corresponding private consumption activities that reproduce their labor power.
+
+In some other sense, for as long as the conditions of the workers is one of subordination and dependence on capital, even these consumption activities, which take place in the privacy of the workers' households, are dominated --- though indirectly --- by capital.  In the last analysis, the workers only exercise true control over their time and activities outside of the workplace (where they may escape direct capitalist supervision) if they employ their outside time to enlighten themselves and conduct an organized class struggle to rid themselves of exploitation.
+
+## Exploitation
+
+Again, the living social labor of the workers spent in the year, $Y$, is thus split into two diametrically opposed portions.  Thus, if $\omega \equiv W/Y$ denotes the labor share of income (or "wage share") and $\pi \equiv \Pi/Y$ is the profit share of income, then
+$$
+1 = \omega + \pi, 
+$$
+
+an equation that exhibits the fundamentally antagonistic, "zero-sum game," character of the class relation between capitalists and workers over any given period of time.
+
+Clearly, the larger $\pi = 1 - \omega$, the larger the effective control that the capitalists exert over the workers' lives, the larger the degree to which they are exploited by capital, i.e. the larger the extent to which the workers' own working and living activity becomes alien to and turned against them.  In highlighting this fundamental opposition at the root of any capitalist society, Marx proposed the rate of surplus value or "rate of exploitation," which he defined as:
+$$ 
+\sigma \equiv \frac{\Pi}{W}.
+$$
+
+Marx regarded $\sigma$ as the most fundamental proportion characterizing the structure of any capitalist society, as it captures in one sweep the economic balance of forces between the main classes of society, underpinning their overall social (not only economic, but also political, legal, and spiritual) balance of forces.  As a result, the path of $\sigma$ over time exhibits the fluid state of the class struggles between the main classes of modern society and, thus, describes the fundamental dynamics of modern social life.
+
+It is easy to see that the rate of surplus value, $\sigma$, contains the same information conveyed by the profit share of income, $\pi$.  Their measurement scales are different, but the two proportions are positively monotonically related.  Alternatively, and not surprisingly, $\sigma$ is negatively monotonically related to $\omega$. More specifically:
+$$ 
+\sigma = \frac{\pi}{1 - \pi},\\
+\sigma = \frac{1 - \omega}{\omega},\\
+\pi = \frac{\sigma}{1 - \sigma},\\
+\omega = \frac{1}{1 + \sigma},\\
+1 + \sigma = \frac{1}{\omega}.
+$$
+
+## Capital composition
+
+Ascending from the deepest (antagonistic class) structure toward more "superficial" social structures, namely those that are more apparent in the day-to-day life of a capitalist society, such as those that reflect the competition among individual capitals, Marx introduced another key "proportion," the *capital composition*, i.e. the ratio or relation between the constant and variable components of capital.  Marx considered the capital composition in both stock-stock and flow-flow versions.^[Marx distinguished between a "physical" or use-value capital composition and a value capital composition.  The use-value composition captured the relation between, say, the number of machines and the number of workers employed, while the value capital composition captured the relation between the value of the said machines and the value of the labor power of the said workers.  This distinction allowed for the possibility of a discrepancy between them, depending on how fast the productivity in the production of means of production was relative to the productivity in the production of the workers' consumption basket. However, in the further pursuit of his analysis, he explicitly assumed a value composition that mapped one-to-one the physical composition.  A value composition that reflected one-to-one the physical composition he called the "organic composition of capital."]  In stock-stock terms, the capital composition $h$ is defined as:
+$$ 
+h \equiv \frac{K}{W/\tau_W} ,\\
+h = \tau_W \left( \frac{K}{W} \right),
+$$
+
+where $\tau_W$ denotes that turnover ratio of variable capital.  Thus, for example, if the workers received annual wages $W = 260$ value units while they are paid, on average, biweekly, then $\tau_W = 26$, and the capitalists need only hold as a more or less permanent asset a liquid, available on pay day, "wage fund" $V = W/\tau_W$ in the amount of $260/26=10$ value units.  Clearly, if the capitalists paid the workers at once their annual wages, the value of the labor-power services annually spent, then they would have to hold $W=260$ value units as their "wage fund" ready to be outlaid.^[As Marx notes in [@Marx2010Capital1], the capitalists purchase the workers' labor power for a given period, say two weeks, on credit, since the payment is typically effected, not in advance, but at the end of the pay period, after the workers have already performed their labor under the command of the capitalists.]
+
+The flow-flow capital value composition is defined as:
+$$ 
+\tilde{h} \equiv \frac{k}{W}. 
+$$
+
+It is easy to see that the following relations hold:
+$$ 
+h = \tau_W \tilde{h}, \\
+\tilde{h} = \frac{h}{\tau_W}.
+$$
+
+Sometimes, the capital composition is expressed in *gross* (flow-flow) terms as:
+$$ 
+\check{h} = \frac{k}{k + W},\\
+\check{h} = 1 + \tilde{h},\\
+\check{h} = 1 + \frac{h}{\tau_W}.
+$$
+
+Since the gross (flow-flow) capital composition is a linear function of the (flow-flow) capital composition $\tilde{h}$, with both slope and intercept equal to 1, they are simple positive monotonic trans-forms of each other.  When one of them varies, the other one also varies in the same direction and at the same pace.  The relation between $\hat{h}$ and $h$ is also positive and monotonic, but not as simple.  The intercept is also 1, but the slope in this case is $1/\tau_W$.
+
+Using the definitions above, the annual value of output $X$ can be expressed as:
+$$ 
+X = W (1 + \sigma + \tilde{h}),\\
+X = W (\sigma + \check{h}). \\
+$$
+
+Therefore, the efficacy of variable capital in the production of $X$ is given by:^[Marx did not regard capital as directly productive of use-value, and therefore neither productive of value and surplus value.  The term "producitivity" was reserved to designate the labor's productive power.  If capital (i.e. ownership of the bulk of society's commodified wealth) appeared to be productive, it was so only indirectly, i.e. by appropriating the fruits of labor.  In this sense, capital (variable or constant) may be efficacious but not productive.]
+$$
+\frac{X}{W} = \sigma + \check{h}, \\
+\frac{X}{W} = 1 + \sigma + \tilde{h}, \\
+\frac{X}{W} = 1 + \sigma + \frac{h}{\tau_W}. 
+$$
+
+## Profit rate
+
+On the surface of capitalist life, capital appears as productive.  It is, indeed, in the broader sense of the term, productive of exploitation for the benefit of the capitalists.  The conventional measure of this ability of capital to benefit the capitalists over a year is the annual profit rate or the return on the stock of capital utilized.  Marx defines the average profit rate on the capital stock as:
+$$ 
+r \equiv \frac{\Pi}{K + V}.
+$$
+
+Note that $r$ is a flow-stock proportion: the units of value in flow terms are units of social labor per year.  The units of value in stock terms are simply social labor units.  Thus, social labor units cancel each other out in the numerator and denominator, and the units of the profit rate are in reciprocal units of a year period.
+
+It is easy to verify that these relations follow from the definition:
+$$ 
+r = \frac{\sigma \tau_W}{1 + h},\\
+r = \frac{\sigma \tau_W}{1 + \tilde{h} \tau_W}.
+$$
+
+A narrower "proportion" or measure of profitability is the constant-capital profit rate.  This is the return rate on the constant capital stock, i.e. the return on the outstanding capital employed consisting of means of production, durable and nondurable, employed in producing $X$.  Unlike the general profit rate above, this narrower profit rate excludes the stock of variable capital (the "wage fund") from the denominator.
+$$ 
+\bar{r} \equiv \frac{\Pi}{K}.
+$$
+
+Clearly,
+$$ 
+\bar{r} = \frac{\sigma}{h/\tau_W} = \frac{\sigma \tau_W}{h}.
+$$
+
+Since $h$ tends to be a large number, i.e. roughly, $h \in (50, 200)$, then 
+$$ 
+r \approx \bar{r}.
+$$
+
+The constant-capital profit rate can be estimated more readily from the national accounts.  Typically, the stock of constant capital is estimated using the perpetual-inventories method on the basis of flow measures of capital formation and some assumptions on the rates of depreciation and time-discounting.  Accounting norms prevent balance sheets from including, explicitly, the value of the labor power employed.^[Chattel slavery and indenture servitude have been formally abolished in most of the world, but Marxists view the capital relation as a refined, somewhat disguised form of these forms of subjugation.] Often times, partial measures of the value of labor power are included in balance sheets under the guise of "intangible assets," but there is no easy way to determine them unequivocally.  This is why, $\bar{r}$ is often taken as the proxy for $r$.
+
+A frequent decomposition of the profit rate (a la Dupont method) follows:
+$$
+r = \pi \gamma \left(\frac{K}{K + W/\tau_W}\right),
+$$
+
+where $\gamma \equiv Y/K$ be the (net output) efficacy of constant capital.  
+
+Again, since $K/(K + W/\tau_W) \approx 1$ in macroeconomic data, the constant-capital profit rate can be used comfortably as a proxy for $r$:
+$$
+\bar{r} = \pi \gamma,\\
+\bar{r} = (1 - \omega) \gamma.
+$$
+
+Note that, in the limit, if $\omega \rightarrow 0$ (i.e. $\pi \rightarrow 1$), then $\bar{r} \rightarrow \gamma$.  Thus, $\gamma$ is the *maximum* constant-capital profit rate.  Thus, Piketty's (2014, \cite{Piketty2014}) claim, which can be restated as saying that the growth rate of $K$ exceeds the growth rate of $Y$, implies a tendency of the maximum possible profit rate to fall.  Not quite what Marx claimed to be an empirical tendency, but not completely unrelated either.
+
+Again, keep in mind that the profit share $\pi$ and the exploitation rate $\sigma$ are (nonlinear) monotonic trans-forms of each other:
+$$
+\pi = \frac{\sigma}{1 + \sigma},\\
+\sigma = \frac{\pi}{1 - \pi}.
+$$
+
+More specifically, $\sigma$ goes to infinity as $\pi \rightarrow 1$.  Said differently, $\pi$ approaches 1 as $\sigma$ increases indefinitely.
+
+### Kaleckian hypothesis
+
+Mihal Kalecki noted that the workers tend to consume what they earn while the capitalists tend to earn what they spend ("invest").  This very plausible hypothesis permits us to narrow down our estimates of the degree of exploitation and of the profit rate in an approach similar to Paul Samuelson's famous "revealed preference" theory.  One way to estimate $\sigma$ and $r$ (and, by implication, $\gamma$) is to determine their bounds or extreme values under some hypothesis.^[One can argue, in defense of Kalecki's hypothesis, that to the extent the workers save any portion of their income, however minuscule, they are thereby behaving as capitalists and that, insofar as the capitalists spend any portion of their profits, however small, they are thereby behaving like humans, not robots entirely dominated by the drive of capital to accumulate. Marx suggested this in *Capital*.  That said, it is also true that the nonproductive expenditure of the capitalists' income (luxury consumption, military expenses, etc.) plays an important ideological and political role.  Keep in mind that taxes are viewed in this framework as deductions from surplus value $\Pi$.  In this view, the payment of taxes by the workers is regarded as an aspect of their direct exploitation by capital, since the state is assumed to be, in the last analysis, dominated by the interests of the capitalists, as a vehicle of their class struggle.  In this framework, all state policies are viewed as forms of wealth redistribution in accordance with political priorities, i.e. as forms of the class struggle (and inter-capitalist competition as well, as the rule of capital is always the rule of some particular capitalist interests at the exclusion of other capitalists and of the rest of society).  Though Marx never wrote his book on the state, one can imagine that he would have gone to show that what we now call "monetary policy" (the emission of currency to influence rates of return on capital) is simply a disguised form of "fiscal policy" (the management of taxes and public spending), and that "fiscal policy" is legally sanctioned direct appropriation of some surplus value by the capitalists as a class (or of a group thereof) to allocate it on the basis of their political priorities and, ultimately, advance their interests (accumulation) at the expense of the rest of society.]
+
+This is related to two of the methods of estimation of net income in the national accounts: the "output method" and the "expenditure method."  Thus, one can proxy the annual wage bill $W$, not only directly by assuming it equal to annual labor income, but also by assuming it equal to the level of private consumption spending recorded in the national accounts: $C$.  Thus, broadly defined gross capital formation (or "investment spending") can be estimated as $I = Y-C \approx Y - C - G \approx Y - C - G - X + Q$, where $G$ is government consumption spending, $X$ is the annual value of exports, and $Q$ is the annual value of imports.  Thus, we develop a parallel set of structural proportions, under the Kaleckian hypothesis:
+$$
+\epsilon \equiv \frac{Y - C}{C}, \\
+\epsilon \approx \frac{Y-C-G}{C+G}, \\
+\epsilon \approx \frac{Y-C-X=Q}{C+X-Q}, \\
+\bar{\rho} \equiv \frac{Y-C}{K}, \\
+\bar{\rho} \approx \frac{Y-C-G}{K}, \\
+\bar{\rho} \approx \frac{Y-C-G-X+Q}{K},
+$$
+
+where $\epsilon$ is a sort of rate of exploitation and $\bar{\rho}$ a sort of profit rate of the stock of constant capital.  
+
+This distinction is theoretically and practically important.  In a sense, the dispossession of the workers that permits the rule of capital is dispossession of their ultimate means of direct reproduction: their consumption necessities.  To the extent the workers consumption spending significantly exceeds their income $W$, the workers are effectively appropriating a portion of the formal surplus value $\Pi$.  Under widespread consumption credit opportunities available to the workers, the difference $C - W$ represents a proxy for the extent of "financialization" insofar as it temporarily stretches the workers' standard of living.  However, debt exerts a terrifying moral weight on working people, which becomes apparent in periods of crises, when repossessions, foreclosures, and bankruptcy penalties plague the workers' households.  This is a very good reason to use these alternative measures of exploitation and profitability.
+
+Furthermore, the exclusion of government consumption spending $G$ or, alternatively, of exports $X$ to obtain narrower definitions of gross capital formation $I$ offer, in the former case, a way to bound private capital accumulation (since $G$ is subject to the workers' political strength in influencing the allocation of public funds) and, in the latter case, a way to bound local capital accumulation (since net exports $X-Q$ roughly equals the current account of the balance of payments and the negative of the capital account balance, minus the official reserves account, corresponds to the accumulation of local capital abroad).  Clearly, for the entire globe, $X-Q = 0$, i.e. all output has to be "domestically absorbed" as there is no (yet) trade with other planets.  Thus, net exports only modifies the international structure of capital holdings.
+
+Note, in closing, that all of the mathematical relations shown in this note are either direct accounting identities or are derived directly from these identities.  They all follow from the definitions and do not presume any particular *theoretical* approach in exclusion of others.  In other words, no claim is made as to which variables or proportions exert causal effects on others.  My personal preference is to explore all the potential theoretical avenues suggested by these identities, and then use the empirical data, judiciously considered and analyzed, as a check on these alternative theoretical propositions.
+
+## Linear algebraic form
+
+This note summarizes the accounting framework to be used in the analysis of *input-output* data. It consists of a summary, using linear algebraic notation, of Marx's insights [@Marx2010Capital1; @Marx2010Capital2; @Marx2010Capital3].  Further reference can be found in [@lange1969theory; @brody1970prices; @pasinetti1977lectures; @morishima1978marx; @foley2009understanding].  For an elementary review of the foundations of input-output analysis, see my note: 
+
+https://www.overleaf.com/read/vyrfzncpfxmy
+
+### Basic set-up
+
+Consider a hypothetical commodity-producing society.  The inter-industry relations are represented by the *viable* square $(n-1)$ matrix $\mathbf{A}$ of inter-industry input coefficients.
+$$
+\mathbf{A} \equiv 	\begin{bmatrix}
+         a_{1,1} & \dots & a_{1, (n-1)} \\
+         \dots & \dots & \dots \\
+         a_{(n-1), 1} & \dots & a_{(n-1), (n-1)} \\
+		\end{bmatrix} 
+$$ 
+
+A viable matrix shows such inter-industry coefficients that each industry's output exceeds the quantities used up as productive inputs (means of production).  As a result, this matrix has a maximum eigenvalue $\bar{\lambda} < 1$.
+
+The vector of direct labor coefficients is given by:
+$$
+\mathbf{l} \equiv 	\begin{bmatrix}
+         l_{1} \\
+         \dots \\
+         l_{(n-1)}
+		\end{bmatrix} 
+$$ 
+
+Following Marx, it is assumed that the direct producers' wages are paid in advance.  Then, the general production-price system, per unit of gross output, is given by:
+$$
+\mathbf{p}' =	(w  \mathbf{l}' + \mathbf{p}' \mathbf{A} ) (1 + r), \\
+\mathbf{p}' =	(w  \mathbf{l}') (1 + r) + (\mathbf{p}' \mathbf{A} ) (1 + r),\label{e:psys}
+$$ 
+
+where $w$ is the wage rate and $r$ is the average profit rate, assumed equal across all industries.  The column vector $\mathbf{p}$ is of dimension $n-1$. The term $w  \mathbf{l}'$ is, in Marx's terms, the variable capital, i.e. the outlays of the owners of the means of production in exchange for labor-power services during the period.  The term $\mathbf{p}' \mathbf{A}$, is the constant capital, or the capital outlays that purchase the means of production spent in the period. Finally, the term $(w  \mathbf{l}' + \mathbf{p}' \mathbf{A}) r$ is the surplus value: the income that the owners of the means of production can extort from the direct producers on the basis of their ownership monopoly over the means of production.^[Until the point below where the quantity side of the system is introduced, all value flows are per unit of gross output.  No further indication of this will be given.  Also, in this note, the stock of variable and constant capital utilized by the capitalists is assumed equal to the flow of variable and constant capital spent in the period.  In other words, the turnover ratios of the constant capital stock and the wage fund are equal to 1 time per year.  Therefore, the period it takes for variable and constant capital to circulate is one year.]
+
+In the case of simple commodity production, where the direct producers own the means of production, exchange their output in the market, and receive as income the value of the product sold, $w = y = 1$ and $r = 0$, where $y$ is the (normalized) new value added, ``complete wage'' (Pasinetti), or producers/owners' income.  The totality of $\mathbf{l}$ is received by the direct producers and owners.  The totality of the income generated by their productive labor is appropriated by the producers.  Now, since ($w = y = 1, r = 0)$, $\mathbf{p}$ is replaced with $\mathbf{v}$.  Then: 
+$$
+\mathbf{v}' =	\mathbf{v}' \mathbf{A} + y  \mathbf{l}' = \mathbf{v}' \mathbf{A} + \mathbf{l}'.\label{e:vsys}
+$$ 
+
+Therefore:
+$$
+\mathbf{v}' (\mathbf{I} - \mathbf{A}) =	\mathbf{l}',\\
+\mathbf{v}' =	\mathbf{l}' (\mathbf{I} - \mathbf{A})^{-1}.
+$$ 
+
+Marx referred to $\mathbf{v}$ as (social-labor) ``values'' while Pasinetti (\cite{pasinetti1977lectures}) designated them as ``vertically-integrated labor coefficients.''
+
+This ``simple commodity-producing society'' is the basic referent against which Marx erects his ``model'' of a capitalist society.  The essential precondition for a capitalist society, aside from the existence of commodity production (i.e. private ownership, markets), is gaping inequality in the distribution of wealth ownership.  Massive historical processes of dispossession of the direct producers from their most basic means of subsistence, and of the means of production of such means of subsistence, etc. (basically, access to land), intervened to create this degree of inequality, in parts of Europe first.  These processes continue to this day in many parts of the world.
+
+Marx's chief interest was grasping the structure and dynamics of a modern, fully capitalistic society.  In this modern setting, the direct producers already existed as an impoverished, fragmented, and demoralized mass, as proletarians, offering their labor power for sale as another commodity in the markets.  The capitalists, on the basis of their concentrated ownership over the means of production, can then appropriate a portion of the workers' value added as a surplus value.  All the capitalists need to ensure the replication of these social conditions is for the workers to subsist as an impoverished, divided, and compliant mass.  As much the workers, through their struggles, may improve their condition above mere subsistence, they can only consume a modest portion of some of the commodities they annually produce if capital is to dominate.  Thus, if we align $\mathbf{A}$ so that its first rows list the workers' necessities, then their consumption basket can be designated by $\mathbf{c}$ such that
+$$
+\mathbf{c} \equiv 	\begin{bmatrix}
+         c_{1} \\
+         \dots \\
+         c_{h} \\
+         0 \\
+         \dots \\
+         0
+		\end{bmatrix}, 
+$$ 
+
+where $\mathbf{c}$ is a $(n-1)$ vector and $h \leq n-1$.  
+
+Then, a necessary condition for a capitalist society to exist is that $\mathbf{v}' \mathbf{c} = \omega y$ such that wage share $\omega < 1$, strictly. Therefore, the surplus value is given by$(1 - \omega) y$.  Using the set-up in equation (\ref{e:vsys}) and assuming $y=1$ to simplify (i.e. $\mathbf{v}' \mathbf{c} = \omega$):
+$$
+\mathbf{v}' =	\mathbf{v}' \mathbf{A} +  \mathbf{v}' \mathbf{c} \mathbf{l}',\\
+\mathbf{v}' =	\mathbf{v}' \mathbf{A} +  \left(\frac{\omega}{\omega}\right) \mathbf{v}' \mathbf{c} \mathbf{l}' + \left(\frac{1-\omega}{\omega}\right) \mathbf{v}' \mathbf{c} \mathbf{l}',\\
+\mathbf{v}' =	\mathbf{v}' \mathbf{A} +  \mathbf{v}' \mathbf{c} \mathbf{l}' + \left(\frac{1-\omega}{\omega}\right) \mathbf{v}' \mathbf{c} \mathbf{l}'.\label{e:vv}
+$$ 
+
+Note that the dimension of $\mathbf{v}'$ is $1 \times (n-1)$.
+
+If, for simplicity, $\omega$ is assumed to be common to all industries (no industries with a privileged labor force, its workers bribed with extra crumbs), then the surplus value rate, $\sigma \equiv (1 - \omega)/\omega$, is also common to all industries, and the $n-1$ equations
+$$
+\mathbf{v}' \left[\mathbf{I}	- \mathbf{A} - (1 + \sigma) \mathbf{c} \mathbf{l}'\right] = \mathbf{0}',
+$$ 
+
+form a homogeneous system with $n$ unknowns ($\mathbf{v}, \sigma)$.  Again, the equation
+$$
+(1 + \sigma) \mathbf{v}' \mathbf{c}  = y = 1 \label{e:num}
+$$
+
+sets value added (or income, or the ``complete wage'') as the ``numeraire'' in which the relative values $\mathbf{v}$ can now be determined by solving the new system.  The necessary condition for nontrivial (zero) solutions to exist is for the determinant of $\mathbf{I}	- \mathbf{A} - (1 + \sigma) \mathbf{c} \mathbf{l}'$ to vanish:
+$$
+\mid\mathbf{I}	- \mathbf{A} - (1 + \sigma) \mathbf{c} \mathbf{l}'\mid= 0.
+$$ 
+
+Since $\mathbf{A}$ is viable, then the rank of matrix $\mathbf{I}	- \mathbf{A} - (1 + \sigma) \mathbf{c} \mathbf{l}'$ is $n-2$.  There is one degree of freedom in the system.  Thus, one may choose $\sigma$ (or $\omega$) as given, and solve the transformed system for $n-1$ relative values $\mathbf{v}$ in terms of the rate of exploitation (or the wage share). 
+
+More intuitively clear, equation system (\ref{e:vv}) can be rewritten as:
+$$
+\mathbf{v}' \left(\mathbf{I} -	\mathbf{A}\right) =  (1 + \sigma) \mathbf{v}' \mathbf{c} \mathbf{l}',
+$$ 
+
+which, after substituting equation (\ref{e:num}), becomes:
+$$
+\mathbf{v}' \left(\mathbf{I} -	\mathbf{A}\right) =  \mathbf{l}'.
+$$ 
+
+Since the matrix $\mathbf{A}$ is viable, then matrix $\left(\mathbf{I} -	\mathbf{A}\right)$ is of rank $n-1$.  The solution to this system is:
+$$
+\mathbf{v}' =  \mathbf{l}' \left(\mathbf{I} -	\mathbf{A}\right)^{-1}.
+$$ 
+
+## The Marxist ``transformation''
+
+Consider now the quantity side of the system.  Let $\mathbf{q}$ be the $(n-1)$ vector of annual gross outputs in physical terms.  Then, the scalar $\tilde{X} = \mathbf{v}' \mathbf{q}$ is the aggregate value of gross output.  The aggregate system can now be specified in direct (social-labor) value terms as:
+$$
+\tilde{X} = \mathbf{v}' \mathbf{q},\\
+\tilde{X} = \mathbf{v}' \mathbf{A} \mathbf{q} +  (1 + \sigma) \mathbf{v}' \mathbf{c} \mathbf{l}' \mathbf{q},
+$$ 
+
+where $\mathbf{v}' \mathbf{A} \mathbf{q} = \tilde{k}$ is the constant capital, $\mathbf{v}' \mathbf{c} \mathbf{l}' \mathbf{q} = \tilde{W}$ is the  variable capital, and $\sigma \mathbf{v}' \mathbf{c} \mathbf{l}' \mathbf{q} = \tilde{\Pi}$ is the surplus value.^[Here, the tilde designates quantities expressed in social-labor value, nontransformed terms, with the exception of the surplus value rate.  The ``natural'' form of appearance of the surplus value rate is as nontransformed or expressed in value terms.  When expressed in price-transformed terms, the surplus value rate has a tilde to indicate its distortion.]  In these terms, the surplus value rate and the (flow-flow) profit rate, expressed in direct or non-transformed terms, are given by:
+$$
+\sigma = \frac{\sigma \mathbf{v}' \mathbf{c} \mathbf{l}' \mathbf{q}}{\mathbf{v}' \mathbf{c} \mathbf{l}' \mathbf{q}},\\
+\tilde{r} = \frac{\sigma (\mathbf{v}' \mathbf{c} \mathbf{l}' \mathbf{q})}{\mathbf{v}' (\mathbf{A} + \mathbf{c} \mathbf{l}') \mathbf{q}}.
+$$ 
+
+The first equation simply returns the assumption of the equal surplus value rate across industries.  The second equation is less obviously tautological.
+
+Consider now that, as a result of capitalist competition, the surplus value is not directly distributed to capitals in each respective industry.  Instead, view the totality of the surplus value as allocated across industries in proportion to the capital stock utilized, which is assumed equal to the flow of capital used up in the period, constant and variable.  This proportion is the aggregate or average profit rate, $r$.  This leads back to a capitalist price system, similar to that in equation (\ref{e:psys}) where the workers do not receive the ``complete wage,'' but only $w = \mathbf{p}' \mathbf{c} < y$. 
+
+More specifically, and letting $\mathbf{A}^+ \equiv \mathbf{A} + \mathbf{c}  \mathbf{l}'$ designate the augmented (with the workers' consumption coefficients) matrix $\mathbf{A}$:
+$$
+\mathbf{p}' =	(1 + r) \mathbf{p}' \left[\mathbf{A} + \mathbf{c} \mathbf{l}'\right],\\
+\mathbf{p}' \mathbf{I} - (1 + r) \mathbf{p}' \left[\mathbf{A} + \mathbf{c} \mathbf{l}'\right] = \mathbf{0}',\\
+\mathbf{p}'  \left[\mathbf{I} - (1 + r) \left(\mathbf{A} + \mathbf{c} \mathbf{l}'\right)\right] = \mathbf{0}',\\
+\mathbf{p}'  \left[\mathbf{I} - (1 + r) \mathbf{A}^+\right] = \mathbf{0}'.\label{e:ppsys}
+$$
+
+The prices $\mathbf{p}$ in equation (\ref{e:ppsys}) Ricardo referred as ``natural prices'' and Marx as *prices of production*.  Marx, following Ricardo, believed that, under rough competitive conditions, these were the ``centers of gravity'' around which the market prices in a capitalist society oscillated over the long run.
+
+To solve this system, consider two approaches.  First, rewrite the equation system (\ref{e:ppsys}) as:
+$$
+\mathbf{p}'  \left[\mathbf{I} - (1 + r) \mathbf{A} \right] = \mathbf{l}'.
+$$
+
+Given the viability of $\mathbf{A}$ and assuming, by analogy to the value system, that $(1 + r) \mathbf{p}' \mathbf{c} = y = 1$:
+$$
+\mathbf{p}'  = \mathbf{l}' \left[\mathbf{I} - (1 + r) \mathbf{A} \right]^{-1}.
+$$
+
+This solution yields the relative production prices in terms of price-transformed income $y$.
+
+An alternative approach is to start from the system expressed as a system of linear homogeneous equations:
+$$
+\mathbf{p}'  \left[\mathbf{I} - (1 + r) \mathbf{A}^+\right] = \mathbf{0}'.\nonumber
+$$
+
+A meaningful solution of the system requires:
+$$
+\mid\mathbf{I}	- (1 + r) \mathbf{A}^+ \mid= 0.
+$$
+
+This eigen-equation yields an algebraic equation that solves for the profit rate $r^*$.  Since the system is viable, $\bar{\lambda}^{A+} \leq 1$, then $r^* \geq 0$, where $r^* = 0$ is the case contemplated by the Ricardian socialists of the workers reappropriating the entirety of the annual income or value added $y$.  From advanced linear algebra, we know that
+$$
+r^* = \frac{1 - \bar{\lambda}^{A+}}{\bar{\lambda}^{A+}}.
+$$
+
+Upon substituting this result into
+$$
+\mathbf{p}'  \left[\mathbf{I} - (1 + r) \mathbf{A}^+\right] = \mathbf{0}', \nonumber 
+$$
+
+and adding a ``numeraire'' assumption for $\mathbf{p}$, then the relative prices are all determined now, in terms of the ``numeraire.''  
+
+Again, considering the quantity side of the system, the price-transformed value of the gross output is given by (in price-transformed terms):
+$$
+X = \mathbf{p}' \mathbf{q},\\
+X = (1 + r) \mathbf{p}' \mathbf{A} \mathbf{q} +  \mathbf{p}' \mathbf{c} \mathbf{l}' \mathbf{q} + r \mathbf{p}' \mathbf{c} \mathbf{l}' \mathbf{q},\\
+$$ 
+
+where $k = (1 + r) \mathbf{p}' \mathbf{A} \mathbf{q}$ is the annual flow of constant capital (which, by assumption, equals the stock of constant capital at the beginning of the year), $W = \mathbf{p}' \mathbf{c} \mathbf{l}' \mathbf{q}$ is the annual flow of variable capital (equal to the wage fund $V$, by assumption also), and $\Pi = r \mathbf{p}' \mathbf{c} \mathbf{l}' \mathbf{q}$ is the annual flow of surplus value or, in Marx's terminology, the capitalist profit (gross of interest, rent, and taxes).  
+
+In these terms, the surplus value rate and the (flow-flow) profit rate, expressed in production-price-transformed terms, are given by:
+$$
+\tilde{\sigma} = \frac{r \mathbf{p}' \mathbf{c} \mathbf{l}' \mathbf{q}}{\mathbf{p}' \mathbf{c} \mathbf{l}' \mathbf{q}},\\
+r = \frac{r \mathbf{p}' \mathbf{c} \mathbf{l}' \mathbf{q}}{\mathbf{p}' \left( (1 + r)  \mathbf{A} + \mathbf{c} \mathbf{l}'\right) \mathbf{q}}.
+$$ 
+
+In the value system, the surplus value is distributed in proportion $\sigma$ to the variable capital used up.  In the price system, the surplus value is distributed in proportion $r$ to the stock of constant and variable capital, which equal their corresponding stocks by assumption, and are thus ``profit'' (gross of interest, rent, and taxes).  Necessarily, $\sigma > r$.
+
+In the manuscripts that Marx left and Engels compiled into volume 3 of *Capital*, Marx claimed that the following three inequalities were, in fact, equations:
+$$
+\mathbf{v}' \mathbf{q} \neq \mathbf{p}' \mathbf{q},\\
+\frac{\sigma \mathbf{v}' \mathbf{c} \mathbf{l}' \mathbf{q}}{\mathbf{v}' \mathbf{c} \mathbf{l}' \mathbf{q}} \neq \frac{r \mathbf{p}' \mathbf{c} \mathbf{l}' \mathbf{q}}{\mathbf{p}' \mathbf{c} \mathbf{l}' \mathbf{q}},\\
+\frac{\sigma (\mathbf{v}' \mathbf{c} \mathbf{l}' \mathbf{q})}{\mathbf{v}' (\mathbf{A} + \mathbf{c} \mathbf{l}') \mathbf{q}} \neq \frac{r \mathbf{p}' \mathbf{c} \mathbf{l}' \mathbf{q}}{\mathbf{p}' \left( (1 + r)  \mathbf{A} + \mathbf{c} \mathbf{l}'\right) \mathbf{q}}.
+$$
+
+However, at most, using the degree of freedom left by the system, one can assume of these inequalities as an equation, but the rest will then be strict inequalities.^[The impossibility of reconcilling the three equations above was first noted by Bortkiewicz (1907/2008, \cite{von2008value}), who also presented an algebraic solution to the transformation.]
+
+Regarding the discrepancy between $\mathbf{v}$ and $\mathbf{p}$, Marx may have been persuaded by Ricardo's belief that, in the long run, the behavior of $\mathbf{p}$ over time coincided in ``93 per cent'' with the beahavior of $\mathbf{v}$.^[See Stigler (1958, \cite{stigler1958ricardo}) for a standard view on Ricardo's labor theory of value.]  In 1995, as Anwar Shaikh's research assistant, I examined Bureau of Labor Statistics' time-series data on a number of industries' direct labor inputs and their corresponding market price indices.  I found robust correlation coefficients (near 95\%) and naively thought Ricardo (and Marx) vindicated.  Little did I know then about spurious correlation between nonstationary time series.^[In my defense, economists (let alone Marxist economists) were just catching up to Engle and Granger's (1987, \cite{engle1987co}) important work on cointegration.]  It would be interesting to replicate that work using modern time-series econometrics.
+
+Under the assumptions of this note, which are very much Marx's assumptions in *Capital*, the linear operators that transform values into prices and vice versa are:^[See Pasinetti (1977, \cite{pasinetti1977lectures}, pp. 140-1, for the detailed derivation.]
+$$
+\mathbf{p}' = (1 + r) \mathbf{v}' \left[ \mathbf{I} - r \mathbf{A} \left( \mathbf{I} - \mathbf{A}\right)^{-1} \right]^{-1}, \\
+\mathbf{v}' = \left(\frac{1}{1 + r}\right) \mathbf{p}' \left[ \mathbf{I} - r \mathbf{A} \left( \mathbf{I} - \mathbf{A}\right)^{-1} \right].
+$$
+
+
+# References
